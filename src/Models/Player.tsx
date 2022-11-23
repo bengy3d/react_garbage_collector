@@ -2,6 +2,7 @@ import { useBox, Triplet } from '@react-three/cannon';
 import { useFrame, useLoader } from '@react-three/fiber';
 import React, {useRef} from 'react';
 import { BufferGeometry, Mesh } from 'three';
+import { useControls } from '../useControls';
 
 export const Player = () => {
     const position: Triplet = [-1.5, 3, 3]
@@ -14,11 +15,13 @@ export const Player = () => {
     const [chassisBody, chassisApi] = useBox(
         () => ({
             args: chassisBodyArgs,
-            mass: 150,
+            mass: 5,
             position,
         }),
         useRef(null),
     );
+
+    useControls({chassisBody, chassisApi});
 
     return (
         <mesh ref={chassisBody as React.RefObject<Mesh<BufferGeometry>>}>
