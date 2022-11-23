@@ -3,6 +3,7 @@ import {
   Environment,
   OrbitControls,
   PerspectiveCamera,
+  Plane,
 } from "@react-three/drei";
 import { Suspense } from "react";
 
