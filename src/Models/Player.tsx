@@ -1,11 +1,14 @@
-import { useBox, Triplet, useSphere } from '@react-three/cannon';
-import { useFrame, useLoader } from '@react-three/fiber';
-import React, {useRef} from 'react';
-import { BufferGeometry, Mesh } from 'three';
-import { useControls } from '../useControls';
+import { Triplet, useSphere } from "@react-three/cannon";
+import React, { useEffect, useRef } from "react";
+import { BufferGeometry, Mesh } from "three";
+import { useControls } from "../useControls";
 
-export const Player = () => {
-    const position: Triplet = [-1.5, 3, 3]
+interface PropsInterface {
+    setPlayerId: (id?: number) => void;
+}
+
+export const Player = (props: PropsInterface) => {
+    const position: Triplet = [-1.5, 3, 3];
 
     const width = 0.7;
     const height = 30;
@@ -18,10 +21,14 @@ export const Player = () => {
             mass: 5,
             position,
         }),
-        useRef(null),
+        useRef(null)
     );
 
-    useControls({chassisBody, chassisApi});
+    useEffect(() => {
+        props.setPlayerId(chassisBody.current?.id);
+    }, []);
+
+    useControls({ chassisBody, chassisApi });
 
     return (
         <mesh ref={chassisBody as React.RefObject<Mesh<BufferGeometry>>}>
@@ -29,4 +36,4 @@ export const Player = () => {
             <sphereGeometry args={chassisBodyArgs} />
         </mesh>
     );
-}
+};
