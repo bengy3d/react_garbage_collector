@@ -30,7 +30,7 @@ function App() {
             <Physics>
                 <Scene />
                 <Floor />
-                <Cubicle />
+                <Cubicle position={[4, 0, 3]} />
                 <Plane />
                 <Player setPlayerId={setPlayerId} />
                 <Garbage playerState={playerStateRef} />
