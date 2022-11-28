@@ -1,10 +1,16 @@
 import React, { useState, useRef } from "react";
 import { PlayerStateInterface } from "../Interfaces/PlayerStateInterace";
-import garbageData from '../Resources/garbageData.json';
+import garbageData from "../Resources/garbageData.json";
+
+const initialGarbage = {
+    type: "", 
+    description: "" 
+}
 
 const initialPlayerState: PlayerStateInterface = {
     playerId: null,
-    garbage: { type: "", description: "" },
+    garbage: initialGarbage,
+    score: 0,
 };
 
 export const useGameState = () => {
@@ -14,7 +20,7 @@ export const useGameState = () => {
     const playerStateRef = useRef(playerState);
 
     const setPlayerId = (playerId?: number) => {
-        setPlayerState({ ...playerState, playerId });
+        setPlayerState((prev) => ({ ...prev, playerId }));
         playerStateRef.current.playerId = playerId;
     };
 
@@ -22,15 +28,28 @@ export const useGameState = () => {
         const garbageLength = garbageData.garbages.length;
         const randIndex = Math.floor(Math.random() * garbageLength);
         const garbage = garbageData.garbages[randIndex];
-        setPlayerState({ ...playerState, garbage: {description: garbage.name, type: garbage.type }});
+        setPlayerState((prev) => ({
+            ...prev,
+            garbage: { description: garbage.name, type: garbage.type },
+        }));
         playerStateRef.current.garbage.type = garbage.type;
         playerStateRef.current.garbage.description = garbage.name;
+    };
+
+    const increaseScore = () => {
+        setPlayerState((prev) => ({ ...prev, garbage: initialGarbage, score: prev.score + 1 }));
+        playerStateRef.current.score = playerStateRef.current.score + 1;
+        playerStateRef.current.garbage.type = '';
+        playerStateRef.current.garbage.description = '';
     };
 
     return {
         playerState,
         playerStateRef,
-        setPlayerId,
-        setPlayerGarbage,
-    }
+        stateFunctions: {
+            setPlayerId,
+            setPlayerGarbage,
+            increaseScore,
+        }
+    };
 };

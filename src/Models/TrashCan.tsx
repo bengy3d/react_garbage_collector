@@ -3,10 +3,13 @@ import { useLoader } from '@react-three/fiber';
 import React, { Suspense, useEffect } from 'react';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 import { BoxCollider } from '../Colliders/BoxCollider';
+import { PlayerStateInterface } from '../Interfaces/PlayerStateInterace';
 
 interface PropsInterface {
+    playerState: React.MutableRefObject<PlayerStateInterface>;
     position: Triplet;
     type: string;
+    increaseScore: () => void;
 }
 
 const getModelName = (type: string) => {
@@ -36,10 +39,18 @@ export const TrashCan = (props: PropsInterface) => {
         object.position.set(props.position[0], props.position[1], props.position[2]);
     }, [object])
 
+    const onCollide = () => {
+        if (props.playerState.current.garbage.type === props.type) {
+            props.increaseScore();
+            console.log(`garbage dropped`);
+            console.log(props.playerState);
+        }
+    }
+
     return (
         <Suspense>
             <primitive object={object}/>
-            <BoxCollider position={props.position} scale={[1, 2, 1]}/>
+            <BoxCollider position={props.position} scale={[1, 2, 1]} onCollide={onCollide}/>
         </Suspense>
     );
 }

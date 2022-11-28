@@ -23,6 +23,7 @@ export const Garbage = (props: PropsInterface) => {
         ) {
             props.setPlayerGarbage();
             chassisApi.position.set(5, 1, -5);
+            console.log(props.playerState);
         }
     };
 
@@ -36,10 +37,6 @@ export const Garbage = (props: PropsInterface) => {
         }),
         useRef(null)
     );
-
-    useEffect(() => {
-        console.log(props.playerState);
-    }, [props.playerState]);
 
     return (
         <mesh ref={chassisBody as React.RefObject<Mesh<BufferGeometry>>}>
