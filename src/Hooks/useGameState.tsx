@@ -3,9 +3,10 @@ import { PlayerStateInterface } from "../Interfaces/PlayerStateInterace";
 import garbageData from "../Resources/garbageData.json";
 
 const initialGarbage = {
-    type: "", 
-    description: "" 
-}
+    type: "",
+    description: "",
+    imageName: "DEFAULT",
+};
 
 const initialPlayerState: PlayerStateInterface = {
     playerId: null,
@@ -30,17 +31,27 @@ export const useGameState = () => {
         const garbage = garbageData.garbages[randIndex];
         setPlayerState((prev) => ({
             ...prev,
-            garbage: { description: garbage.name, type: garbage.type },
+            garbage: {
+                description: garbage.name,
+                type: garbage.type,
+                imageName: garbage.imgName,
+            },
         }));
         playerStateRef.current.garbage.type = garbage.type;
         playerStateRef.current.garbage.description = garbage.name;
+        playerStateRef.current.garbage.imageName = garbage.imgName;
     };
 
     const increaseScore = () => {
-        setPlayerState((prev) => ({ ...prev, garbage: initialGarbage, score: prev.score + 1 }));
+        setPlayerState((prev) => ({
+            ...prev,
+            garbage: initialGarbage,
+            score: prev.score + 1,
+        }));
         playerStateRef.current.score = playerStateRef.current.score + 1;
-        playerStateRef.current.garbage.type = '';
-        playerStateRef.current.garbage.description = '';
+        playerStateRef.current.garbage.type = "";
+        playerStateRef.current.garbage.description = "";
+        playerStateRef.current.garbage.imageName = "DEFAULT";
     };
 
     return {
@@ -50,6 +61,6 @@ export const useGameState = () => {
             setPlayerId,
             setPlayerGarbage,
             increaseScore,
-        }
+        },
     };
 };
