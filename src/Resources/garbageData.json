@@ -1,0 +1,3212 @@
+{"garbages": [
+    {
+        "name": "Opakowanie po czekoladzie plastikowe",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "OPAKOWANIE-PO-CZEKOLADZIE-PLASTIKOWE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/guma-do-\u017cucia.svg"
+    },
+    {
+        "name": "Herbata w torebce z tworzywa sztucznego",
+        "type": "odpady zmieszane",
+        "imgName": "HERBATA-W-TOREBCE-Z-TWORZYWA-SZTUCZNEGO",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/HERABATA-W-TOREBCE-Z-TWORZYWA-LUB-Z-ZSZYWKAMI.svg"
+    },
+    {
+        "name": "Opakowanie po cukrze papierowe",
+        "type": "papier",
+        "imgName": "OPAKOWANIE-PO-CUKRZE-PAPIEROWE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/OPAKOWANIE-TYPU-FOLIA-Z-DU\u017bYM-KAWA\u0141KIEM-PAPIERU.svg"
+    },
+    {
+        "name": "Prezerwatywa",
+        "type": "odpady zmieszane",
+        "imgName": "PREZERWATYWA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/ZU\u017bYTA-PREZERWATYWA.svg"
+    },
+    {
+        "name": "Karton po przecierze pomidorowym",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "KARTON-PO-PRZECIERZE-POMIDOROWYM",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/TETRAPAKI.svg"
+    },
+    {
+        "name": "Tekstylia",
+        "type": "odpady zmieszane",
+        "imgName": "TEKSTYLIA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/TEKSTYLIA.svg"
+    },
+    {
+        "name": "Pojemnik po jajkach zabrudzony papierowy",
+        "type": "odpady zmieszane",
+        "imgName": "POJEMNIK-PO-JAJKACH-ZABRUDZONY-PAPIEROWY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/czyste-WYT\u0141OCZKI-DO-JAJEK.svg"
+    },
+    {
+        "name": "Karton z naklejon\u0105 ta\u015bm\u0105",
+        "type": "papier",
+        "imgName": "KARTON-Z-NAKLEJON\u0104-TA\u015aM\u0104",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/OPAKOWANIA-PAPIEROWE-PO-LEKACH.svg"
+    },
+    {
+        "name": "S\u00f3l kuchenna",
+        "type": "odpady zmieszane",
+        "imgName": "S\u00d3L-KUCHENNA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/CZYSTY-STYROPIAN-OPAKOWANIOWY.svg"
+    },
+    {
+        "name": "Przedmiot ze szk\u0142a hartowanego",
+        "type": "odpady zmieszane",
+        "imgName": "PRZEDMIOT-ZE-SZK\u0141A-HARTOWANEGO",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/OPAKOWANIE-PLASTIKOWE-PO-SERKU-WIEJSKIM.svg"
+    },
+    {
+        "name": "Szpinak",
+        "type": "bioodpady",
+        "imgName": "SZPINAK",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/SA\u0141ATKA-Z-OLEJEM-\u015aMIETAN\u0104-MAJONEZEM-JOGURTEM.svg"
+    },
+    {
+        "name": "Filtr do oczyszczacza powietrza",
+        "type": "odpady zmieszane",
+        "imgName": "FILTR-DO-OCZYSZCZACZA-POWIETRZA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2020/10/individual.svg"
+    },
+    {
+        "name": "Popcorn",
+        "type": "odpady zmieszane",
+        "imgName": "POPCORN",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/RY\u017b-GOTOWANY-NA-MLEKU.svg"
+    },
+    {
+        "name": "Chleb",
+        "type": "bioodpady",
+        "imgName": "CHLEB",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/CHLEB.svg"
+    },
+    {
+        "name": "Tkanina",
+        "type": "odpady zmieszane",
+        "imgName": "TKANINA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/UBRANIA.svg"
+    },
+    {
+        "name": "Owoce z alkoholem",
+        "type": "bioodpady",
+        "imgName": "OWOCE-Z-ALKOHOLEM",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/TRUSKAWKI.svg"
+    },
+    {
+        "name": "Blacha do pieczenia",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "BLACHA-DO-PIECZENIA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Opakowanie-po-w\u0119dlinie-serze-w-plasterkach.svg"
+    },
+    {
+        "name": "Grzyb",
+        "type": "bioodpady",
+        "imgName": "GRZYB",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Grzyby.svg"
+    },
+    {
+        "name": "Tacka papierowa czysta",
+        "type": "odpady zmieszane",
+        "imgName": "TACKA-PAPIEROWA-CZYSTA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/CELOFAN.svg"
+    },
+    {
+        "name": "Opakowania wielomateria\u0142owe",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "OPAKOWANIA-WIELOMATERIA\u0141OWE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/OPAKOWANIE-TYPU-FOLIA-Z-DU\u017bYM-KAWA\u0141KIEM-PAPIERU.svg"
+    },
+    {
+        "name": "Folia spo\u017cywcza",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "FOLIA-SPO\u017bYWCZA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/PAPIER-DO-PIECZENIA-ZU\u017bYTY.svg"
+    },
+    {
+        "name": "Papier po w\u0119dlinie",
+        "type": "odpady zmieszane",
+        "imgName": "PAPIER-PO-W\u0118DLINIE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/ZAT\u0141USZCZONE-PLASTIKOWE-OPAKOWANIA.svg"
+    },
+    {
+        "name": "P\u0142atki na mleku",
+        "type": "odpady zmieszane",
+        "imgName": "P\u0141ATKI-NA-MLEKU",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/P\u0141ATKI-GOTOWANE-NA-MLEKU.svg"
+    },
+    {
+        "name": "Rzeczy z poliestru",
+        "type": "odpady zmieszane",
+        "imgName": "RZECZY-Z-POLIESTRU",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/RZECZY-Z-POLIESTRU.svg"
+    },
+    {
+        "name": "Wata",
+        "type": "odpady zmieszane",
+        "imgName": "WATA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/POKRYWKI-OD-S\u0141OIK\u00d3W.svg"
+    },
+    {
+        "name": "Puszka aluminiowa",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "PUSZKA-ALUMINIOWA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/PUSZKI-I-OPAKOWANIA-ALUMINIOWE-PO-JEDZENIU-DLA-KOT\u00d3W.svg"
+    },
+    {
+        "name": "Worek po proszku do prania foliowy",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "WOREK-PO-PROSZKU-DO-PRANIA-FOLIOWY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/mixed.svg"
+    },
+    {
+        "name": "Szczotka do toalety",
+        "type": "odpady zmieszane",
+        "imgName": "SZCZOTKA-DO-TOALETY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Opakowania-po-kosmetykach-\u2013-zbiorcze.svg"
+    },
+    {
+        "name": "Kasztany",
+        "type": "bioodpady",
+        "imgName": "KASZTANY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/PESTKI-OD-WARZYW-I-OWOC\u00d3W.svg"
+    },
+    {
+        "name": "Sznurek konopny",
+        "type": "odpady zmieszane",
+        "imgName": "SZNUREK-KONOPNY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/SZNUREK-KONOPNY.svg"
+    },
+    {
+        "name": "Winogrona",
+        "type": "bioodpady",
+        "imgName": "WINOGRONA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/TACKI-PO-WARZYWACH-CZYSTE-PLASTIKOWE.svg"
+    },
+    {
+        "name": "Puszka po jedzeniu dla kot\u00f3w aluminiowa",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "PUSZKA-PO-JEDZENIU-DLA-KOT\u00d3W-ALUMINIOWA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/PUSZKI-I-OPAKOWANIA-ALUMINIOWE-PO-JEDZENIU-DLA-KOT\u00d3W.svg"
+    },
+    {
+        "name": "\u015amieci z odkurzacza",
+        "type": "odpady zmieszane",
+        "imgName": "\u015aMIECI-Z-ODKURZACZA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/PESTKI-OD-WARZYW-I-OWOC\u00d3W.svg"
+    },
+    {
+        "name": "Rolka kasowa papierowa",
+        "type": "odpady zmieszane",
+        "imgName": "ROLKA-KASOWA-PAPIEROWA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/FOLIA-B\u0104BELKOWA.svg"
+    },
+    {
+        "name": "Butelka po p\u0142ynie do spryskiwaczy",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "BUTELKA-PO-P\u0141YNIE-DO-SPRYSKIWACZY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Opakowania-po-\u015brodkach-czysto\u015bci-\u2013-zbiorczo.svg"
+    },
+    {
+        "name": "Wycieraczki samochodowe",
+        "type": "odpady zmieszane",
+        "imgName": "WYCIERACZKI-SAMOCHODOWE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/PLASTIKOWE-OPAKOWANIE-PO-SZCZOTECZCE-DO-Z\u0118B\u00d3W.svg"
+    },
+    {
+        "name": "Muszle po owocach morza, brudne, w sosie",
+        "type": "odpady zmieszane",
+        "imgName": "MUSZLE-PO-OWOCACH-MORZA,-BRUDNE,-W-SOSIE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2020/10/23-Owoce-morza-zbiorczo.svg"
+    },
+    {
+        "name": "Kiwi",
+        "type": "bioodpady",
+        "imgName": "KIWI",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/kiwi.svg"
+    },
+    {
+        "name": "Opakowanie po tuszu do rz\u0119s",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "OPAKOWANIE-PO-TUSZU-DO-RZ\u0118S",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/OPAKOWANIE-PO-TUSZU-DO-RZ\u0118S.svg"
+    },
+    {
+        "name": "Buteleczka po olejku zapachowym szklana",
+        "type": "szk\u0142o",
+        "imgName": "BUTELECZKA-PO-OLEJKU-ZAPACHOWYM-SZKLANA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/SZKLANA-BUTELKA-PO-SOKU.svg"
+    },
+    {
+        "name": "Owsianka z jogurtem ro\u015blinnym",
+        "type": "bioodpady",
+        "imgName": "OWSIANKA-Z-JOGURTEM-RO\u015aLINNYM",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/owsianka-kaszka-na-mleku.svg"
+    },
+    {
+        "name": "Pizza",
+        "type": "odpady zmieszane",
+        "imgName": "PIZZA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/karton-po-pizzy.svg"
+    },
+    {
+        "name": "Klisza rentgenowska",
+        "type": "odpady zmieszane",
+        "imgName": "KLISZA-RENTGENOWSKA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/KLISZE-RENGENOWSKIE.svg"
+    },
+    {
+        "name": "Ceramika/szk\u0142o sto\u0142owe",
+        "type": "odpady zmieszane",
+        "imgName": "CERAMIKA\\SZK\u0141O-STO\u0141OWE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/CERAMIKA-SZK\u0141O-STO\u0141OWE.svg"
+    },
+    {
+        "name": "Segregator",
+        "type": "odpady zmieszane",
+        "imgName": "SEGREGATOR",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/ZESZYT.svg"
+    },
+    {
+        "name": "Maliny",
+        "type": "bioodpady",
+        "imgName": "MALINY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Zbiorczo-\u2013-owoce.svg"
+    },
+    {
+        "name": "Wieczko od puszki metalowe",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "WIECZKO-OD-PUSZKI-METALOWE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/PUSZKI-I-OPAKOWANIA-ALUMINIOWE-PO-JEDZENIU-DLA-KOT\u00d3W.svg"
+    },
+    {
+        "name": "Kubeczek menstruacyjny",
+        "type": "odpady zmieszane",
+        "imgName": "KUBECZEK-MENSTRUACYJNY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/08/podpaski.svg"
+    },
+    {
+        "name": "\u017bywica do wydruk\u00f3w 3D",
+        "type": "odpady zmieszane",
+        "imgName": "\u017bYWICA-DO-WYDRUK\u00d3W-3D",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2020/10/41-Toner-do-drukarki-drukarka.svg"
+    },
+    {
+        "name": "Truskawki",
+        "type": "bioodpady",
+        "imgName": "TRUSKAWKI",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/TRUSKAWKI.svg"
+    },
+    {
+        "name": "Groch",
+        "type": "bioodpady",
+        "imgName": "GROCH",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/TACKI-PO-WARZYWACH-CZYSTE-STYROPIANOWE.svg"
+    },
+    {
+        "name": "Podk\u0142adka pod tort, ciasto papierowa pokryta foli\u0105",
+        "type": "odpady zmieszane",
+        "imgName": "PODK\u0141ADKA-POD-TORT,-CIASTO-PAPIEROWA-POKRYTA-FOLI\u0104",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/OPONA-ROWEROWA-D\u0118DKA.svg"
+    },
+    {
+        "name": "Jemio\u0142a",
+        "type": "bioodpady",
+        "imgName": "JEMIO\u0141A",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2020/10/green.svg"
+    },
+    {
+        "name": "Folia okrywaj\u0105ca paczk\u0119 po papierosach",
+        "type": "odpady zmieszane",
+        "imgName": "FOLIA-OKRYWAJ\u0104CA-PACZK\u0118-PO-PAPIEROSACH",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Plastikowy-woreczek-po-ugotowanym-ry\u017cu.svg"
+    },
+    {
+        "name": "Opakowanie po kawie papierowe",
+        "type": "papier",
+        "imgName": "OPAKOWANIE-PO-KAWIE-PAPIEROWE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/OPAKOWANIE-PO-KAWIE.svg"
+    },
+    {
+        "name": "Opakowanie po kawie aluminiowe",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "OPAKOWANIE-PO-KAWIE-ALUMINIOWE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/OPAKOWANIE-PO-KAWIE.svg"
+    },
+    {
+        "name": "Ostryga",
+        "type": "odpady zmieszane",
+        "imgName": "OSTRYGA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/OWOCE-MORZA.svg"
+    },
+    {
+        "name": "Cykoria",
+        "type": "bioodpady",
+        "imgName": "CYKORIA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Zbiorczo-\u2013-warzywa.svg"
+    },
+    {
+        "name": "P\u0142yta CD, DVD",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "P\u0141YTA-CD,-DVD",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/P\u0142yty-CD.svg"
+    },
+    {
+        "name": "Poch\u0142aniacz od tacki po mi\u0119sie",
+        "type": "odpady zmieszane",
+        "imgName": "POCH\u0141ANIACZ-OD-TACKI-PO-MI\u0118SIE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/POCH\u0141ANIACZ-OD-TACKI-PO-MI\u0118SIE.svg"
+    },
+    {
+        "name": "Fili\u017canka ceramiczna",
+        "type": "odpady zmieszane",
+        "imgName": "FILI\u017bANKA-CERAMICZNA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/FILI\u017bANKA-CERAMICZNA.svg"
+    },
+    {
+        "name": "Patyczki kosmetyczne plastikowe",
+        "type": "odpady zmieszane",
+        "imgName": "PATYCZKI-KOSMETYCZNE-PLASTIKOWE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/PATYCZKI-DO-USZU.svg"
+    },
+    {
+        "name": "Okulary",
+        "type": "odpady zmieszane",
+        "imgName": "OKULARY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/OKULARY.svg"
+    },
+    {
+        "name": "Metka samoprzylepna",
+        "type": "odpady zmieszane",
+        "imgName": "METKA-SAMOPRZYLEPNA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/TROCINY-DO-WYPE\u0141NIANIA-PACZEK.svg"
+    },
+    {
+        "name": "Dezodorant w kulce szklany",
+        "type": "szk\u0142o",
+        "imgName": "DEZODORANT-W-KULCE-SZKLANY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Opakowania-po-kosmetykach-\u2013-zbiorcze.svg"
+    },
+    {
+        "name": "Pojemnik po p\u0142ynie do spryskiwaczy samochodowych plastikowy pusty",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "POJEMNIK-PO-P\u0141YNIE-DO-SPRYSKIWACZY-SAMOCHODOWYCH-PLASTIKOWY-PUSTY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/BUTELKA-PLASTIKOWA-PO-OLEJU.svg"
+    },
+    {
+        "name": "Je\u017cyny",
+        "type": "bioodpady",
+        "imgName": "JE\u017bYNY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Jagody.svg"
+    },
+    {
+        "name": "Tacka aluminiowa nadpalona",
+        "type": "odpady zmieszane",
+        "imgName": "TACKA-ALUMINIOWA-NADPALONA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/PLASTIKOWE-OPAKOWANIA-PO-KISZONYCH-OG\u00d3RKACH.svg"
+    },
+    {
+        "name": "Opakowanie po pa\u015bcie do z\u0119b\u00f3w kartonowe",
+        "type": "papier",
+        "imgName": "OPAKOWANIE-PO-PA\u015aCIE-DO-Z\u0118B\u00d3W-KARTONOWE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Opakowania-po-kosmetykach-\u2013-zbiorcze.svg"
+    },
+    {
+        "name": "Koszyk po owocach lub warzywach plastikowy",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "KOSZYK-PO-OWOCACH-LUB-WARZYWACH-PLASTIKOWY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/TACKI-PO-WARZYWACH-CZYSTE-PLASTIKOWE.svg"
+    },
+    {
+        "name": "Patyczki kosmetyczne papierowe",
+        "type": "odpady zmieszane",
+        "imgName": "PATYCZKI-KOSMETYCZNE-PAPIEROWE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/PATYCZKI-DO-USZU.svg"
+    },
+    {
+        "name": "Znicz szklany",
+        "type": "odpady zmieszane",
+        "imgName": "ZNICZ-SZKLANY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/SZKLANKA.svg"
+    },
+    {
+        "name": "Brukiew",
+        "type": "bioodpady",
+        "imgName": "BRUKIEW",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/TACKI-PO-WARZYWACH-CZYSTE-STYROPIANOWE.svg"
+    },
+    {
+        "name": "Torebka po pieczywie papierowo-foliowa",
+        "type": "odpady zmieszane",
+        "imgName": "TOREBKA-PO-PIECZYWIE-PAPIEROWO-FOLIOWA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/TOREBKI-FOLIOWE-PO-PRZYPRAWACH.svg"
+    },
+    {
+        "name": "Banan",
+        "type": "bioodpady",
+        "imgName": "BANAN",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/BANAN.svg"
+    },
+    {
+        "name": "Czere\u015bnie",
+        "type": "bioodpady",
+        "imgName": "CZERE\u015aNIE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/TACKI-PO-WARZYWACH-CZYSTE-PLASTIKOWE.svg"
+    },
+    {
+        "name": "Puszka po mleku w proszku",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "PUSZKA-PO-MLEKU-W-PROSZKU",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/DONICZKA-PLASTIKOWA.svg"
+    },
+    {
+        "name": "Kosmetyczka",
+        "type": "odpady zmieszane",
+        "imgName": "KOSMETYCZKA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/KOPERTY-B\u0104BELKOWE.svg"
+    },
+    {
+        "name": "\u015awieczka",
+        "type": "odpady zmieszane",
+        "imgName": "\u015aWIECZKA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/ZAPA\u0141KI.svg"
+    },
+    {
+        "name": "Owoce",
+        "type": "bioodpady",
+        "imgName": "OWOCE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/SK\u00d3RKI-WOSKOWANE-OD-CYTRUS\u00d3W.svg"
+    },
+    {
+        "name": "Pielucha ekologiczna",
+        "type": "odpady zmieszane",
+        "imgName": "PIELUCHA-EKOLOGICZNA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/PIELUCHY-EKOLOGICZNE.svg"
+    },
+    {
+        "name": "Obierki warzywne",
+        "type": "bioodpady",
+        "imgName": "OBIERKI-WARZYWNE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/ODPADKI-WARZYWNE.svg"
+    },
+    {
+        "name": "Wa\u0142ek kuchenny drewniany",
+        "type": "odpady zmieszane",
+        "imgName": "WA\u0141EK-KUCHENNY-DREWNIANY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/drewno.svg"
+    },
+    {
+        "name": "Opakowanie po kawie plastikowe",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "OPAKOWANIE-PO-KAWIE-PLASTIKOWE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/OPAKOWANIE-PO-KAWIE.svg"
+    },
+    {
+        "name": "Rolka po papierze toaletowym",
+        "type": "papier",
+        "imgName": "ROLKA-PO-PAPIERZE-TOALETOWYM",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/TEKSTYLIA.svg"
+    },
+    {
+        "name": "Warzywa",
+        "type": "bioodpady",
+        "imgName": "WARZYWA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/WARZYWA-Z-ZUPY-NA-MI\u0118SIE.svg"
+    },
+    {
+        "name": "Papier do pakowania prezent\u00f3w",
+        "type": "papier",
+        "imgName": "PAPIER-DO-PAKOWANIA-PREZENT\u00d3W",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/zeszyt.svg"
+    },
+    {
+        "name": "S\u0142onina",
+        "type": "odpady zmieszane",
+        "imgName": "S\u0141ONINA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/RESZTKI-MAS\u0141A.svg"
+    },
+    {
+        "name": "Pestki owoc\u00f3w i warzyw",
+        "type": "bioodpady",
+        "imgName": "PESTKI-OWOC\u00d3W-I-WARZYW",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/PESTKI-OD-WARZYW-I-OWOC\u00d3W.svg"
+    },
+    {
+        "name": "Maszynka do golenia jednorazowa",
+        "type": "odpady zmieszane",
+        "imgName": "MASZYNKA-DO-GOLENIA-JEDNORAZOWA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/PRZYBORY-TOALETOWE-NP-MASZYNKI.svg"
+    },
+    {
+        "name": "Wi\u00f3rki z kredek",
+        "type": "odpady zmieszane",
+        "imgName": "WI\u00d3RKI-Z-KREDEK",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/RESZTKI-Z-TEMPEROWANIA-DREWNIANYCH-KREDEK.svg"
+    },
+    {
+        "name": "Worek jutowy",
+        "type": "odpady zmieszane",
+        "imgName": "WOREK-JUTOWY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Plastikowy-woreczek-po-ugotowanym-ry\u017cu.svg"
+    },
+    {
+        "name": "Korek po szampanie plastikowy",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "KOREK-PO-SZAMPANIE-PLASTIKOWY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/KOREK-OD-WINA-Z-KORKA.svg"
+    },
+    {
+        "name": "Wacik do twarzy",
+        "type": "odpady zmieszane",
+        "imgName": "WACIK-DO-TWARZY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/WACIKI-DO-TWARZY.svg"
+    },
+    {
+        "name": "Opakowanie po par\u00f3wkach plastikowe",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "OPAKOWANIE-PO-PAR\u00d3WKACH-PLASTIKOWE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/OPAKOWANIE-PLASTIKOWE-PO-PAR\u00d3WKACH.svg"
+    },
+    {
+        "name": "Opakowanie po proszku do pieczenia papierowowe",
+        "type": "papier",
+        "imgName": "OPAKOWANIE-PO-PROSZKU-DO-PIECZENIA-PAPIEROWOWE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/OPAKOWANIE-TYPU-FOLIA-Z-DU\u017bYM-KAWA\u0141KIEM-PAPIERU.svg"
+    },
+    {
+        "name": "O\u0142\u00f3wek",
+        "type": "odpady zmieszane",
+        "imgName": "O\u0141\u00d3WEK",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/RESZTKI-Z-TEMPEROWANIA-DREWNIANYCH-KREDEK.svg"
+    },
+    {
+        "name": "Opakowanie po lekach szklane puste",
+        "type": "szk\u0142o",
+        "imgName": "OPAKOWANIE-PO-LEKACH-SZKLANE-PUSTE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/SZKLANE-OPAKOWANIA-PO-LEKACH.svg"
+    },
+    {
+        "name": "Kapsu\u0142ka z kaw\u0105",
+        "type": "odpady zmieszane",
+        "imgName": "KAPSU\u0141KA-Z-KAW\u0104",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/KAPSU\u0141KI-Z-KAW\u0104.svg"
+    },
+    {
+        "name": "Ko\u015bci",
+        "type": "odpady zmieszane",
+        "imgName": "KO\u015aCI",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/KO\u015aCI-NP.-KURCZAKA.svg"
+    },
+    {
+        "name": "Cebula",
+        "type": "bioodpady",
+        "imgName": "CEBULA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/CEBULA.svg"
+    },
+    {
+        "name": "Zabawki gumowe",
+        "type": "odpady zmieszane",
+        "imgName": "ZABAWKI-GUMOWE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/zabawki-elektroniczne-elektryczne.svg"
+    },
+    {
+        "name": "Puszka po oliwie, oleju",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "PUSZKA-PO-OLIWIE,-OLEJU",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Puszka-po-napoju.svg"
+    },
+    {
+        "name": "Granulat styropianowy",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "GRANULAT-STYROPIANOWY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/PESTKI-OD-WARZYW-I-OWOC\u00d3W.svg"
+    },
+    {
+        "name": "Pielucha bambusowa biodegradowalna",
+        "type": "odpady zmieszane",
+        "imgName": "PIELUCHA-BAMBUSOWA-BIODEGRADOWALNA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/PIELUCHY-BAMBUSOWE-BIODEGRADOWALNE-DZIECKO-NA-DIECIE-WEGETARIA\u0143SKIEJ.svg"
+    },
+    {
+        "name": "Paragon",
+        "type": "odpady zmieszane",
+        "imgName": "PARAGON",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/OPAKOWANIE-TYPU-FOLIA-Z-DU\u017bYM-KAWA\u0141KIEM-PAPIERU.svg"
+    },
+    {
+        "name": "Opakowanie po tik-takach",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "OPAKOWANIE-PO-TIK-TAKACH",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/OPAKOWANIE-PLASTIKOWE-PO-PAR\u00d3WKACH.svg"
+    },
+    {
+        "name": "Opakowanie po makaronie papierowe",
+        "type": "papier",
+        "imgName": "OPAKOWANIE-PO-MAKARONIE-PAPIEROWE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/MAKARON-GOWOWANY-NA-MLEKU.svg"
+    },
+    {
+        "name": "\u0141upiny po orzechach",
+        "type": "bioodpady",
+        "imgName": "\u0141UPINY-PO-ORZECHACH",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/SKORUPY-PO-ORZECHACH.svg"
+    },
+    {
+        "name": "Paznokcie obci\u0119te",
+        "type": "odpady zmieszane",
+        "imgName": "PAZNOKCIE-OBCI\u0118TE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/PLASTIKOWE-OPAKOWANIA-PO-KOSMETYKACH.svg"
+    },
+    {
+        "name": "Owsianka z jogurtem",
+        "type": "odpady zmieszane",
+        "imgName": "OWSIANKA-Z-JOGURTEM",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/owsianka-kaszka-na-mleku.svg"
+    },
+    {
+        "name": "Opakowanie po \u015brodkach czysto\u015bci plastikowe",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "OPAKOWANIE-PO-\u015aRODKACH-CZYSTO\u015aCI-PLASTIKOWE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/BUTELKI-PLASTIKOWE-PO-\u015aRODKACH-CZYSTO\u015aCI.svg"
+    },
+    {
+        "name": "Wk\u0142ad do znicza",
+        "type": "odpady zmieszane",
+        "imgName": "WK\u0141AD-DO-ZNICZA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2020/10/20-Znicz.svg"
+    },
+    {
+        "name": "Skarpetki",
+        "type": "odpady zmieszane",
+        "imgName": "SKARPETKI",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/STARE-KALOSZE.svg"
+    },
+    {
+        "name": "Kartonik po lekach tekturowy",
+        "type": "papier",
+        "imgName": "KARTONIK-PO-LEKACH-TEKTUROWY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/KARTONIKI-ORAZ-ULOTKI-Z-LEK\u00d3W.svg"
+    },
+    {
+        "name": "Pluszak",
+        "type": "odpady zmieszane",
+        "imgName": "PLUSZAK",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/KLOCKI-PLASTIKOWE.svg"
+    },
+    {
+        "name": "Kartonik po syropie na kaszel",
+        "type": "papier",
+        "imgName": "KARTONIK-PO-SYROPIE-NA-KASZEL",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/FIZELINA.svg"
+    },
+    {
+        "name": "Sier\u015b\u0107 psa lub kota",
+        "type": "odpady zmieszane",
+        "imgName": "SIER\u015a\u0106-PSA-LUB-KOTA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/SIER\u015a\u0106-PSA-LUB-KOTA.svg"
+    },
+    {
+        "name": "Pude\u0142ko od zapa\u0142ek",
+        "type": "odpady zmieszane",
+        "imgName": "PUDE\u0141KO-OD-ZAPA\u0141EK",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/PUDE\u0141KA-OD-ZAPA\u0141EK.svg"
+    },
+    {
+        "name": "Opakowanie po nici do z\u0119b\u00f3w",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "OPAKOWANIE-PO-NICI-DO-Z\u0118B\u00d3W",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/PLASTIK-Z-NAKLEJON\u0104-TA\u015aM\u0104.svg"
+    },
+    {
+        "name": "Placek sma\u017cony np. na oleju ro\u015blinnym, w kt\u00f3rym jest jajko lub mleko",
+        "type": "odpady zmieszane",
+        "imgName": "PLACEK-SMA\u017bONY-NP.-NA-OLEJU-RO\u015aLINNYM,-W-KT\u00d3RYM-JEST-JAJKO-LUB-MLEKO",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/Placki-sma\u017cone-np-na-oleju-ro\u015blinnym-w-kt\u00f3rych-jest-jajko-i-mleko.svg"
+    },
+    {
+        "name": "Plastik z naklejon\u0105 ta\u015bm\u0105",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "PLASTIK-Z-NAKLEJON\u0104-TA\u015aM\u0104",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/PLASTIK-Z-NAKLEJON\u0104-TA\u015aM\u0104.svg"
+    },
+    {
+        "name": "Bombka choinkowa szklana",
+        "type": "odpady zmieszane",
+        "imgName": "BOMBKA-CHOINKOWA-SZKLANA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/s\u0142onecznik.svg"
+    },
+    {
+        "name": "G\u0105bka k\u0105pielowa",
+        "type": "odpady zmieszane",
+        "imgName": "G\u0104BKA-K\u0104PIELOWA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/G\u0104BKA-KAPIELOWA.svg"
+    },
+    {
+        "name": "Ulotki papierowe",
+        "type": "papier",
+        "imgName": "ULOTKI-PAPIEROWE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/ULOTKI-Z-KARTONIK\u00d3W-PO-LEKACH.svg"
+    },
+    {
+        "name": "Wazon szklany",
+        "type": "odpady zmieszane",
+        "imgName": "WAZON-SZKLANY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Wazon.svg"
+    },
+    {
+        "name": "Orzech",
+        "type": "bioodpady",
+        "imgName": "ORZECH",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/SKOR\u00d3PKI-OD-ORZECH\u00d3W.svg"
+    },
+    {
+        "name": "Ry\u017c na mleku",
+        "type": "odpady zmieszane",
+        "imgName": "RY\u017b-NA-MLEKU",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/RY\u017b-GOTOWANY-NA-MLEKU.svg"
+    },
+    {
+        "name": "Agrow\u0142\u00f3knina",
+        "type": "odpady zmieszane",
+        "imgName": "AGROW\u0141\u00d3KNINA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2020/10/40-koldra.svg"
+    },
+    {
+        "name": "Brudny pojemnik plastikowy",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "BRUDNY-POJEMNIK-PLASTIKOWY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/ZAT\u0141USZCZONE-PLASTIKOWE-OPAKOWANIA.svg"
+    },
+    {
+        "name": "Opakowanie po \u015bmietanie plastikowe",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "OPAKOWANIE-PO-\u015aMIETANIE-PLASTIKOWE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/PLASTIKOWE-OPAKOWANIE-PO-\u015aMIETANIE.svg"
+    },
+    {
+        "name": "Pilnik do paznokci papierowy",
+        "type": "odpady zmieszane",
+        "imgName": "PILNIK-DO-PAZNOKCI-PAPIEROWY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/RT\u0118\u0106-Z-ROZBITEGO-TEROMETRU.svg"
+    },
+    {
+        "name": "Pasek do depilacji z woskiem",
+        "type": "odpady zmieszane",
+        "imgName": "PASEK-DO-DEPILACJI-Z-WOSKIEM",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/PLASTIKOWE-OPAKOWANIA-PO-KOSMETYKACH.svg"
+    },
+    {
+        "name": "Karton oklejony ta\u015bm\u0105",
+        "type": "papier",
+        "imgName": "KARTON-OKLEJONY-TA\u015aM\u0104",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/STYROPIAN-OPAKOWANIOWY-PO-SPRZ\u0118CIE.svg"
+    },
+    {
+        "name": "Szparagi",
+        "type": "bioodpady",
+        "imgName": "SZPARAGI",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/SZPARAGI.svg"
+    },
+    {
+        "name": "Opakowanie po pojedynczej kostce roso\u0142owej",
+        "type": "odpady zmieszane",
+        "imgName": "OPAKOWANIE-PO-POJEDYNCZEJ-KOSTCE-ROSO\u0141OWEJ",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Opakowanie-po-w\u0119dlinie-serze-w-plasterkach.svg"
+    },
+    {
+        "name": "Patyczek po lodach, lizaku",
+        "type": "odpady zmieszane",
+        "imgName": "PATYCZEK-PO-LODACH,-LIZAKU",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/PATYCZKI-DO-USZU.svg"
+    },
+    {
+        "name": "Gliceryna",
+        "type": "odpady zmieszane",
+        "imgName": "GLICERYNA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Plastikowa-butelka-po-ketchupie.svg"
+    },
+    {
+        "name": "Zupa wegetaria\u0144ska bez t\u0142uszczu",
+        "type": "bioodpady",
+        "imgName": "ZUPA-WEGETARIA\u0143SKA-BEZ-T\u0141USZCZU",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/WARZYWA-UGOTOWANE-NA-WODZIE.svg"
+    },
+    {
+        "name": "Suszarka na pranie metalowa",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "SUSZARKA-NA-PRANIE-METALOWA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/DU\u017bE-ELEMENTY-MEBLI.svg"
+    },
+    {
+        "name": "Deska do krojenia drewniana",
+        "type": "odpady zmieszane",
+        "imgName": "DESKA-DO-KROJENIA-DREWNIANA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Opakowanie-po-w\u0119dlinie-serze-w-plasterkach.svg"
+    },
+    {
+        "name": "Papier po ma\u015ble",
+        "type": "odpady zmieszane",
+        "imgName": "PAPIER-PO-MA\u015aLE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/PAPIER-PO-MA\u015aLE.svg"
+    },
+    {
+        "name": "Statek z papieru",
+        "type": "papier",
+        "imgName": "STATEK-Z-PAPIERU",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/FIZELINA.svg"
+    },
+    {
+        "name": "Garnek emaliowany",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "GARNEK-EMALIOWANY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/GARNEK-EMALIOWANY.svg"
+    },
+    {
+        "name": "Ulotka od lek\u00f3w",
+        "type": "papier",
+        "imgName": "ULOTKA-OD-LEK\u00d3W",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/ULOTKI-Z-KARTONIK\u00d3W-PO-LEKACH.svg"
+    },
+    {
+        "name": "Klucze",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "KLUCZE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/GA\u0141KI-MEBLI-drewniane.svg"
+    },
+    {
+        "name": "Zupa z dodatkiem mi\u0119sa, t\u0142uszczu",
+        "type": "odpady zmieszane",
+        "imgName": "ZUPA-Z-DODATKIEM-MI\u0118SA,-T\u0141USZCZU",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/WARZYWA-UGOTOWANE-NA-WODZIE.svg"
+    },
+    {
+        "name": "Worek po jedzeniu dla psa, kota plastikowy",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "WOREK-PO-JEDZENIU-DLA-PSA,-KOTA-PLASTIKOWY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Plastikowy-woreczek-po-ugotowanym-ry\u017cu.svg"
+    },
+    {
+        "name": "Papier brudny",
+        "type": "odpady zmieszane",
+        "imgName": "PAPIER-BRUDNY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/PAPIER-DO-PIECZENIA-ZU\u017bYTY.svg"
+    },
+    {
+        "name": "Kwiaty ci\u0119te",
+        "type": "bioodpady",
+        "imgName": "KWIATY-CI\u0118TE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/SZPARAGI.svg"
+    },
+    {
+        "name": "Poczt\u00f3wka",
+        "type": "papier",
+        "imgName": "POCZT\u00d3WKA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/ZDJ\u0118CIA-PAPIER-B\u0141YSZCZ\u0104CY.svg"
+    },
+    {
+        "name": "Saszetka zapachowa",
+        "type": "odpady zmieszane",
+        "imgName": "SASZETKA-ZAPACHOWA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2020/10/big.svg"
+    },
+    {
+        "name": "Kubek po napoju papierowy",
+        "type": "odpady zmieszane",
+        "imgName": "KUBEK-PO-NAPOJU-PAPIEROWY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/DONICZKA-PLASTIKOWA.svg"
+    },
+    {
+        "name": "Ryba",
+        "type": "odpady zmieszane",
+        "imgName": "RYBA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/PUSZKI-PO-RYBACH-W-OLEJU.svg"
+    },
+    {
+        "name": "Sa\u0142atka z olejem/\u015bmietan\u0105/majonezem/jogurtem",
+        "type": "odpady zmieszane",
+        "imgName": "SA\u0141ATKA-Z-OLEJEM\\\u015aMIETAN\u0104\\MAJONEZEM\\JOGURTEM",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/SA\u0141ATKA-Z-OLEJEM-\u015aMIETAN\u0104-MAJONEZEM-JOGURTEM.svg"
+    },
+    {
+        "name": "Obrus jednorazowy",
+        "type": "odpady zmieszane",
+        "imgName": "OBRUS-JEDNORAZOWY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Plastikowy-woreczek-po-ugotowanym-ry\u017cu.svg"
+    },
+    {
+        "name": "Pierogi z mi\u0119sem",
+        "type": "odpady zmieszane",
+        "imgName": "PIEROGI-Z-MI\u0118SEM",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/RY\u017b-GOTOWANY-NA-MLEKU.svg"
+    },
+    {
+        "name": "Karton po soku",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "KARTON-PO-SOKU",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/TATRAPAKI.svg"
+    },
+    {
+        "name": "N\u00f3\u017cki mebli drewniane",
+        "type": "odpady zmieszane",
+        "imgName": "N\u00d3\u017bKI-MEBLI-DREWNIANE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/N\u00d3\u017bKI-MEBLI-drewniane.svg"
+    },
+    {
+        "name": "Doniczka ceramiczna",
+        "type": "odpady zmieszane",
+        "imgName": "DONICZKA-CERAMICZNA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/DONICZKA-CERAMICZNA.svg"
+    },
+    {
+        "name": "Narty",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "NARTY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/STARE-KALOSZE.svg"
+    },
+    {
+        "name": "Warzywa ugotowane w wodzie lub surowe",
+        "type": "bioodpady",
+        "imgName": "WARZYWA-UGOTOWANE-W-WODZIE-LUB-SUROWE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/WARZYWA-UGOTOWANE-NA-WODZIE.svg"
+    },
+    {
+        "name": "Opakowanie po \u015brodkach owadob\u00f3jczych puste",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "OPAKOWANIE-PO-\u015aRODKACH-OWADOB\u00d3JCZYCH-PUSTE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Opakowania-po-\u015brodkach-czysto\u015bci-\u2013-zbiorczo.svg"
+    },
+    {
+        "name": "Odchody zwierz\u0105t",
+        "type": "odpady zmieszane",
+        "imgName": "ODCHODY-ZWIERZ\u0104T",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/\u017bWIREK-BRUDNY.svg"
+    },
+    {
+        "name": "Tacka po mi\u0119sie styropianowa",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "TACKA-PO-MI\u0118SIE-STYROPIANOWA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/TACKA-PO-MI\u0118SIE.svg"
+    },
+    {
+        "name": "Nektarynka",
+        "type": "bioodpady",
+        "imgName": "NEKTARYNKA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Nektarynka.svg"
+    },
+    {
+        "name": "Metka z ubrania",
+        "type": "odpady zmieszane",
+        "imgName": "METKA-Z-UBRANIA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/UBRANIA.svg"
+    },
+    {
+        "name": "Torba materia\u0142owa",
+        "type": "odpady zmieszane",
+        "imgName": "TORBA-MATERIA\u0141OWA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Torebka-foliowa.svg"
+    },
+    {
+        "name": "Papier ochronny po plastrze",
+        "type": "odpady zmieszane",
+        "imgName": "PAPIER-OCHRONNY-PO-PLASTRZE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/plastry-na-rany.svg"
+    },
+    {
+        "name": "Paluszki krabowe",
+        "type": "odpady zmieszane",
+        "imgName": "PALUSZKI-KRABOWE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/FOLia-PO-POJEDYNCZYCH-PAR\u00d3WKACH.svg"
+    },
+    {
+        "name": "\u017bel krzemionkowy",
+        "type": "odpady zmieszane",
+        "imgName": "\u017bEL-KRZEMIONKOWY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/ZAT\u0141USZCZONE-PLASTIKOWE-OPAKOWANIA.svg"
+    },
+    {
+        "name": "Walizka sk\u00f3rzana lub z tkaniny",
+        "type": "odpady zmieszane",
+        "imgName": "WALIZKA-SK\u00d3RZANA-LUB-Z-TKANINY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/TOREBKA-PAPIEROWA-Z-KAWA\u0141KIEM-FOLII.svg"
+    },
+    {
+        "name": "Rajstopy",
+        "type": "odpady zmieszane",
+        "imgName": "RAJSTOPY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/STARE-KALOSZE.svg"
+    },
+    {
+        "name": "Spinacz metalowy",
+        "type": "odpady zmieszane",
+        "imgName": "SPINACZ-METALOWY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/PATYCZKI-DO-USZU.svg"
+    },
+    {
+        "name": "Kasety magnetofonowe i wideo",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "KASETY-MAGNETOFONOWE-I-WIDEO",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/KASETY-MAGNETOFONOWE-I-WIDEO.svg"
+    },
+    {
+        "name": "Patyczki kosmetyczne drewniane",
+        "type": "odpady zmieszane",
+        "imgName": "PATYCZKI-KOSMETYCZNE-DREWNIANE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/PATYCZKI-DO-USZU.svg"
+    },
+    {
+        "name": "Pompka od butelki plastikowej",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "POMPKA-OD-BUTELKI-PLASTIKOWEJ",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/BUTELKI-PET.svg"
+    },
+    {
+        "name": "Pude\u0142ko po proszku do prania tekturowe",
+        "type": "papier",
+        "imgName": "PUDE\u0141KO-PO-PROSZKU-DO-PRANIA-TEKTUROWE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/KOPERTY-B\u0104BELKOWE.svg"
+    },
+    {
+        "name": "Herbata w torebce papierowej",
+        "type": "bioodpady",
+        "imgName": "HERBATA-W-TOREBCE-PAPIEROWEJ",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/HERBATA-W-PAPIEROWYCH-TOREBKACH.svg"
+    },
+    {
+        "name": "Lusterko",
+        "type": "odpady zmieszane",
+        "imgName": "LUSTERKO",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/LUSTRO.svg"
+    },
+    {
+        "name": "Resztki warzywne, owocowe",
+        "type": "bioodpady",
+        "imgName": "RESZTKI-WARZYWNE,-OWOCOWE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/ODPADKI-WARZYWNE.svg"
+    },
+    {
+        "name": "Papier z rolki do czyszczenia ubra\u0144",
+        "type": "odpady zmieszane",
+        "imgName": "PAPIER-Z-ROLKI-DO-CZYSZCZENIA-UBRA\u0143",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/TEKSTYLIA.svg"
+    },
+    {
+        "name": "Kupon lotto",
+        "type": "papier",
+        "imgName": "KUPON-LOTTO",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/paper.svg"
+    },
+    {
+        "name": "Karta p\u0142atnicza",
+        "type": "odpady zmieszane",
+        "imgName": "KARTA-P\u0141ATNICZA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/ULOTKI-Z-KARTONIK\u00d3W-PO-LEKACH.svg"
+    },
+    {
+        "name": "Znicz plastikowy",
+        "type": "odpady zmieszane",
+        "imgName": "ZNICZ-PLASTIKOWY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/ZAPA\u0141KI.svg"
+    },
+    {
+        "name": "Elementy gumowe",
+        "type": "odpady zmieszane",
+        "imgName": "ELEMENTY-GUMOWE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/ELEMENTY-GUMOWE.svg"
+    },
+    {
+        "name": "Opakowanie plastikowe po ma\u0142ej \u015bmietance do kawy",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "OPAKOWANIE-PLASTIKOWE-PO-MA\u0141EJ-\u015aMIETANCE-DO-KAWY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/PLASTIKOWE-OPAKOWANIE-PO-\u015aMIETANIE.svg"
+    },
+    {
+        "name": "Makaron gotowany na wodzie lub mleku ro\u015blinnym",
+        "type": "bioodpady",
+        "imgName": "MAKARON-GOTOWANY-NA-WODZIE-LUB-MLEKU-RO\u015aLINNYM",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/MAKARON-GOWOWANY-NA-MLEKU.svg"
+    },
+    {
+        "name": "Fusy po kawie",
+        "type": "bioodpady",
+        "imgName": "FUSY-PO-KAWIE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/FUSY-PO-KAWIE.svg"
+    },
+    {
+        "name": "Sztuczne kwiaty",
+        "type": "odpady zmieszane",
+        "imgName": "SZTUCZNE-KWIATY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2020/10/green.svg"
+    },
+    {
+        "name": "\u017bwirek drewniany dla kota brudny",
+        "type": "odpady zmieszane",
+        "imgName": "\u017bWIREK-DREWNIANY-DLA-KOTA-BRUDNY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/\u017bWIREK-DREWNIANY-BRUDNY.svg"
+    },
+    {
+        "name": "Jarmu\u017c",
+        "type": "bioodpady",
+        "imgName": "JARMU\u017b",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Zbiorczo-\u2013-warzywa.svg"
+    },
+    {
+        "name": "Ok\u0142ady z borowiny zu\u017cyte",
+        "type": "odpady zmieszane",
+        "imgName": "OK\u0141ADY-Z-BOROWINY-ZU\u017bYTE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2020/10/15-Telefon-komorkowy-uszkodzony.svg"
+    },
+    {
+        "name": "Serwetki papierowe brudne",
+        "type": "odpady zmieszane",
+        "imgName": "SERWETKI-PAPIEROWE-BRUDNE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/BRUDNE-R\u0118CZNIKI-PAPIEROWER-CHUSTECZKI.svg"
+    },
+    {
+        "name": "Papier do wycierania r\u0105k zu\u017cyty",
+        "type": "odpady zmieszane",
+        "imgName": "PAPIER-DO-WYCIERANIA-R\u0104K-ZU\u017bYTY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/BRUDNE-R\u0118CZNIKI-PAPIEROWER-CHUSTECZKI.svg"
+    },
+    {
+        "name": "Talerz papierowy brudny",
+        "type": "odpady zmieszane",
+        "imgName": "TALERZ-PAPIEROWY-BRUDNY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/POKRYWKI-OD-S\u0141OIK\u00d3W.svg"
+    },
+    {
+        "name": "Frytki",
+        "type": "odpady zmieszane",
+        "imgName": "FRYTKI",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2020/10/26-Pudelko-po-papierosach-tekturowe.svg"
+    },
+    {
+        "name": "Kalafior",
+        "type": "bioodpady",
+        "imgName": "KALAFIOR",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/TACKI-PO-WARZYWACH-CZYSTE-STYROPIANOWE.svg"
+    },
+    {
+        "name": "Warzywa z zupy na mi\u0119sie",
+        "type": "odpady zmieszane",
+        "imgName": "WARZYWA-Z-ZUPY-NA-MI\u0118SIE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/WARZYWA-Z-ZUPY-NA-MI\u0118SIE.svg"
+    },
+    {
+        "name": "Opakowanie po pojedynczej kapsu\u0142ce do zmywarki foliowe",
+        "type": "odpady zmieszane",
+        "imgName": "OPAKOWANIE-PO-POJEDYNCZEJ-KAPSU\u0141CE-DO-ZMYWARKI-FOLIOWE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/ZAT\u0141USZCZONE-PLASTIKOWE-OPAKOWANIA.svg"
+    },
+    {
+        "name": "Resztki karmy dla ps\u00f3w i kot\u00f3w",
+        "type": "odpady zmieszane",
+        "imgName": "RESZTKI-KARMY-DLA-PS\u00d3W-I-KOT\u00d3W",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/TOREBKI-PO-BAKALIACH.svg"
+    },
+    {
+        "name": "Ko\u0144c\u00f3wki szparag\u00f3w",
+        "type": "bioodpady",
+        "imgName": "KO\u0143C\u00d3WKI-SZPARAG\u00d3W",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/KO\u0143C\u00d3WKI-SZPARAG\u00d3W.svg"
+    },
+    {
+        "name": "Tacka papierowa brudna",
+        "type": "odpady zmieszane",
+        "imgName": "TACKA-PAPIEROWA-BRUDNA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/TACKA-PO-MI\u0118SIE.svg"
+    },
+    {
+        "name": "Cukier",
+        "type": "odpady zmieszane",
+        "imgName": "CUKIER",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/TOREBKI-FOLIOWE-PO-PRZYPRAWACH.svg"
+    },
+    {
+        "name": "But gumowy",
+        "type": "odpady zmieszane",
+        "imgName": "BUT-GUMOWY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/STARE-KALOSZE.svg"
+    },
+    {
+        "name": "\u017bar\u00f3wka tradycyjna",
+        "type": "odpady zmieszane",
+        "imgName": "\u017bAR\u00d3WKA-TRADYCYJNA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/\u017bAR\u00d3WKA-TRADYCYJNA.svg"
+    },
+    {
+        "name": "Papier kolorowy, pomalowany",
+        "type": "odpady zmieszane",
+        "imgName": "PAPIER-KOLOROWY,-POMALOWANY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/ZDJ\u0118CIA-PAPIER-B\u0141YSZCZ\u0104CY.svg"
+    },
+    {
+        "name": "Sztu\u0107ce plastikowe",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "SZTU\u0106CE-PLASTIKOWE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/MOCNO-ZAT\u0141USZCZONY-STYROPIAN-PO-JEDZENIU.svg"
+    },
+    {
+        "name": "Pi\u0142ka gumowa",
+        "type": "odpady zmieszane",
+        "imgName": "PI\u0141KA-GUMOWA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Zbity-talerz.svg"
+    },
+    {
+        "name": "Sreberko po czekoladzie",
+        "type": "odpady zmieszane",
+        "imgName": "SREBERKO-PO-CZEKOLADZIE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/CELOFAN.svg"
+    },
+    {
+        "name": "Folia b\u0105belkowa",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "FOLIA-B\u0104BELKOWA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/FOLIA-B\u0104BELKOWA.svg"
+    },
+    {
+        "name": "Klamka metalowa",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "KLAMKA-METALOWA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/drzwi.svg"
+    },
+    {
+        "name": "Opakowanie po serze \u017c\u00f3\u0142tym krojonym plastikowe",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "OPAKOWANIE-PO-SERZE-\u017b\u00d3\u0141TYM-KROJONYM-PLASTIKOWE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/PLASTIKOWE-OPAKOWANIE-PO-KROJONYM-SERZE-\u017b\u00d3\u0141TYM.svg"
+    },
+    {
+        "name": "Tubka po jedzeniu plastikowa",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "TUBKA-PO-JEDZENIU-PLASTIKOWA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Plastikowy-woreczek-po-ugotowanym-ry\u017cu.svg"
+    },
+    {
+        "name": "Opakowanie po kiszonej kapu\u015bcie, og\u00f3rkach plastikowe",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "OPAKOWANIE-PO-KISZONEJ-KAPU\u015aCIE,-OG\u00d3RKACH-PLASTIKOWE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/PLASTIKOWE-OPAKOWANIA-PO-KISZONEJ-KAPUSCIE.svg"
+    },
+    {
+        "name": "No\u017cyki wymienne do maszynki do golenia",
+        "type": "odpady zmieszane",
+        "imgName": "NO\u017bYKI-WYMIENNE-DO-MASZYNKI-DO-GOLENIA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/PRZYBORY-TOALETOWE-NP-MASZYNKI.svg"
+    },
+    {
+        "name": "Struna",
+        "type": "odpady zmieszane",
+        "imgName": "STRUNA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/SZNUREK-KONOPNY.svg"
+    },
+    {
+        "name": "Seler",
+        "type": "bioodpady",
+        "imgName": "SELER",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Zbiorczo-\u2013-warzywa.svg"
+    },
+    {
+        "name": "Papier \u015bniadaniowy",
+        "type": "odpady zmieszane",
+        "imgName": "PAPIER-\u015aNIADANIOWY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Zu\u017cyty-papier-\u015bniadaniowy.svg"
+    },
+    {
+        "name": "R\u0119kawiczka lateksowa",
+        "type": "odpady zmieszane",
+        "imgName": "R\u0118KAWICZKA-LATEKSOWA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/R\u0118KAWICZKI-GUMOWE.svg"
+    },
+    {
+        "name": "Pude\u0142ko po papierosach tekturowe",
+        "type": "papier",
+        "imgName": "PUDE\u0141KO-PO-PAPIEROSACH-TEKTUROWE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/PAPIER-PO-TWAROGU.svg"
+    },
+    {
+        "name": "\u0141upinki od cebuli",
+        "type": "bioodpady",
+        "imgName": "\u0141UPINKI-OD-CEBULI",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/PESTKI-OD-WARZYW-I-OWOC\u00d3W.svg"
+    },
+    {
+        "name": "Dynia",
+        "type": "bioodpady",
+        "imgName": "DYNIA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/TACKI-PO-WARZYWACH-CZYSTE-STYROPIANOWE.svg"
+    },
+    {
+        "name": "Patelnia teflonowa",
+        "type": "odpady zmieszane",
+        "imgName": "PATELNIA-TEFLONOWA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/GARNEK-STALOWY.svg"
+    },
+    {
+        "name": "Wk\u0142adki do but\u00f3w zu\u017cyte",
+        "type": "odpady zmieszane",
+        "imgName": "WK\u0141ADKI-DO-BUT\u00d3W-ZU\u017bYTE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/BUTY-OBUWIE.svg"
+    },
+    {
+        "name": "Tealight",
+        "type": "odpady zmieszane",
+        "imgName": "TEALIGHT",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/ZAPA\u0141KI.svg"
+    },
+    {
+        "name": "Deska sedesowa",
+        "type": "odpady zmieszane",
+        "imgName": "DESKA-SEDESOWA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2020/10/44-Umywalka-wanna-kran-zlew-sedes-zbiorczo.svg"
+    },
+    {
+        "name": "Przek\u0142adka papierowa wsuwana mi\u0119dzy plastry krojonego sera",
+        "type": "odpady zmieszane",
+        "imgName": "PRZEK\u0141ADKA-PAPIEROWA-WSUWANA-MI\u0118DZY-PLASTRY-KROJONEGO-SERA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Opakowanie-po-w\u0119dlinie-serze-w-plasterkach.svg"
+    },
+    {
+        "name": "Banda\u017c",
+        "type": "odpady zmieszane",
+        "imgName": "BANDA\u017b",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/plastry-na-rany.svg"
+    },
+    {
+        "name": "Filtr w\u0119glowy do wody",
+        "type": "odpady zmieszane",
+        "imgName": "FILTR-W\u0118GLOWY-DO-WODY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/umywalka.svg"
+    },
+    {
+        "name": "Worek na \u015bmieci pusty",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "WOREK-NA-\u015aMIECI-PUSTY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/mixed.svg"
+    },
+    {
+        "name": "Wieszak na ubrania plastikowo-metalowy, drewniano-metalowy",
+        "type": "odpady zmieszane",
+        "imgName": "WIESZAK-NA-UBRANIA-PLASTIKOWO-METALOWY,-DREWNIANO-METALOWY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/UBRANIA.svg"
+    },
+    {
+        "name": "R\u0119kawiczka nitrylowa",
+        "type": "odpady zmieszane",
+        "imgName": "R\u0118KAWICZKA-NITRYLOWA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/R\u0118KAWICZKI-GUMOWE.svg"
+    },
+    {
+        "name": "Przedmioty z gumy",
+        "type": "odpady zmieszane",
+        "imgName": "PRZEDMIOTY-Z-GUMY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/ELEMENTY-GUMOWE.svg"
+    },
+    {
+        "name": "Torebka po przyprawach foliowa",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "TOREBKA-PO-PRZYPRAWACH-FOLIOWA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/TOREBKI-FOLIOWE-PO-PRZYPRAWACH.svg"
+    },
+    {
+        "name": "Ksi\u0105\u017cka",
+        "type": "papier",
+        "imgName": "KSI\u0104\u017bKA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/ZESZYT.svg"
+    },
+    {
+        "name": "Ni\u0107 dentystyczna",
+        "type": "odpady zmieszane",
+        "imgName": "NI\u0106-DENTYSTYCZNA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/KLISZE-RENGENOWSKIE.svg"
+    },
+    {
+        "name": "Tofu",
+        "type": "bioodpady",
+        "imgName": "TOFU",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/OPAKOWANIE-PLASTIKOWE-PO-PAR\u00d3WKACH.svg"
+    },
+    {
+        "name": "Resztki kanapki wega\u0144skiej",
+        "type": "bioodpady",
+        "imgName": "RESZTKI-KANAPKI-WEGA\u0143SKIEJ",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/KANAPKA.svg"
+    },
+    {
+        "name": "Smoczek",
+        "type": "odpady zmieszane",
+        "imgName": "SMOCZEK",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/PIELUCHY-BAMBUSOWE-BIODEGRADOWALNE-DZIECKO-NA-DIECIE-WEGETARIA\u0143SKIEJ.svg"
+    },
+    {
+        "name": "Obierki ziemniak\u00f3w",
+        "type": "bioodpady",
+        "imgName": "OBIERKI-ZIEMNIAK\u00d3W",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/ziemniaki.svg"
+    },
+    {
+        "name": "Zakr\u0119tka od s\u0142oika",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "ZAKR\u0118TKA-OD-S\u0141OIKA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/POKRYWKI-OD-S\u0141OIK\u00d3W.svg"
+    },
+    {
+        "name": "Filtr z fusami od kawy papierowy",
+        "type": "bioodpady",
+        "imgName": "FILTR-Z-FUSAMI-OD-KAWY-PAPIEROWY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/KAPSU\u0141KI-Z-KAW\u0104.svg"
+    },
+    {
+        "name": "Ogryzek po owocu",
+        "type": "bioodpady",
+        "imgName": "OGRYZEK-PO-OWOCU",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/ogryzek.svg"
+    },
+    {
+        "name": "Zbite szk\u0142o opakowaniowe",
+        "type": "szk\u0142o",
+        "imgName": "ZBITE-SZK\u0141O-OPAKOWANIOWE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/SZKLANA-BUTELKA-PO-SOKU.svg"
+    },
+    {
+        "name": "Wyka\u0142aczka",
+        "type": "odpady zmieszane",
+        "imgName": "WYKA\u0141ACZKA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Puszka-po-napoju.svg"
+    },
+    {
+        "name": "O\u015bci ryby",
+        "type": "odpady zmieszane",
+        "imgName": "O\u015aCI-RYBY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/PUSZKI-PO-RYBACH-W-OLEJU.svg"
+    },
+    {
+        "name": "Opakowanie po frytkach na wynos tekturowe, papierowe",
+        "type": "odpady zmieszane",
+        "imgName": "OPAKOWANIE-PO-FRYTKACH-NA-WYNOS-TEKTUROWE,-PAPIEROWE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/TOREBKA-PAPIEROWA-Z-KAWA\u0141KIEM-FOLII.svg"
+    },
+    {
+        "name": "Chusteczka papierowa zu\u017cyta",
+        "type": "odpady zmieszane",
+        "imgName": "CHUSTECZKA-PAPIEROWA-ZU\u017bYTA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/BRUDNE-R\u0118CZNIKI-PAPIEROWER-CHUSTECZKI.svg"
+    },
+    {
+        "name": "Tapeta",
+        "type": "odpady zmieszane",
+        "imgName": "TAPETA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/POCH\u0141ANIACZ-OD-TACKI-PO-MI\u0118SIE.svg"
+    },
+    {
+        "name": "Torebka po bakaliach foliowa",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "TOREBKA-PO-BAKALIACH-FOLIOWA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/TOREBKI-PO-BAKALIACH.svg"
+    },
+    {
+        "name": "Opakowanie kompostowalne, oznaczone znaczkiem sadzonki z podanym nr certyfikatu potwierdzaj\u0105cym kompostowalno\u015b\u0107",
+        "type": "bioodpady",
+        "imgName": "OPAKOWANIE-KOMPOSTOWALNE,-OZNACZONE-ZNACZKIEM-SADZONKI-Z-PODANYM-NR-CERTYFIKATU-POTWIERDZAJ\u0104CYM-KOMPOSTOWALNO\u015a\u0106",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/TOREBKI-PO-PRZYPRAWACH-PAPIEROWE.svg"
+    },
+    {
+        "name": "Papier \u015bcierny",
+        "type": "odpady zmieszane",
+        "imgName": "PAPIER-\u015aCIERNY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/paper.svg"
+    },
+    {
+        "name": "Jab\u0142ko",
+        "type": "bioodpady",
+        "imgName": "JAB\u0141KO",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/bio.svg"
+    },
+    {
+        "name": "Koper",
+        "type": "bioodpady",
+        "imgName": "KOPER",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/TACKI-PO-WARZYWACH-CZYSTE-STYROPIANOWE.svg"
+    },
+    {
+        "name": "Jagody",
+        "type": "bioodpady",
+        "imgName": "JAGODY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Jagody.svg"
+    },
+    {
+        "name": "Karczoch",
+        "type": "bioodpady",
+        "imgName": "KARCZOCH",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/TACKI-PO-WARZYWACH-CZYSTE-STYROPIANOWE.svg"
+    },
+    {
+        "name": "Ananas",
+        "type": "bioodpady",
+        "imgName": "ANANAS",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/TACKI-PO-WARZYWACH-CZYSTE-STYROPIANOWE.svg"
+    },
+    {
+        "name": "Opakowanie po serze bia\u0142ym plastikowe",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "OPAKOWANIE-PO-SERZE-BIA\u0141YM-PLASTIKOWE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/OPAKOWANIE-PLASTIKOWE-PO-SERZE-BIA\u0141YM.svg"
+    },
+    {
+        "name": "Ma\u0142\u017ce",
+        "type": "odpady zmieszane",
+        "imgName": "MA\u0141\u017bE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/OWOCE-MORZA.svg"
+    },
+    {
+        "name": "Foliowe opakowanie po mokrych chusteczkach",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "FOLIOWE-OPAKOWANIE-PO-MOKRYCH-CHUSTECZKACH",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/TOREBKI-FOLIOWE-PO-PRZYPRAWACH.svg"
+    },
+    {
+        "name": "Foliowe opakowanie po paluszkach",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "FOLIOWE-OPAKOWANIE-PO-PALUSZKACH",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/TOREBKI-PO-BAKALIACH.svg"
+    },
+    {
+        "name": "Filtr w\u0119glowy do dzbanka na wod\u0119",
+        "type": "odpady zmieszane",
+        "imgName": "FILTR-W\u0118GLOWY-DO-DZBANKA-NA-WOD\u0118",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Opakowania-po-\u015brodkach-czysto\u015bci-\u2013-zbiorczo.svg"
+    },
+    {
+        "name": "Jajko ca\u0142e",
+        "type": "odpady zmieszane",
+        "imgName": "JAJKO-CA\u0141E",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/CA\u0141E-JAJKO.svg"
+    },
+    {
+        "name": "Butelka plastikowa",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "BUTELKA-PLASTIKOWA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/BUTELKI-PET.svg"
+    },
+    {
+        "name": "Por",
+        "type": "bioodpady",
+        "imgName": "POR",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Zbiorczo-\u2013-warzywa.svg"
+    },
+    {
+        "name": "Mata piankowa",
+        "type": "odpady zmieszane",
+        "imgName": "MATA-PIANKOWA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2020/10/35-Plytki-ceramiczne-gres.svg"
+    },
+    {
+        "name": "Pomara\u0144cza",
+        "type": "bioodpady",
+        "imgName": "POMARA\u0143CZA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/SK\u00d3RKI-WOSKOWANE-OD-CYTRUS\u00d3W.svg"
+    },
+    {
+        "name": "Opakowania po kosmetykach szklane",
+        "type": "szk\u0142o",
+        "imgName": "OPAKOWANIA-PO-KOSMETYKACH-SZKLANE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/SZKLANE-OPAKOWANIA-PO-KOSMETYKACH.svg"
+    },
+    {
+        "name": "R\u0119kawiczka z folii HDPE",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "R\u0118KAWICZKA-Z-FOLII-HDPE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/R\u0118KAWICZKI-GUMOWE.svg"
+    },
+    {
+        "name": "Tetrapak",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "TETRAPAK",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/TETRAPAKI.svg"
+    },
+    {
+        "name": "Parasolka",
+        "type": "odpady zmieszane",
+        "imgName": "PARASOLKA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Parasolka.svg"
+    },
+    {
+        "name": "Paski papieru odklejane od podpasek",
+        "type": "odpady zmieszane",
+        "imgName": "PASKI-PAPIERU-ODKLEJANE-OD-PODPASEK",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/08/podpaski.svg"
+    },
+    {
+        "name": "Pojemnik po lodach papierowy",
+        "type": "odpady zmieszane",
+        "imgName": "POJEMNIK-PO-LODACH-PAPIEROWY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/WIECZKO-PO-OPAKOWANIU-PO-JOGURCIE.svg"
+    },
+    {
+        "name": "Rzeczy bawe\u0142niane",
+        "type": "odpady zmieszane",
+        "imgName": "RZECZY-BAWE\u0141NIANE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/RZECZY-BAWA\u0141NIANE.svg"
+    },
+    {
+        "name": "Siatka foliowa",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "SIATKA-FOLIOWA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Torebka-foliowa.svg"
+    },
+    {
+        "name": "Tubka po kosmetykach metalowa/plastikowa",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "TUBKA-PO-KOSMETYKACH-METALOWA\\PLASTIKOWA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/TUBKI-PO-PRZECIERKACH-DLA-DZIECI-INNE-NIZ-PLASTIKOWE.svg"
+    },
+    {
+        "name": "Butelka po \u017celu pod prysznic plastikowa",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "BUTELKA-PO-\u017bELU-POD-PRYSZNIC-PLASTIKOWA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/BUTELKI-PLASTIKOWE-PO-\u017bELACH-POD-PRYSZNIC.svg"
+    },
+    {
+        "name": "G\u0105bka do mycia naczy\u0144",
+        "type": "odpady zmieszane",
+        "imgName": "G\u0104BKA-DO-MYCIA-NACZY\u0143",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/G\u0104BKA-DO-MYCIA-NACZY\u0144.svg"
+    },
+    {
+        "name": "Wieszak metalowy na ubrania",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "WIESZAK-METALOWY-NA-UBRANIA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/UBRANIA.svg"
+    },
+    {
+        "name": "Papier foliowany",
+        "type": "odpady zmieszane",
+        "imgName": "PAPIER-FOLIOWANY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/FIZELINA.svg"
+    },
+    {
+        "name": "Sk\u00f3rka banana",
+        "type": "bioodpady",
+        "imgName": "SK\u00d3RKA-BANANA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/SK\u00d3RKA-OD-BANANA.svg"
+    },
+    {
+        "name": "Folia stretch",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "FOLIA-STRETCH",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/BRUDNY-R\u0118CZNIK-PAPIEROWY.svg"
+    },
+    {
+        "name": "S\u0142oik",
+        "type": "szk\u0142o",
+        "imgName": "S\u0141OIK",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/s\u0142oik.svg"
+    },
+    {
+        "name": "Blistry, listki po lekach puste, z folii i aluminium",
+        "type": "odpady zmieszane",
+        "imgName": "BLISTRY,-LISTKI-PO-LEKACH-PUSTE,-Z-FOLII-I-ALUMINIUM",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/PUSTE-BLISTRY-LISTKI-PO-LEKACH.svg"
+    },
+    {
+        "name": "Batat",
+        "type": "bioodpady",
+        "imgName": "BATAT",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Zbiorczo-\u2013-warzywa.svg"
+    },
+    {
+        "name": "Torebka po przyprawach papierowa",
+        "type": "papier",
+        "imgName": "TOREBKA-PO-PRZYPRAWACH-PAPIEROWA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/TOREBKI-PO-PRZYPRAWACH-PAPIEROWE.svg"
+    },
+    {
+        "name": "Pellet",
+        "type": "odpady zmieszane",
+        "imgName": "PELLET",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/PELET.svg"
+    },
+    {
+        "name": "Kask rowerowy",
+        "type": "odpady zmieszane",
+        "imgName": "KASK-ROWEROWY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/UBRANIA.svg"
+    },
+    {
+        "name": "Os\u0142onka do \u015bwieczki typu tealight aluminiowa",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "OS\u0141ONKA-DO-\u015aWIECZKI-TYPU-TEALIGHT-ALUMINIOWA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2020/10/21-Swieczka-normalna-Tealight.svg"
+    },
+    {
+        "name": "Szklana dekoracja",
+        "type": "odpady zmieszane",
+        "imgName": "SZKLANA-DEKORACJA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/s\u0142onecznik.svg"
+    },
+    {
+        "name": "Tuba po chipsach",
+        "type": "odpady zmieszane",
+        "imgName": "TUBA-PO-CHIPSACH",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/FOLIA-B\u0104BELKOWA.svg"
+    },
+    {
+        "name": "Opakowanie po ketchupie plastikowe",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "OPAKOWANIE-PO-KETCHUPIE-PLASTIKOWE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Plastikowa-butelka-po-ketchupie.svg"
+    },
+    {
+        "name": "Brukselka",
+        "type": "bioodpady",
+        "imgName": "BRUKSELKA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/11/Brukselka.svg"
+    },
+    {
+        "name": "Opakowanie po ry\u017cu luzem plastikowe",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "OPAKOWANIE-PO-RY\u017bU-LUZEM-PLASTIKOWE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Plastikowy-woreczek-po-ugotowanym-ry\u017cu.svg"
+    },
+    {
+        "name": "Sk\u00f3rka cytrus\u00f3w",
+        "type": "bioodpady",
+        "imgName": "SK\u00d3RKA-CYTRUS\u00d3W",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/SK\u00d3RKI-WOSKOWANE-OD-CYTRUS\u00d3W.svg"
+    },
+    {
+        "name": "W\u0142osy ze szczotki",
+        "type": "odpady zmieszane",
+        "imgName": "W\u0141OSY-ZE-SZCZOTKI",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/SIER\u015a\u0106-PSA-LUB-KOTA.svg"
+    },
+    {
+        "name": "Margaryna",
+        "type": "odpady zmieszane",
+        "imgName": "MARGARYNA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/MARGARYNA.svg"
+    },
+    {
+        "name": "Konewka",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "KONEWKA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Wazon.svg"
+    },
+    {
+        "name": "Czekolada",
+        "type": "odpady zmieszane",
+        "imgName": "CZEKOLADA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/guma.svg"
+    },
+    {
+        "name": "\u0141ubianka drewniana",
+        "type": "odpady zmieszane",
+        "imgName": "\u0141UBIANKA-DREWNIANA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/TACKI-PO-WARZYWACH-CZYSTE-STYROPIANOWE.svg"
+    },
+    {
+        "name": "Opakowanie biodegradowalne, bez znaczka sadzonki z podanym nr certyfikatu potwierdzaj\u0105cym kompostowalno\u015b\u0107",
+        "type": "odpady zmieszane",
+        "imgName": "OPAKOWANIE-BIODEGRADOWALNE,-BEZ-ZNACZKA-SADZONKI-Z-PODANYM-NR-CERTYFIKATU-POTWIERDZAJ\u0104CYM-KOMPOSTOWALNO\u015a\u0106",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2020/10/1-Styropian-opakowaniowy.svg"
+    },
+    {
+        "name": "Podk\u0142adka filcowa",
+        "type": "odpady zmieszane",
+        "imgName": "PODK\u0141ADKA-FILCOWA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2020/10/35-Plytki-ceramiczne-gres.svg"
+    },
+    {
+        "name": "Papier pakowy z g\u0105bk\u0105",
+        "type": "odpady zmieszane",
+        "imgName": "PAPIER-PAKOWY-Z-G\u0104BK\u0104",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2020/10/31-Papier-do-pakowania-prezentow-torebki-prezentowe-zbiorczo.svg"
+    },
+    {
+        "name": "Opakowanie po kawie z oznaczeniem C/PAP(81) i C/LDPE(90)",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "OPAKOWANIE-PO-KAWIE-Z-OZNACZENIEM-C\\PAP(81)-I-C\\LDPE(90)",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/TOREBKI-FOLIOWE-PO-PRZYPRAWACH.svg"
+    },
+    {
+        "name": "Zas\u0142ona prysznicowa plastikowa",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "ZAS\u0141ONA-PRYSZNICOWA-PLASTIKOWA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/FIZELINA.svg"
+    },
+    {
+        "name": "Sa\u0142ata",
+        "type": "bioodpady",
+        "imgName": "SA\u0141ATA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/bio.svg"
+    },
+    {
+        "name": "Tubka po ma\u015bci plastikowa",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "TUBKA-PO-MA\u015aCI-PLASTIKOWA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/TUBKI-PO-PRZECIERKACH-DLA-DZIECI-INNE-NIZ-PLASTIKOWE.svg"
+    },
+    {
+        "name": "Plecak",
+        "type": "odpady zmieszane",
+        "imgName": "PLECAK",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/\u015aCINKI-NATURALNYCH-TKANIN.svg"
+    },
+    {
+        "name": "Szalotka",
+        "type": "bioodpady",
+        "imgName": "SZALOTKA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/bio.svg"
+    },
+    {
+        "name": "Tampon",
+        "type": "odpady zmieszane",
+        "imgName": "TAMPON",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/08/podpaski.svg"
+    },
+    {
+        "name": "Opakowanie po detergencie plastikowe",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "OPAKOWANIE-PO-DETERGENCIE-PLASTIKOWE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/BUTELKI-PLASTIKOWE-PO-\u017bELACH-POD-PRYSZNIC.svg"
+    },
+    {
+        "name": "ciasto",
+        "type": "odpady zmieszane",
+        "imgName": "CIASTO",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/KANAPKA.svg"
+    },
+    {
+        "name": "Resztki jedzenia zawieraj\u0105ce produkty pochodzenia zwierz\u0119cego lub t\u0142uszcz",
+        "type": "odpady zmieszane",
+        "imgName": "RESZTKI-JEDZENIA-ZAWIERAJ\u0104CE-PRODUKTY-POCHODZENIA-ZWIERZ\u0118CEGO-LUB-T\u0141USZCZ",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/KO\u015aCI-NP-KURCZAKA.svg"
+    },
+    {
+        "name": "Pude\u0142ko po butach tekturowe",
+        "type": "papier",
+        "imgName": "PUDE\u0141KO-PO-BUTACH-TEKTUROWE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/GRZEBIENIE-TEKTUROWE-OD-KARTON\u00d3W.svg"
+    },
+    {
+        "name": "Ser \u017c\u00f3\u0142ty",
+        "type": "odpady zmieszane",
+        "imgName": "SER-\u017b\u00d3\u0141TY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/OPAKOWANIE-PO-SERKACH-ALMETTE.svg"
+    },
+    {
+        "name": "Album na znaczki pocztowe, zdj\u0119cia zniszczony",
+        "type": "odpady zmieszane",
+        "imgName": "ALBUM-NA-ZNACZKI-POCZTOWE,-ZDJ\u0118CIA-ZNISZCZONY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/KARTONIKI-ORAZ-ULOTKI-Z-LEK\u00d3W.svg"
+    },
+    {
+        "name": "M\u0142ynek po przyprawach r\u0119czny",
+        "type": "odpady zmieszane",
+        "imgName": "M\u0141YNEK-PO-PRZYPRAWACH-R\u0118CZNY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Plastikowa-butelka-po-ketchupie.svg"
+    },
+    {
+        "name": "Przedmioty z polipropylenu, PP",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "PRZEDMIOTY-Z-POLIPROPYLENU,-PP",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/zabawki-elektroniczne-elektryczne.svg"
+    },
+    {
+        "name": "Zszywacz zepsuty",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "ZSZYWACZ-ZEPSUTY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/guma.svg"
+    },
+    {
+        "name": "Butelka po oliwie, oleju szklana",
+        "type": "szk\u0142o",
+        "imgName": "BUTELKA-PO-OLIWIE,-OLEJU-SZKLANA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/SZKLANA-BUTELKA-PO-OLEJU-OLIWIE.svg"
+    },
+    {
+        "name": "Bibu\u0142a",
+        "type": "odpady zmieszane",
+        "imgName": "BIBU\u0141A",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/FIZELINA.svg"
+    },
+    {
+        "name": "Termometr lekarski bezrt\u0119ciowy, z galistanem w \u015brodku",
+        "type": "odpady zmieszane",
+        "imgName": "TERMOMETR-LEKARSKI-BEZRT\u0118CIOWY,-Z-GALISTANEM-W-\u015aRODKU",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/RT\u0118\u0106-Z-ROZBITEGO-TEROMETRU.svg"
+    },
+    {
+        "name": "Balon",
+        "type": "odpady zmieszane",
+        "imgName": "BALON",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/balony.svg"
+    },
+    {
+        "name": "Zapalniczka jednorazowa",
+        "type": "odpady zmieszane",
+        "imgName": "ZAPALNICZKA-JEDNORAZOWA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/ZAPALNICZKA-JEDNORAZOWA.svg"
+    },
+    {
+        "name": "Opakowanie po kosmetykach plastikowe",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "OPAKOWANIE-PO-KOSMETYKACH-PLASTIKOWE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Opakowania-po-kosmetykach-\u2013-zbiorcze.svg"
+    },
+    {
+        "name": "D\u0142ugopis",
+        "type": "odpady zmieszane",
+        "imgName": "D\u0141UGOPIS",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/DLUGOPISY.svg"
+    },
+    {
+        "name": "Chleb sple\u015bnia\u0142y",
+        "type": "bioodpady",
+        "imgName": "CHLEB-SPLE\u015aNIA\u0141Y",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/CHLEB.svg"
+    },
+    {
+        "name": "Majonez",
+        "type": "odpady zmieszane",
+        "imgName": "MAJONEZ",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/SZKLANE-OPAKOWANIE-PO-\u015aMIETANIE.svg"
+    },
+    {
+        "name": "Szk\u0142o od kuchenki indukcyjnej, elektrycznej",
+        "type": "odpady zmieszane",
+        "imgName": "SZK\u0141O-OD-KUCHENKI-INDUKCYJNEJ,-ELEKTRYCZNEJ",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2020/10/9-Sprzet-rtv-zbiorczo.svg"
+    },
+    {
+        "name": "Zdj\u0119cie rentgenowskie",
+        "type": "odpady zmieszane",
+        "imgName": "ZDJ\u0118CIE-RENTGENOWSKIE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Gazeta-czasopisma.svg"
+    },
+    {
+        "name": "Sk\u00f3rka pomara\u0144czy",
+        "type": "bioodpady",
+        "imgName": "SK\u00d3RKA-POMARA\u0143CZY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/cytryna.svg"
+    },
+    {
+        "name": "Podpaska",
+        "type": "odpady zmieszane",
+        "imgName": "PODPASKA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/08/podpaski.svg"
+    },
+    {
+        "name": "\u015aruba",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "\u015aRUBA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/\u017bAR\u00d3WKA-ENERGOOSZCZ\u0118DNA.svg"
+    },
+    {
+        "name": "Porzeczki",
+        "type": "bioodpady",
+        "imgName": "PORZECZKI",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Jagody.svg"
+    },
+    {
+        "name": "Skorupki od orzech\u00f3w",
+        "type": "bioodpady",
+        "imgName": "SKORUPKI-OD-ORZECH\u00d3W",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/SKORUPY-PO-ORZECHACH.svg"
+    },
+    {
+        "name": "Kwiaty",
+        "type": "bioodpady",
+        "imgName": "KWIATY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/s\u0142onecznik.svg"
+    },
+    {
+        "name": "Owsianka/kaszka na mleku",
+        "type": "odpady zmieszane",
+        "imgName": "OWSIANKA\\KASZKA-NA-MLEKU",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/owsianka-kaszka-na-mleku.svg"
+    },
+    {
+        "name": "Wyt\u0142oczki po jajkach plastikowe",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "WYT\u0141OCZKI-PO-JAJKACH-PLASTIKOWE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/czyste-WYT\u0141OCZKI-DO-JAJEK.svg"
+    },
+    {
+        "name": "Opakowanie po silikonie monta\u017cowym puste",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "OPAKOWANIE-PO-SILIKONIE-MONTA\u017bOWYM-PUSTE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/POJEMNIKI-PO-LAKIERZE-DO-W\u0141OS\u00d3W.svg"
+    },
+    {
+        "name": "Koperta z okienkiem",
+        "type": "odpady zmieszane",
+        "imgName": "KOPERTA-Z-OKIENKIEM",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/KOPERTY-Z-OKIENKIEM.svg"
+    },
+    {
+        "name": "W\u0119giel po grillu",
+        "type": "odpady zmieszane",
+        "imgName": "W\u0118GIEL-PO-GRILLU",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/PAPIEROWE-WORKI-PO-W\u0118GLU.svg"
+    },
+    {
+        "name": "Roszponka",
+        "type": "bioodpady",
+        "imgName": "ROSZPONKA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/TACKI-PO-WARZYWACH-CZYSTE-STYROPIANOWE.svg"
+    },
+    {
+        "name": "Folia aluminiowa",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "FOLIA-ALUMINIOWA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/FOLIA-B\u0104BELKOWA.svg"
+    },
+    {
+        "name": "Karton typu tetra pak",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "KARTON-TYPU-TETRA-PAK",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/TETRAPAKI.svg"
+    },
+    {
+        "name": "Kredka drewniana",
+        "type": "odpady zmieszane",
+        "imgName": "KREDKA-DREWNIANA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/RESZTKI-Z-TEMPEROWANIA-DREWNIANYCH-KREDEK.svg"
+    },
+    {
+        "name": "Gruszka",
+        "type": "bioodpady",
+        "imgName": "GRUSZKA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/TACKI-PO-WARZYWACH-CZYSTE-PLASTIKOWE.svg"
+    },
+    {
+        "name": "Papier do pieczenia zu\u017cyty",
+        "type": "odpady zmieszane",
+        "imgName": "PAPIER-DO-PIECZENIA-ZU\u017bYTY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/PAPIER-DO-PIECZENIA-ZU\u017bYTY.svg"
+    },
+    {
+        "name": "Opakowanie po przyprawach papierowo-foliowe",
+        "type": "odpady zmieszane",
+        "imgName": "OPAKOWANIE-PO-PRZYPRAWACH-PAPIEROWO-FOLIOWE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/TOREBKI-PO-PRZYPRAWACH-PAPIEROWE.svg"
+    },
+    {
+        "name": "Torba z polipropylenu",
+        "type": "odpady zmieszane",
+        "imgName": "TORBA-Z-POLIPROPYLENU",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Torebka-foliowa.svg"
+    },
+    {
+        "name": "Papier woskowany",
+        "type": "odpady zmieszane",
+        "imgName": "PAPIER-WOSKOWANY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/paper.svg"
+    },
+    {
+        "name": "Pokrywka od garnka szklana",
+        "type": "odpady zmieszane",
+        "imgName": "POKRYWKA-OD-GARNKA-SZKLANA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/GARNEK-STALOWY.svg"
+    },
+    {
+        "name": "Sznurek",
+        "type": "odpady zmieszane",
+        "imgName": "SZNUREK",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/STOPERY-DO-USZU.svg"
+    },
+    {
+        "name": "Geow\u0142\u00f3knina",
+        "type": "odpady zmieszane",
+        "imgName": "GEOW\u0141\u00d3KNINA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/\u015aCINKI-NATURALNYCH-TKANIN.svg"
+    },
+    {
+        "name": "Sztu\u0107ce ze stali nierdzewnej",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "SZTU\u0106CE-ZE-STALI-NIERDZEWNEJ",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/P\u0141ATKI-GOTOWANE-NA-MLEKU.svg"
+    },
+    {
+        "name": "Mak",
+        "type": "bioodpady",
+        "imgName": "MAK",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/TOREBKI-PO-BAKALIACH.svg"
+    },
+    {
+        "name": "Tubka po pa\u015bcie do z\u0119b\u00f3w",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "TUBKA-PO-PA\u015aCIE-DO-Z\u0118B\u00d3W",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/TUBKI-PO-PRZECIERKACH-DLA-DZIECI-INNE-NIZ-PLASTIKOWE.svg"
+    },
+    {
+        "name": "G\u0105bka do mycia pod\u0142\u00f3g",
+        "type": "odpady zmieszane",
+        "imgName": "G\u0104BKA-DO-MYCIA-POD\u0141\u00d3G",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/G\u0104BKA-DO-MYCIA-POD\u0141\u00d3G.svg"
+    },
+    {
+        "name": "Rzodkiewka",
+        "type": "bioodpady",
+        "imgName": "RZODKIEWKA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Zbiorczo-\u2013-warzywa.svg"
+    },
+    {
+        "name": "Kalka",
+        "type": "odpady zmieszane",
+        "imgName": "KALKA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/POCH\u0141ANIACZ-OD-TACKI-PO-MI\u0118SIE.svg"
+    },
+    {
+        "name": "Awokado",
+        "type": "bioodpady",
+        "imgName": "AWOKADO",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/Avocado.svg"
+    },
+    {
+        "name": "Os\u0142onka na par\u00f3wk\u0119 foliowa",
+        "type": "odpady zmieszane",
+        "imgName": "OS\u0141ONKA-NA-PAR\u00d3WK\u0118-FOLIOWA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/FOLia-PO-POJEDYNCZYCH-PAR\u00d3WKACH.svg"
+    },
+    {
+        "name": "Plastik biodegradowalny",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "PLASTIK-BIODEGRADOWALNY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/KUBEK-PLASTIKOWY.svg"
+    },
+    {
+        "name": "Opakowanie po czekoladzie papierowe",
+        "type": "papier",
+        "imgName": "OPAKOWANIE-PO-CZEKOLADZIE-PAPIEROWE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/guma-do-\u017cucia.svg"
+    },
+    {
+        "name": "Dykta - niedu\u017cy kawa\u0142ek",
+        "type": "odpady zmieszane",
+        "imgName": "DYKTA---NIEDU\u017bY-KAWA\u0141EK",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Opakowanie-po-w\u0119dlinie-serze-w-plasterkach.svg"
+    },
+    {
+        "name": "Worek raszlowy",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "WOREK-RASZLOWY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Torebka-foliowa.svg"
+    },
+    {
+        "name": "Tacka aluminiowa czysta lub brudna",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "TACKA-ALUMINIOWA-CZYSTA-LUB-BRUDNA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/TOREBKI-FOLIOWE-PO-PRZYPRAWACH.svg"
+    },
+    {
+        "name": "Ga\u0142\u0105zka od pomidora",
+        "type": "bioodpady",
+        "imgName": "GA\u0141\u0104ZKA-OD-POMIDORA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/GA\u0141\u0104ZKA-OD-POMIDORA.svg"
+    },
+    {
+        "name": "P\u0119dzel",
+        "type": "odpady zmieszane",
+        "imgName": "P\u0118DZEL",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2020/10/42-Puszka-po-farbie-walek-pedzel-\u2013zbiorczo.svg"
+    },
+    {
+        "name": "Opakowanie po hamburgerze na wynos tekturowe, papierowe",
+        "type": "odpady zmieszane",
+        "imgName": "OPAKOWANIE-PO-HAMBURGERZE-NA-WYNOS-TEKTUROWE,-PAPIEROWE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/TOREBKA-PAPIEROWA-Z-KAWA\u0141KIEM-FOLII.svg"
+    },
+    {
+        "name": "Pi\u00f3ro ptasie",
+        "type": "odpady zmieszane",
+        "imgName": "PI\u00d3RO-PTASIE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/mixed.svg"
+    },
+    {
+        "name": "Czajnik metalowy",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "CZAJNIK-METALOWY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/GARNEK-STALOWY.svg"
+    },
+    {
+        "name": "Torebka prezentowa",
+        "type": "papier",
+        "imgName": "TOREBKA-PREZENTOWA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/TOREBKI-PO-BAKALIACH.svg"
+    },
+    {
+        "name": "Pampersy (jednorazowe pieluchy)",
+        "type": "odpady zmieszane",
+        "imgName": "PAMPERSY-(JEDNORAZOWE-PIELUCHY)",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/PIELUCHY-EKOLOGICZNE.svg"
+    },
+    {
+        "name": "Krewetki",
+        "type": "odpady zmieszane",
+        "imgName": "KREWETKI",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/OWOCE-MORZA.svg"
+    },
+    {
+        "name": "Maseczka ochronna",
+        "type": "odpady zmieszane",
+        "imgName": "MASECZKA-OCHRONNA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Szklane-opakowanie-po-lekach.svg"
+    },
+    {
+        "name": "Lalka plastikowa",
+        "type": "odpady zmieszane",
+        "imgName": "LALKA-PLASTIKOWA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2020/10/24-Pluszak.svg"
+    },
+    {
+        "name": "Burak",
+        "type": "bioodpady",
+        "imgName": "BURAK",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/TACKI-PO-WARZYWACH-CZYSTE-STYROPIANOWE.svg"
+    },
+    {
+        "name": "Karta SIM",
+        "type": "odpady zmieszane",
+        "imgName": "KARTA-SIM",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2020/10/36-Sprzet-komputerowy-zbiorczo.svg"
+    },
+    {
+        "name": "Granat",
+        "type": "bioodpady",
+        "imgName": "GRANAT",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Owoc-granatu.svg"
+    },
+    {
+        "name": "Guma do \u017cucia",
+        "type": "odpady zmieszane",
+        "imgName": "GUMA-DO-\u017bUCIA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/guma-do-\u017cucia.svg"
+    },
+    {
+        "name": "Opakowanie po \u017celu do czyszczenia toalet",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "OPAKOWANIE-PO-\u017bELU-DO-CZYSZCZENIA-TOALET",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/BUTELKI-PET.svg"
+    },
+    {
+        "name": "Doniczka plastikowa",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "DONICZKA-PLASTIKOWA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/DONICZKA-PLASTIKOWA.svg"
+    },
+    {
+        "name": "Fizelina",
+        "type": "odpady zmieszane",
+        "imgName": "FIZELINA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/FIZELINA.svg"
+    },
+    {
+        "name": "Nici",
+        "type": "odpady zmieszane",
+        "imgName": "NICI",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/NICI.svg"
+    },
+    {
+        "name": "Przyprawy",
+        "type": "bioodpady",
+        "imgName": "PRZYPRAWY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/FUSY-PO-KAWIE.svg"
+    },
+    {
+        "name": "Rze\u017cucha",
+        "type": "bioodpady",
+        "imgName": "RZE\u017bUCHA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Zbiorczo-\u2013-warzywa.svg"
+    },
+    {
+        "name": "Papier lakierowany",
+        "type": "papier",
+        "imgName": "PAPIER-LAKIEROWANY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/CZYSTY-STYROPIAN-OPAKOWANIOWY.svg"
+    },
+    {
+        "name": "Naklejka",
+        "type": "odpady zmieszane",
+        "imgName": "NAKLEJKA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/PARAGONY.svg"
+    },
+    {
+        "name": "Pietruszka",
+        "type": "bioodpady",
+        "imgName": "PIETRUSZKA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Zbiorczo-\u2013-warzywa.svg"
+    },
+    {
+        "name": "\u015acinki tkanin",
+        "type": "odpady zmieszane",
+        "imgName": "\u015aCINKI-TKANIN",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/\u015aCINKI-NATURALNYCH-TKANIN.svg"
+    },
+    {
+        "name": "Pasek sk\u00f3rzany",
+        "type": "odpady zmieszane",
+        "imgName": "PASEK-SK\u00d3RZANY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/PASEK-SK\u00d3RZANY.svg"
+    },
+    {
+        "name": "Kubek ceramiczny",
+        "type": "odpady zmieszane",
+        "imgName": "KUBEK-CERAMICZNY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/p\u0119kni\u0119ty-kieliszek-do-wina.svg"
+    },
+    {
+        "name": "Pojemnik po bitej \u015bmietanie pod ci\u015bnieniem",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "POJEMNIK-PO-BITEJ-\u015aMIETANIE-POD-CI\u015aNIENIEM",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Plastikowa-butelka-po-ketchupie.svg"
+    },
+    {
+        "name": "Opakowanie po hummusie plastikowe",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "OPAKOWANIE-PO-HUMMUSIE-PLASTIKOWE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/PLASTIKOWE-OPAKOWANIE-PO-\u015aMIETANIE.svg"
+    },
+    {
+        "name": "But narciarski",
+        "type": "odpady zmieszane",
+        "imgName": "BUT-NARCIARSKI",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/STARE-KALOSZE.svg"
+    },
+    {
+        "name": "Opakowanie po szczoteczce do z\u0119b\u00f3w plastikowe",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "OPAKOWANIE-PO-SZCZOTECZCE-DO-Z\u0118B\u00d3W-PLASTIKOWE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/PLASTIKOWE-OPAKOWANIE-PO-SZCZOTECZCE-DO-Z\u0118B\u00d3W.svg"
+    },
+    {
+        "name": "Opakowanie po proszku do pieczenia z laminowanego papieru",
+        "type": "odpady zmieszane",
+        "imgName": "OPAKOWANIE-PO-PROSZKU-DO-PIECZENIA-Z-LAMINOWANEGO-PAPIERU",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/TOREBKI-FOLIOWE-PO-PRZYPRAWACH.svg"
+    },
+    {
+        "name": "Ser bia\u0142y",
+        "type": "odpady zmieszane",
+        "imgName": "SER-BIA\u0141Y",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/OPAKOWANIE-PLASTIKOWE-PO-SERZE-BIA\u0141YM.svg"
+    },
+    {
+        "name": "Dezodorant w sztyfcie, w kulce plastikowy",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "DEZODORANT-W-SZTYFCIE,-W-KULCE-PLASTIKOWY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/PLASTIKOWE-OPAKOWANIA-PO-KOSMETYKACH.svg"
+    },
+    {
+        "name": "Przedmioty z silikonu",
+        "type": "odpady zmieszane",
+        "imgName": "PRZEDMIOTY-Z-SILIKONU",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/ELEMENTY-GUMOWE.svg"
+    },
+    {
+        "name": "Opakowanie po ma\u015ble, margarynie plastikowe",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "OPAKOWANIE-PO-MA\u015aLE,-MARGARYNIE-PLASTIKOWE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Opakowanie-plastikowe-po-margarynie.svg"
+    },
+    {
+        "name": "Muszle po owocach morza, czyste, bez sosu",
+        "type": "bioodpady",
+        "imgName": "MUSZLE-PO-OWOCACH-MORZA,-CZYSTE,-BEZ-SOSU",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/OWOCE-MORZA.svg"
+    },
+    {
+        "name": "Wi\u015bnie",
+        "type": "bioodpady",
+        "imgName": "WI\u015aNIE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/TACKI-PO-WARZYWACH-CZYSTE-PLASTIKOWE.svg"
+    },
+    {
+        "name": "Garnek stalowy",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "GARNEK-STALOWY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/GARNEK-STALOWY.svg"
+    },
+    {
+        "name": "Kanapka z produktami odzwierz\u0119cymi np. mas\u0142em, serem, w\u0119dlin\u0105",
+        "type": "odpady zmieszane",
+        "imgName": "KANAPKA-Z-PRODUKTAMI-ODZWIERZ\u0118CYMI-NP.-MAS\u0141EM,-SEREM,-W\u0118DLIN\u0104",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/KANAPKA.svg"
+    },
+    {
+        "name": "Ko\u0142dra",
+        "type": "odpady zmieszane",
+        "imgName": "KO\u0141DRA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/N\u00d3\u017bKI-MEBLI-drewniane.svg"
+    },
+    {
+        "name": "Dezodorant w sprayu",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "DEZODORANT-W-SPRAYU",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/POJEMNIKI-PO-LAKIERZE-DO-W\u0141OS\u00d3W.svg"
+    },
+    {
+        "name": "Rzepa",
+        "type": "bioodpady",
+        "imgName": "RZEPA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/TACKI-PO-WARZYWACH-CZYSTE-STYROPIANOWE.svg"
+    },
+    {
+        "name": "Saszetka po jedzeniu dla kota, psa",
+        "type": "odpady zmieszane",
+        "imgName": "SASZETKA-PO-JEDZENIU-DLA-KOTA,-PSA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/SASZETKI-PO-JEDZENIU-DLA-KOT\u00d3W.svg"
+    },
+    {
+        "name": "Puszka po napoju",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "PUSZKA-PO-NAPOJU",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Puszka-po-napoju.svg"
+    },
+    {
+        "name": "Szczoteczka do z\u0119b\u00f3w bambusowa",
+        "type": "odpady zmieszane",
+        "imgName": "SZCZOTECZKA-DO-Z\u0118B\u00d3W-BAMBUSOWA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/PLASTIKOWE-OPAKOWANIE-PO-SZCZOTECZCE-DO-Z\u0118B\u00d3W.svg"
+    },
+    {
+        "name": "Pasternak",
+        "type": "bioodpady",
+        "imgName": "PASTERNAK",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Zbiorczo-\u2013-warzywa.svg"
+    },
+    {
+        "name": "Parafina",
+        "type": "odpady zmieszane",
+        "imgName": "PARAFINA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Plastikowa-butelka-po-ketchupie.svg"
+    },
+    {
+        "name": "R\u0119kawiczka winylowa",
+        "type": "odpady zmieszane",
+        "imgName": "R\u0118KAWICZKA-WINYLOWA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/R\u0118KAWICZKI-GUMOWE.svg"
+    },
+    {
+        "name": "Mas\u0142o",
+        "type": "odpady zmieszane",
+        "imgName": "MAS\u0141O",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/MAS\u0141O.svg"
+    },
+    {
+        "name": "Opakowanie po w\u0119dlinie, serze w plastrach plastikowe",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "OPAKOWANIE-PO-W\u0118DLINIE,-SERZE-W-PLASTRACH-PLASTIKOWE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/OPAKOWANIE-PLASTIKOWE-PO-PAR\u00d3WKACH.svg"
+    },
+    {
+        "name": "Siatka na owoce, warzywa plastikowa",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "SIATKA-NA-OWOCE,-WARZYWA-PLASTIKOWA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/mixed.svg"
+    },
+    {
+        "name": "Plaster opatrunkowy",
+        "type": "odpady zmieszane",
+        "imgName": "PLASTER-OPATRUNKOWY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/plastry-na-rany.svg"
+    },
+    {
+        "name": "Balon na wino szklany",
+        "type": "odpady zmieszane",
+        "imgName": "BALON-NA-WINO-SZKLANY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Wazon.svg"
+    },
+    {
+        "name": "Grzebie\u0144 tekturowy od kartonu",
+        "type": "papier",
+        "imgName": "GRZEBIE\u0143-TEKTUROWY-OD-KARTONU",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/GRZEBIENIE-TEKTUROWE-OD-KARTON\u00d3W.svg"
+    },
+    {
+        "name": "Folia budowlana zabrudzona",
+        "type": "odpady zmieszane",
+        "imgName": "FOLIA-BUDOWLANA-ZABRUDZONA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Zu\u017cyty-papier-\u015bniadaniowy.svg"
+    },
+    {
+        "name": "W\u0142oszczyzna",
+        "type": "bioodpady",
+        "imgName": "W\u0141OSZCZYZNA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Zbiorczo-\u2013-warzywa.svg"
+    },
+    {
+        "name": "M\u0105ka",
+        "type": "bioodpady",
+        "imgName": "M\u0104KA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/OPAKOWANIE-TYPU-FOLIA-Z-DU\u017bYM-KAWA\u0141KIEM-PAPIERU.svg"
+    },
+    {
+        "name": "Termos metalowy",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "TERMOS-METALOWY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/FUSY-PO-KAWIE.svg"
+    },
+    {
+        "name": "Zszywka",
+        "type": "odpady zmieszane",
+        "imgName": "ZSZYWKA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/PATYCZKI-DO-USZU.svg"
+    },
+    {
+        "name": "Podk\u0142ady do przewijania",
+        "type": "odpady zmieszane",
+        "imgName": "PODK\u0141ADY-DO-PRZEWIJANIA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/JEDNORAZOWE-PIELUCHY-EKOLOGICZNE.svg"
+    },
+    {
+        "name": "Butelka po perfumach szklana",
+        "type": "szk\u0142o",
+        "imgName": "BUTELKA-PO-PERFUMACH-SZKLANA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/PLASTIKOWE-OPAKOWANIA-PO-KOSMETYKACH.svg"
+    },
+    {
+        "name": "Suszarka do naczy\u0144 metalowa",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "SUSZARKA-DO-NACZY\u0143-METALOWA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/OPAKOWANIE-PO-PIEROGACH.svg"
+    },
+    {
+        "name": "Opakowanie po kremie np. do r\u0105k plastikowe",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "OPAKOWANIE-PO-KREMIE-NP.-DO-R\u0104K-PLASTIKOWE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/OPAKOWANIE-PO-PA\u015aCIE-DO-Z\u0118B\u00d3W.svg"
+    },
+    {
+        "name": "\u017bwirek silikonowy dla kota brudny",
+        "type": "odpady zmieszane",
+        "imgName": "\u017bWIREK-SILIKONOWY-DLA-KOTA-BRUDNY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/\u017bWIREK-DREWNIANY-BRUDNY.svg"
+    },
+    {
+        "name": "Sezam",
+        "type": "bioodpady",
+        "imgName": "SEZAM",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/PESTKI-OD-WARZYW-I-OWOC\u00d3W.svg"
+    },
+    {
+        "name": "Kartka papieru",
+        "type": "papier",
+        "imgName": "KARTKA-PAPIERU",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/ULOTKI-Z-KARTONIK\u00d3W-PO-LEKACH.svg"
+    },
+    {
+        "name": "Natka pietruszki",
+        "type": "bioodpady",
+        "imgName": "NATKA-PIETRUSZKI",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2020/10/6-Ziola-i-warzywa-zielone-\u2013-zbiorczo.svg"
+    },
+    {
+        "name": "Nakr\u0119tka od butelki plastikowa",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "NAKR\u0118TKA-OD-BUTELKI-PLASTIKOWA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/NAKR\u0118TKA-OD-BUTELKI.svg"
+    },
+    {
+        "name": "Torba po m\u0105ce papierowa",
+        "type": "papier",
+        "imgName": "TORBA-PO-M\u0104CE-PAPIEROWA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/TOREBKI-FOLIOWE-PO-PRZYPRAWACH.svg"
+    },
+    {
+        "name": "Torebka po chipsach foliowa",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "TOREBKA-PO-CHIPSACH-FOLIOWA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/TOREBKI-PO-BAKALIACH.svg"
+    },
+    {
+        "name": "Pojemnik po lakierze do w\u0142os\u00f3w",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "POJEMNIK-PO-LAKIERZE-DO-W\u0141OS\u00d3W",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/POJEMNIKI-PO-LAKIERZE-DO-W\u0141OS\u00d3W.svg"
+    },
+    {
+        "name": "Pasek plastikowy",
+        "type": "odpady zmieszane",
+        "imgName": "PASEK-PLASTIKOWY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/PASEK-Z-EKO-SK\u00d3RY.svg"
+    },
+    {
+        "name": "Pojemnik po jajkach papierowy czysty",
+        "type": "papier",
+        "imgName": "POJEMNIK-PO-JAJKACH-PAPIEROWY-CZYSTY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/czyste-WYT\u0141OCZKI-DO-JAJEK.svg"
+    },
+    {
+        "name": "Pilnik do paznokci szklany",
+        "type": "odpady zmieszane",
+        "imgName": "PILNIK-DO-PAZNOKCI-SZKLANY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/RT\u0118\u0106-Z-ROZBITEGO-TEROMETRU.svg"
+    },
+    {
+        "name": "Pude\u0142ko tekturowe",
+        "type": "papier",
+        "imgName": "PUDE\u0141KO-TEKTUROWE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/CZYSTY-STYROPIAN-OPAKOWANIOWY.svg"
+    },
+    {
+        "name": "Kartka z kalendarza",
+        "type": "papier",
+        "imgName": "KARTKA-Z-KALENDARZA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/PARAGONY.svg"
+    },
+    {
+        "name": "Papier po fast foodzie",
+        "type": "odpady zmieszane",
+        "imgName": "PAPIER-PO-FAST-FOODZIE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2020/10/2-Worek-po-weglu-papierowy.svg"
+    },
+    {
+        "name": "P\u0142yta pil\u015bniowa - niedu\u017cy kawa\u0142ek",
+        "type": "odpady zmieszane",
+        "imgName": "P\u0141YTA-PIL\u015aNIOWA---NIEDU\u017bY-KAWA\u0141EK",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Opakowanie-po-w\u0119dlinie-serze-w-plasterkach.svg"
+    },
+    {
+        "name": "Marchew",
+        "type": "bioodpady",
+        "imgName": "MARCHEW",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/TACKI-PO-WARZYWACH-CZYSTE-STYROPIANOWE.svg"
+    },
+    {
+        "name": "Czosnek",
+        "type": "bioodpady",
+        "imgName": "CZOSNEK",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/CEBULA.svg"
+    },
+    {
+        "name": "\u017burawina",
+        "type": "bioodpady",
+        "imgName": "\u017bURAWINA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Jagody.svg"
+    },
+    {
+        "name": "Filtr w\u0119glowy do okapu kuchennego",
+        "type": "odpady zmieszane",
+        "imgName": "FILTR-W\u0118GLOWY-DO-OKAPU-KUCHENNEGO",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Zu\u017cyty-papier-\u015bniadaniowy.svg"
+    },
+    {
+        "name": "Zmywak biodegradowalny",
+        "type": "odpady zmieszane",
+        "imgName": "ZMYWAK-BIODEGRADOWALNY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/BIODEGRADOWALNE-ZMYWAKI.svg"
+    },
+    {
+        "name": "Makulatura",
+        "type": "papier",
+        "imgName": "MAKULATURA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/PAPIER-PO-TWAROGU.svg"
+    },
+    {
+        "name": "Pergamin",
+        "type": "odpady zmieszane",
+        "imgName": "PERGAMIN",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/TEKSTYLIA.svg"
+    },
+    {
+        "name": "Cytryna",
+        "type": "bioodpady",
+        "imgName": "CYTRYNA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/CYTRUSY.svg"
+    },
+    {
+        "name": "Pude\u0142ko po pizzy brudne",
+        "type": "odpady zmieszane",
+        "imgName": "PUDE\u0141KO-PO-PIZZY-BRUDNE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/karton-po-pizzy.svg"
+    },
+    {
+        "name": "\u017belatyna",
+        "type": "odpady zmieszane",
+        "imgName": "\u017bELATYNA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/TOREBKI-FOLIOWE-PO-PRZYPRAWACH.svg"
+    },
+    {
+        "name": "Zdj\u0119cie",
+        "type": "odpady zmieszane",
+        "imgName": "ZDJ\u0118CIE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/ZDJ\u0118CIA-PAPIER-B\u0141YSZCZ\u0104CY.svg"
+    },
+    {
+        "name": "Pude\u0142ko po pa\u015bcie do but\u00f3w metalowe",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "PUDE\u0141KO-PO-PA\u015aCIE-DO-BUT\u00d3W-METALOWE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/POKRYWKI-OD-S\u0141OIK\u00d3W.svg"
+    },
+    {
+        "name": "Pasek od glukometru",
+        "type": "odpady zmieszane",
+        "imgName": "PASEK-OD-GLUKOMETRU",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/PASKI-OD-GLUKOMETRU.svg"
+    },
+    {
+        "name": "Ciecierzyca",
+        "type": "bioodpady",
+        "imgName": "CIECIERZYCA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/PESTKI-OD-WARZYW-I-OWOC\u00d3W.svg"
+    },
+    {
+        "name": "Kaczka gumowa",
+        "type": "odpady zmieszane",
+        "imgName": "KACZKA-GUMOWA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/KLOCKI-PLASTIKOWE.svg"
+    },
+    {
+        "name": "Szczypiorek",
+        "type": "bioodpady",
+        "imgName": "SZCZYPIOREK",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Zbiorczo-\u2013-warzywa.svg"
+    },
+    {
+        "name": "Torebka po budyniu, galaretce, kisielu",
+        "type": "odpady zmieszane",
+        "imgName": "TOREBKA-PO-BUDYNIU,-GALARETCE,-KISIELU",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/TOREBKI-PO-BAKALIACH.svg"
+    },
+    {
+        "name": "Butelka po oliwie, oleju plastikowa",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "BUTELKA-PO-OLIWIE,-OLEJU-PLASTIKOWA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/BUTELKA-PLASTIKOWA-PO-OLEJU.svg"
+    },
+    {
+        "name": "Ta\u015bma magnetofonowa",
+        "type": "odpady zmieszane",
+        "imgName": "TA\u015aMA-MAGNETOFONOWA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/OPONA-ROWEROWA-D\u0118DKA.svg"
+    },
+    {
+        "name": "Wyniki USG",
+        "type": "odpady zmieszane",
+        "imgName": "WYNIKI-USG",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Gazeta-czasopisma.svg"
+    },
+    {
+        "name": "Papier z niszczarki",
+        "type": "papier",
+        "imgName": "PAPIER-Z-NISZCZARKI",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/PAPIER-DO-PIECZENIA-ZU\u017bYTY.svg"
+    },
+    {
+        "name": "Biodegradowalny widelec",
+        "type": "odpady zmieszane",
+        "imgName": "BIODEGRADOWALNY-WIDELEC",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Opakowanie-plastikowe-po-margarynie.svg"
+    },
+    {
+        "name": "\u0141upiny z pestek s\u0142onecznika",
+        "type": "bioodpady",
+        "imgName": "\u0141UPINY-Z-PESTEK-S\u0141ONECZNIKA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/PESTKI-OD-WARZYW-I-OWOC\u00d3W.svg"
+    },
+    {
+        "name": "Kasza",
+        "type": "bioodpady",
+        "imgName": "KASZA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/RY\u017b-GOTOWANY-NA-MLEKU.svg"
+    },
+    {
+        "name": "Truskawka",
+        "type": "bioodpady",
+        "imgName": "TRUSKAWKA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/TRUSKAWKI.svg"
+    },
+    {
+        "name": "Myd\u0142o w kostce",
+        "type": "odpady zmieszane",
+        "imgName": "MYD\u0141O-W-KOSTCE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/P\u0142atki-kosmetyczne.svg"
+    },
+    {
+        "name": "Rolka po r\u0119czniku papierowym",
+        "type": "papier",
+        "imgName": "ROLKA-PO-R\u0118CZNIKU-PAPIEROWYM",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/BRUDNY-R\u0118CZNIK-PAPIEROWY.svg"
+    },
+    {
+        "name": "Butelka po lakierze do paznokci",
+        "type": "odpady zmieszane",
+        "imgName": "BUTELKA-PO-LAKIERZE-DO-PAZNOKCI",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/BUTELKI-PO-LAKIERZE-DO-PAZNOKCI.svg"
+    },
+    {
+        "name": "Butelka po lekach plastikowa pusta",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "BUTELKA-PO-LEKACH-PLASTIKOWA-PUSTA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Szklane-opakowanie-po-lekach.svg"
+    },
+    {
+        "name": "Grill jednorazowy zu\u017cyty",
+        "type": "odpady zmieszane",
+        "imgName": "GRILL-JEDNORAZOWY-ZU\u017bYTY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/ZUZYTY-GRILL-JEDNORAZOWY.svg"
+    },
+    {
+        "name": "R\u0119kawiczka foliowa",
+        "type": "odpady zmieszane",
+        "imgName": "R\u0118KAWICZKA-FOLIOWA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/R\u0118KAWICZKI-GUMOWE.svg"
+    },
+    {
+        "name": "Papier z naklejon\u0105 ta\u015bm\u0105",
+        "type": "papier",
+        "imgName": "PAPIER-Z-NAKLEJON\u0104-TA\u015aM\u0104",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/PAPIER-Z-NAKLEJON\u0104-TA\u015aM\u0104.svg"
+    },
+    {
+        "name": "Maska na twarz w p\u0142achcie",
+        "type": "odpady zmieszane",
+        "imgName": "MASKA-NA-TWARZ-W-P\u0141ACHCIE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/TOREBKI-PO-BAKALIACH.svg"
+    },
+    {
+        "name": "Zeszyt",
+        "type": "papier",
+        "imgName": "ZESZYT",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/ZESZYT.svg"
+    },
+    {
+        "name": "Narz\u0119dzia ogrodowe",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "NARZ\u0118DZIA-OGRODOWE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/ZIEMIA-Z-DONICZKI.svg"
+    },
+    {
+        "name": "Mandarynka",
+        "type": "bioodpady",
+        "imgName": "MANDARYNKA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Zbiorczo-\u2013-owoce.svg"
+    },
+    {
+        "name": "Wiaderko po klarowanym ma\u015ble plastikowe",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "WIADERKO-PO-KLAROWANYM-MA\u015aLE-PLASTIKOWE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/PLASTIKOWE-WIADERKO-PO-MA\u015aLE-KLAROWANYM.svg"
+    },
+    {
+        "name": "Niedopa\u0142ki po papierosach",
+        "type": "odpady zmieszane",
+        "imgName": "NIEDOPA\u0141KI-PO-PAPIEROSACH",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/ZAPALNICZKA-JEDNORAZOWA.svg"
+    },
+    {
+        "name": "Kie\u0142basa",
+        "type": "odpady zmieszane",
+        "imgName": "KIE\u0141BASA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/KIE\u0141BASA.svg"
+    },
+    {
+        "name": "Fasola",
+        "type": "bioodpady",
+        "imgName": "FASOLA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Zbiorczo-\u2013-warzywa.svg"
+    },
+    {
+        "name": "Par\u00f3wka",
+        "type": "odpady zmieszane",
+        "imgName": "PAR\u00d3WKA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/Par\u00f3wki.svg"
+    },
+    {
+        "name": "Naczynie \u017caroodporne",
+        "type": "odpady zmieszane",
+        "imgName": "NACZYNIE-\u017bAROODPORNE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Naczynie-\u017caarodoporne.svg"
+    },
+    {
+        "name": "Ketchup",
+        "type": "bioodpady",
+        "imgName": "KETCHUP",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/GA\u0141\u0104ZKA-OD-POMIDORA.svg"
+    },
+    {
+        "name": "B\u00f3b",
+        "type": "bioodpady",
+        "imgName": "B\u00d3B",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Zbiorczo-\u2013-warzywa.svg"
+    },
+    {
+        "name": "Woreczek po ugotowanym ry\u017cu, kaszy",
+        "type": "odpady zmieszane",
+        "imgName": "WORECZEK-PO-UGOTOWANYM-RY\u017bU,-KASZY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Plastikowy-woreczek-po-ugotowanym-ry\u017cu.svg"
+    },
+    {
+        "name": "Paczka po papierosach papierowa",
+        "type": "papier",
+        "imgName": "PACZKA-PO-PAPIEROSACH-PAPIEROWA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Plastikowy-woreczek-po-ugotowanym-ry\u017cu.svg"
+    },
+    {
+        "name": "Basen dzieci\u0119cy ma\u0142y",
+        "type": "odpady zmieszane",
+        "imgName": "BASEN-DZIECI\u0118CY-MA\u0141Y",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/OPONA-ROWEROWA-D\u0118DKA.svg"
+    },
+    {
+        "name": "Gazeta",
+        "type": "papier",
+        "imgName": "GAZETA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Gazeta-czasopisma.svg"
+    },
+    {
+        "name": "Pa\u0142eczki drewniane",
+        "type": "odpady zmieszane",
+        "imgName": "PA\u0141ECZKI-DREWNIANE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/drewno.svg"
+    },
+    {
+        "name": "Pestka awokado",
+        "type": "bioodpady",
+        "imgName": "PESTKA-AWOKADO",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/PESTKI-OD-WARZYW-I-OWOC\u00d3W.svg"
+    },
+    {
+        "name": "Morela",
+        "type": "bioodpady",
+        "imgName": "MORELA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/TACKI-PO-WARZYWACH-CZYSTE-PLASTIKOWE.svg"
+    },
+    {
+        "name": "Negatyw fotograficzny",
+        "type": "odpady zmieszane",
+        "imgName": "NEGATYW-FOTOGRAFICZNY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Gazeta-czasopisma.svg"
+    },
+    {
+        "name": "Talerz ceramiczny",
+        "type": "odpady zmieszane",
+        "imgName": "TALERZ-CERAMICZNY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Zbity-talerz.svg"
+    },
+    {
+        "name": "Mi\u0119so",
+        "type": "odpady zmieszane",
+        "imgName": "MI\u0118SO",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Mi\u0119so.svg"
+    },
+    {
+        "name": "Kapusta",
+        "type": "bioodpady",
+        "imgName": "KAPUSTA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/TACKI-PO-WARZYWACH-CZYSTE-STYROPIANOWE.svg"
+    },
+    {
+        "name": "Bigos z mi\u0119sem",
+        "type": "odpady zmieszane",
+        "imgName": "BIGOS-Z-MI\u0118SEM",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/SZKLANE-OPAKOWANIE-PO-KISZONEJ-KAPU\u015aCIE-OG\u00d3RKACH.svg"
+    },
+    {
+        "name": "Papier po twarogu",
+        "type": "odpady zmieszane",
+        "imgName": "PAPIER-PO-TWAROGU",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/PAPIER-PO-TWAROGU.svg"
+    },
+    {
+        "name": "Kapsu\u0142ki z kaw\u0105, kt\u00f3rych producent gwarantuje, \u017ce 100% nadaj\u0105 si\u0119 do recyklingu",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "KAPSU\u0141KI-Z-KAW\u0104,-KT\u00d3RYCH-PRODUCENT-GWARANTUJE,-\u017bE-100%-NADAJ\u0104-SI\u0118-DO-RECYKLINGU",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/PLASTIKOWE-OPAKOWANIE-PO-\u015aMIETANIE.svg"
+    },
+    {
+        "name": "Butelka plastikowa pusta po p\u0142ynach do papieros\u00f3w elektronicznych",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "BUTELKA-PLASTIKOWA-PUSTA-PO-P\u0141YNACH-DO-PAPIEROS\u00d3W-ELEKTRONICZNYCH",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Plastikowa-butelka-po-ketchupie.svg"
+    },
+    {
+        "name": "Blistry, listki po lekach puste, aluminiowe",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "BLISTRY,-LISTKI-PO-LEKACH-PUSTE,-ALUMINIOWE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/PUSTE-BLISTRY-LISTKI-PO-LEKACH.svg"
+    },
+    {
+        "name": "Opakowanie po ry\u017cu, kaszy kartonowe",
+        "type": "papier",
+        "imgName": "OPAKOWANIE-PO-RY\u017bU,-KASZY-KARTONOWE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/STYROPIAN-OPAKOWANIOWY-PO-SPRZ\u0118CIE.svg"
+    },
+    {
+        "name": "Kapsel od butelki",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "KAPSEL-OD-BUTELKI",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/KAPSLE-OD-BUTELEK.svg"
+    },
+    {
+        "name": "S\u0142omka papierowa zu\u017cyta",
+        "type": "odpady zmieszane",
+        "imgName": "S\u0141OMKA-PAPIEROWA-ZU\u017bYTA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/PAPIEROWE-S\u0141OMKI.svg"
+    },
+    {
+        "name": "Papryka",
+        "type": "bioodpady",
+        "imgName": "PAPRYKA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/TACKI-PO-WARZYWACH-CZYSTE-STYROPIANOWE-1.svg"
+    },
+    {
+        "name": "Pr\u00f3bka kosmetyku w saszetkach",
+        "type": "odpady zmieszane",
+        "imgName": "PR\u00d3BKA-KOSMETYKU-W-SASZETKACH",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/TOREBKI-FOLIOWE-PO-PRZYPRAWACH.svg"
+    },
+    {
+        "name": "\u015aliwka",
+        "type": "bioodpady",
+        "imgName": "\u015aLIWKA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/TACKI-PO-WARZYWACH-CZYSTE-PLASTIKOWE.svg"
+    },
+    {
+        "name": "Talerz plastikowy",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "TALERZ-PLASTIKOWY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Zbity-talerz.svg"
+    },
+    {
+        "name": "Pielucha tetrowa",
+        "type": "odpady zmieszane",
+        "imgName": "PIELUCHA-TETROWA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/PIELUCHY-BAMBUSOWE-BIODEGRADOWALNE-DZIECKO-NA-DIECIE-WEGETARIA\u0143SKIEJ.svg"
+    },
+    {
+        "name": "Ma\u0142e metalowe elementy np. gw\u00f3\u017ad\u017a, \u015brubka",
+        "type": "odpady zmieszane",
+        "imgName": "MA\u0141E-METALOWE-ELEMENTY-NP.-GW\u00d3\u0179D\u0179,-\u015aRUBKA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/\u017bAR\u00d3WKA-REFLEKTOREK.svg"
+    },
+    {
+        "name": "P\u0142atki gotowane na wodzie lub mleku ro\u015blinnym",
+        "type": "bioodpady",
+        "imgName": "P\u0141ATKI-GOTOWANE-NA-WODZIE-LUB-MLEKU-RO\u015aLINNYM",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/RY\u017b-GOTOWANY-NA-MLEKU.svg"
+    },
+    {
+        "name": "Folia po owocach",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "FOLIA-PO-OWOCACH",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/OPAKOWANIE-TYPU-FOLIA-Z-DU\u017bYM-KAWA\u0141KIEM-PAPIERU.svg"
+    },
+    {
+        "name": "Tacka plastikowa",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "TACKA-PLASTIKOWA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/TACKA-PO-MI\u0118SIE.svg"
+    },
+    {
+        "name": "Resztki jedzenia bez produkt\u00f3w pochodzenia zwierz\u0119cego i t\u0142uszczu",
+        "type": "bioodpady",
+        "imgName": "RESZTKI-JEDZENIA-BEZ-PRODUKT\u00d3W-POCHODZENIA-ZWIERZ\u0118CEGO-I-T\u0141USZCZU",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/RY\u017b-GOTOWANY-NA-MLEKU.svg"
+    },
+    {
+        "name": "R\u0119kawiczki z materia\u0142u, sk\u00f3rzane",
+        "type": "odpady zmieszane",
+        "imgName": "R\u0118KAWICZKI-Z-MATERIA\u0141U,-SK\u00d3RZANE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/R\u0118KAWICZKI-GUMOWE.svg"
+    },
+    {
+        "name": "Torebka papierowa z foli\u0105 w \u015brodku",
+        "type": "odpady zmieszane",
+        "imgName": "TOREBKA-PAPIEROWA-Z-FOLI\u0104-W-\u015aRODKU",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/TOREBKI-PO-PRZYPRAWACH-PAPIEROWE.svg"
+    },
+    {
+        "name": "Worek po ziemi foliowy",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "WOREK-PO-ZIEMI-FOLIOWY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/TOREBKI-PO-PRZYPRAWACH-PAPIEROWE.svg"
+    },
+    {
+        "name": "Przedmioty z bakelitu",
+        "type": "odpady zmieszane",
+        "imgName": "PRZEDMIOTY-Z-BAKELITU",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/CZYSTY-STYROPIAN-OPAKOWANIOWY.svg"
+    },
+    {
+        "name": "Zapa\u0142ka",
+        "type": "odpady zmieszane",
+        "imgName": "ZAPA\u0141KA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/ZAPA\u0141KI.svg"
+    },
+    {
+        "name": "\u017belki owocowe",
+        "type": "odpady zmieszane",
+        "imgName": "\u017bELKI-OWOCOWE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/ziemniaki.svg"
+    },
+    {
+        "name": "Styropian opakowaniowy",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "STYROPIAN-OPAKOWANIOWY",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/CZYSTY-STYROPIAN-OPAKOWANIOWY.svg"
+    },
+    {
+        "name": "Opakowanie po sosie w plastikowej butelce",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "OPAKOWANIE-PO-SOSIE-W-PLASTIKOWEJ-BUTELCE",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Plastikowa-butelka-po-ketchupie.svg"
+    },
+    {
+        "name": "Sk\u00f3rka arbuza",
+        "type": "bioodpady",
+        "imgName": "SK\u00d3RKA-ARBUZA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/Arbuz.svg"
+    },
+    {
+        "name": "Korek po winie z korka",
+        "type": "odpady zmieszane",
+        "imgName": "KOREK-PO-WINIE-Z-KORKA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/KOREK-OD-WINA-Z-KORKA.svg"
+    },
+    {
+        "name": "Kalarepa",
+        "type": "bioodpady",
+        "imgName": "KALAREPA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/TACKI-PO-WARZYWACH-CZYSTE-STYROPIANOWE.svg"
+    },
+    {
+        "name": "Tacka styropianowa czysta",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "TACKA-STYROPIANOWA-CZYSTA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/OPAKOWANIE-PO-PIEROGACH.svg"
+    },
+    {
+        "name": "Ta\u015bma klej\u0105ca",
+        "type": "odpady zmieszane",
+        "imgName": "TA\u015aMA-KLEJ\u0104CA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/03/TA\u015aMA-KLEJ\u0104CA.svg"
+    },
+    {
+        "name": "Tubka po \u017cywno\u015bci metalowa",
+        "type": "metale i tworzywa sztuczne",
+        "imgName": "TUBKA-PO-\u017bYWNO\u015aCI-METALOWA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/04/TUBKI-PO-PRZECIERKACH-DLA-DZIECI-INNE-NIZ-PLASTIKOWE.svg"
+    },
+    {
+        "name": "Proteza z\u0119bowa",
+        "type": "odpady zmieszane",
+        "imgName": "PROTEZA-Z\u0118BOWA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/10/Opakowania-po-kosmetykach-\u2013-zbiorcze.svg"
+    },
+    {
+        "name": "Fusy po herbacie (bez torebki)",
+        "type": "bioodpady",
+        "imgName": "FUSY-PO-HERBACIE-(BEZ-TOREBKI)",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/FUSY-PO-HERBACIE.svg"
+    },
+    {
+        "name": "R\u0119kawiczka gumowa",
+        "type": "odpady zmieszane",
+        "imgName": "R\u0118KAWICZKA-GUMOWA",
+        "imgUrl": "https://segregujna5.um.warszawa.pl/wp-content/uploads/2019/07/R\u0118KAWICZKI-GUMOWE.svg"
+    }
+]}

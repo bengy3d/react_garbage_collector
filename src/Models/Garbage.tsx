@@ -1,14 +1,15 @@
-import { CollideEvent, Triplet, useBox } from '@react-three/cannon';
-import React, { useEffect, useRef } from 'react';
-import { BufferGeometry, Mesh } from 'three';
-import { PlayerStateInterface } from '../Interfaces/PlayerStateInterace';
+import { CollideEvent, Triplet, useBox } from "@react-three/cannon";
+import React, { useEffect, useRef } from "react";
+import { BufferGeometry, Mesh } from "three";
+import { PlayerStateInterface } from "../Interfaces/PlayerStateInterace";
 
 interface PropsInterface {
     playerState: React.MutableRefObject<PlayerStateInterface>;
+    setPlayerGarbage: () => void;
 }
 
 export const Garbage = (props: PropsInterface) => {
-    const position: Triplet = [1.5, 3, 3]
+    const position: Triplet = [1.5, 0.5, 3];
 
     const width = 1;
     const height = 1;
@@ -16,25 +17,29 @@ export const Garbage = (props: PropsInterface) => {
     const chassisBodyArgs: Triplet = [width, height, front];
 
     const onCollision = (e: CollideEvent) => {
-        if (props.playerState.current?.playerId === e.contact.bi.id) {
+        if (
+            props.playerState.current?.playerId === e.contact.bi.id &&
+            !props.playerState.current.garbage.type
+        ) {
+            props.setPlayerGarbage();
             chassisApi.position.set(5, 1, -5);
         }
-    }
+    };
 
     const [chassisBody, chassisApi] = useBox(
         () => ({
             args: chassisBodyArgs,
             mass: 5,
             position,
+            type: 'Static',
             onCollide: onCollision,
         }),
-        useRef(null),
+        useRef(null)
     );
 
     useEffect(() => {
-
-        console.log(props.playerState)
-    }, [props.playerState])
+        console.log(props.playerState);
+    }, [props.playerState]);
 
     return (
         <mesh ref={chassisBody as React.RefObject<Mesh<BufferGeometry>>}>
@@ -42,4 +47,4 @@ export const Garbage = (props: PropsInterface) => {
             <boxGeometry args={chassisBodyArgs} />
         </mesh>
     );
-}
+};

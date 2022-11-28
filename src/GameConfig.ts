@@ -1,4 +1,4 @@
 export const GameConfig = {
-    debug: true,
+    debug: false,
     debugOpacity: 0.25,
 }

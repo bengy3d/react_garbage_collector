@@ -1,7 +1,7 @@
 import { Triplet, useSphere } from "@react-three/cannon";
 import React, { useEffect, useRef } from "react";
 import { BufferGeometry, Mesh } from "three";
-import { useControls } from "../useControls";
+import { useControls } from "../Hooks/useControls";
 
 interface PropsInterface {
     setPlayerId: (id?: number) => void;

@@ -8,22 +8,16 @@ import { Garbage } from "./Models/Garbage";
 import { Floor } from "./Models/Floor";
 import { Cubicle } from "./Models/Cubicle";
 import { PlayerStateInterface } from "./Interfaces/PlayerStateInterace";
+import { GarbageInterface } from "./Interfaces/GarbageInterace";
+import { useGameState } from "./Hooks/useGameState";
 
-
-const initialPlayerState = {
+const initialPlayerState: PlayerStateInterface = {
     playerId: null,
+    garbage: { type: "", description: "" },
 };
 
 function App() {
-    const [playerState, setPlayerState] =
-        useState<PlayerStateInterface>(initialPlayerState);
-    
-    const playerStateRef = useRef(playerState);
-
-    const setPlayerId = (playerId?: number) => {
-        setPlayerState({ ...playerState, playerId });
-        playerStateRef.current.playerId = playerId;
-    };
+    const {playerState, playerStateRef, setPlayerId, setPlayerGarbage} = useGameState();
 
     return (
         <Canvas>
@@ -33,7 +27,7 @@ function App() {
                 <Cubicle position={[4, 0, 3]} />
                 <Plane />
                 <Player setPlayerId={setPlayerId} />
-                <Garbage playerState={playerStateRef} />
+                <Garbage playerState={playerStateRef} setPlayerGarbage={setPlayerGarbage} />
             </Physics>
         </Canvas>
     );
