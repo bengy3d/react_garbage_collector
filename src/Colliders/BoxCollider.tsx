@@ -5,6 +5,7 @@ import { GameConfig } from '../GameConfig';
 interface PropsInterface {
     position: Triplet;
     scale: Triplet;
+    onCollide?: () => void;
 }
 
 export const BoxCollider = (props: PropsInterface) => {
@@ -12,6 +13,7 @@ export const BoxCollider = (props: PropsInterface) => {
         args: props.scale,
         position: props.position,
         type: 'Static',
+        onCollide: props.onCollide ? props.onCollide : () => {},
     }))
 
     return (

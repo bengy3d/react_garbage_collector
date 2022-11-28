@@ -16,7 +16,7 @@ export const Scene = () => {
       />
       <PerspectiveCamera
         makeDefault
-        position={[0, 9, -10]}
+        position={[0, 9, -18]}
         fov={40}
       />
       <OrbitControls target={[0, 0, 0]} />
