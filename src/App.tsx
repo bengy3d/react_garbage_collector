@@ -19,6 +19,24 @@ const garbageTypes = [
     { type: "odpady zmieszane", pos: [4, 0, 8] },
 ];
 
+const deskMap = [
+    [6, 0, 3],
+    [6, 0, -2],
+    [6, 0, -7],
+    [3, 0, 3],
+    [3, 0, -2],
+    [3, 0, -7],
+    [0, 0, 3],
+    [0, 0, -2],
+    [0, 0, -7],
+    [-3, 0, 3],
+    [-3, 0, -2],
+    [-3, 0, -7],
+    [-6, 0, 3],
+    [-6, 0, -2],
+    [-6, 0, -7],
+]
+
 
 const App = () => {
     const { playerState, playerStateRef, stateFunctions } = useGameState();
@@ -29,12 +47,15 @@ const App = () => {
                 <Physics>
                     <Scene />
                     <Floor />
-                    <Cubicle position={[4, 0, 3]} />
+                    {deskMap.map((position, index) => (
+                        <Cubicle key={index} position={position as Triplet}/>
+                    ))}
                     <Plane />
                     <Player setPlayerId={stateFunctions.setPlayerId} />
                     <Garbage
                         playerState={playerStateRef}
                         setPlayerGarbage={stateFunctions.setPlayerGarbage}
+                        position={[-5, 0, 2]}
                     />
                     {garbageTypes.map((t) => (
                         <TrashCan
@@ -47,7 +68,7 @@ const App = () => {
                     ))}
                 </Physics>
             </Canvas>
-            <Gui garbage={playerState.garbage}/>
+            <Gui score={playerState.score} garbage={playerState.garbage}/>
         </>
     );
 };

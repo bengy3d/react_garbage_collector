@@ -1,11 +1,11 @@
-import { Triplet, useBox } from '@react-three/cannon';
+import { CollideEvent, Triplet, useBox } from '@react-three/cannon';
 import React from 'react';
 import { GameConfig } from '../GameConfig';
 
 interface PropsInterface {
     position: Triplet;
     scale: Triplet;
-    onCollide?: () => void;
+    onCollide?: (e?: CollideEvent) => void;
 }
 
 export const BoxCollider = (props: PropsInterface) => {
@@ -14,7 +14,7 @@ export const BoxCollider = (props: PropsInterface) => {
         position: props.position,
         type: 'Static',
         onCollide: props.onCollide ? props.onCollide : () => {},
-    }))
+    }), undefined, [props.position]);
 
     return (
         <>

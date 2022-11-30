@@ -10,14 +10,14 @@ interface PropsInterface {
 export const Player = (props: PropsInterface) => {
     const position: Triplet = [-1.5, 3, 3];
 
-    const width = 0.7;
+    const width = 0.4;
     const height = 30;
     const front = 30;
     const chassisBodyArgs: Triplet = [width, height, front];
 
     const [chassisBody, chassisApi] = useSphere(
         () => ({
-            args: [0.7],
+            args: [width],
             mass: 5,
             position,
         }),

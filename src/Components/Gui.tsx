@@ -1,9 +1,10 @@
-import { Card, CardContent, CardMedia, styled, Typography } from '@mui/material';
+import { Box, Card, CardContent, CardMedia, styled, Typography } from '@mui/material';
 import React from 'react';
 import { GarbageInterface } from '../Interfaces/GarbageInterace';
 
 interface PropsInterface {
     garbage: GarbageInterface;
+    score: number;
 }
 
 const StyledCard = styled(Card)({
@@ -14,17 +15,31 @@ const StyledCard = styled(Card)({
     padding: 5,
 });
 
+const StyledScoreBox = styled(Box)({
+    position: "absolute",
+    top: 0,
+    left: 260,
+    padding: 5,
+})
+
 export const Gui = (props: PropsInterface) => (
-    <StyledCard>
-        <CardMedia
-            component="img"
-            height="250"
-            image={`${process.env.PUBLIC_URL}/images/${props.garbage.imageName}.svg`}
-        />
-        <CardContent>
+    <>
+        <StyledCard>
+            <CardMedia
+                component="img"
+                height="250"
+                image={`${process.env.PUBLIC_URL}/images/${props.garbage.imageName}.svg`}
+            />
+            <CardContent>
+                <Typography variant="h5" color="text.secondary" sx={{textAlign: 'center'}}>
+                    {props.garbage.description ? props.garbage.description : "Podnieś odpad"}
+                </Typography>
+            </CardContent>
+        </StyledCard>
+        <StyledScoreBox>
             <Typography variant="h5" color="text.secondary" sx={{textAlign: 'center'}}>
-                {props.garbage.description ? props.garbage.description : "Podnieś śmieć"}
+                {`Wynik: ${props.score}`}
             </Typography>
-        </CardContent>
-    </StyledCard>
+        </StyledScoreBox>
+    </>
 )
