@@ -4,15 +4,27 @@ import React, { Suspense, useEffect, useMemo, useRef, useState } from "react";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { BoxCollider } from "../Colliders/BoxCollider";
 import { PlayerStateInterface } from "../Interfaces/PlayerStateInterace";
+import { deskMap } from "../constants";
 
 interface PropsInterface {
     playerState: React.MutableRefObject<PlayerStateInterface>;
     setPlayerGarbage: () => void;
-    position: Triplet;
 }
 
+const getRandomLocation = (): Triplet => {
+    const randomDesk = deskMap[Math.floor(Math.random() * deskMap.length)];
+    const next: Triplet = [
+        randomDesk[0] + 1.1,
+        randomDesk[1],
+        randomDesk[2] - 1,
+    ];
+    return next;
+};
+
 export const Garbage = (props: PropsInterface) => {
-    const [nextLocation, setNextLocation] = useState<Triplet>(props.position);
+    const [nextLocation, setNextLocation] = useState<Triplet>(
+        getRandomLocation()
+    );
 
     const { scene } = useLoader(
         GLTFLoader,
@@ -25,12 +37,11 @@ export const Garbage = (props: PropsInterface) => {
         copiedScene.rotation.set(0, Math.PI, 0);
         copiedScene.scale.set(1.4, 1.4, 1.4);
         copiedScene.position.set(
-            props.position[0],
-            props.position[1],
-            props.position[2]
+            nextLocation[0],
+            nextLocation[1],
+            nextLocation[2]
         );
     }, [copiedScene]);
-
 
     const onCollision = (e?: CollideEvent) => {
         if (
@@ -38,7 +49,7 @@ export const Garbage = (props: PropsInterface) => {
             !props.playerState.current.garbage.type
         ) {
             props.setPlayerGarbage();
-            const next: Triplet = [5, 0, -5];
+            const next = getRandomLocation();
             setNextLocation(next);
             copiedScene.position.set(next[0], next[1], next[2]);
         }
@@ -47,7 +58,11 @@ export const Garbage = (props: PropsInterface) => {
     return (
         <Suspense>
             <primitive object={copiedScene} />
-            <BoxCollider position={nextLocation} scale={[0.5, 1, 0.5]} onCollide={onCollision} />
+            <BoxCollider
+                position={nextLocation}
+                scale={[0.5, 1, 0.5]}
+                onCollide={onCollision}
+            />
         </Suspense>
     );
 };
