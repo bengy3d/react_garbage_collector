@@ -1,5 +1,6 @@
 import { PublicApi } from "@react-three/cannon";
 import React, { useEffect, useState } from "react";
+import { useFrame } from "@react-three/fiber";
 
 interface StateInterface {
     [value: string]: boolean;
@@ -37,17 +38,19 @@ export const useControls = (props: PropsInterface) => {
         };
     }, []);
 
-    useEffect(() => {
+    useFrame(() => {
         if (controls.w) {
             props.chassisApi.velocity.set(0, 0, 5);
         } else if (controls.s) {
             props.chassisApi.velocity.set(0, 0, -5);
-        } else if (controls.a) {
+        }  else if (controls.a) {
             props.chassisApi.velocity.set(5, 0, 0);
         } else if (controls.d) {
             props.chassisApi.velocity.set(-5, 0, 0);
+        } else {
+            props.chassisApi.velocity.set(0, 0, 0);
         }
-    }, [controls, props.chassisApi, props.chassisBody]);
+    });
 
     return controls;
 };

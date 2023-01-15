@@ -15,31 +15,26 @@ const StyledCard = styled(Card)({
     padding: 5,
 });
 
-const StyledScoreBox = styled(Box)({
-    position: "absolute",
-    top: 0,
-    left: 260,
-    padding: 5,
+const StyledCardContent = styled(CardContent)({
+    textAlign: 'center',
 })
 
 export const Gui = (props: PropsInterface) => (
     <>
         <StyledCard>
-            <CardMedia
-                component="img"
-                height="250"
-                image={`${process.env.PUBLIC_URL}/images/${props.garbage.imageName}.svg`}
-            />
-            <CardContent>
-                <Typography variant="h5" color="text.secondary" sx={{textAlign: 'center'}}>
-                    {props.garbage.description ? props.garbage.description : "Podnieś odpad"}
-                </Typography>
-            </CardContent>
-        </StyledCard>
-        <StyledScoreBox>
             <Typography variant="h5" color="text.secondary" sx={{textAlign: 'center'}}>
                 {`Wynik: ${props.score}`}
             </Typography>
-        </StyledScoreBox>
+            <CardMedia
+                component="img"
+                height="200"
+                image={`${process.env.PUBLIC_URL}/images/${props.garbage.imageName}.svg`}
+            />
+            <StyledCardContent>
+                <Typography variant="subtitle1" color="text.secondary">
+                    {props.garbage.description ? props.garbage.description : "Podnieś odpad"}
+                </Typography>
+            </StyledCardContent>
+        </StyledCard>
     </>
 )

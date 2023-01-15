@@ -8,7 +8,7 @@ interface PropsInterface {
 }
 
 export const Player = (props: PropsInterface) => {
-    const position: Triplet = [-1.5, 3, 3];
+    const position: Triplet = [-1.5, 0.4, 3];
 
     const width = 0.4;
     const height = 30;
