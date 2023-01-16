@@ -11,6 +11,7 @@ const initialGarbage = {
 const initialPlayerState: PlayerStateInterface = {
     playerId: null,
     garbage: initialGarbage,
+    correctAnswer: "",
     score: 0,
 };
 
@@ -36,6 +37,7 @@ export const useGameState = () => {
                 type: garbage.type,
                 imageName: garbage.imgName,
             },
+            correctAnswer: "",
         }));
         playerStateRef.current.garbage.type = garbage.type;
         playerStateRef.current.garbage.description = garbage.name;
@@ -49,10 +51,19 @@ export const useGameState = () => {
             score: prev.score + 1,
         }));
         playerStateRef.current.score = playerStateRef.current.score + 1;
+        resetGarbageState();
+    };
+
+    const resetGarbageState = () => {
+        setPlayerState((prev) => ({
+            ...prev,
+            garbage: initialGarbage,
+            correctAnswer: prev.garbage.type
+        }));
         playerStateRef.current.garbage.type = "";
         playerStateRef.current.garbage.description = "";
         playerStateRef.current.garbage.imageName = "DEFAULT";
-    };
+    }
 
     return {
         playerState,
@@ -61,6 +72,7 @@ export const useGameState = () => {
             setPlayerId,
             setPlayerGarbage,
             increaseScore,
+            resetGarbageState
         },
     };
 };

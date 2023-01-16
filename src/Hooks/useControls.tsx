@@ -7,8 +7,8 @@ interface StateInterface {
 }
 
 interface PropsInterface {
-    chassisBody: React.RefObject<THREE.Object3D<THREE.Event>>;
-    chassisApi: PublicApi;
+    chassisBody?: React.RefObject<THREE.Object3D<THREE.Event>>;
+    chassisApi?: PublicApi;
 }
 
 export const useControls = (props: PropsInterface) => {
@@ -39,16 +39,18 @@ export const useControls = (props: PropsInterface) => {
     }, []);
 
     useFrame(() => {
-        if (controls.w) {
-            props.chassisApi.velocity.set(0, 0, 5);
-        } else if (controls.s) {
-            props.chassisApi.velocity.set(0, 0, -5);
-        }  else if (controls.a) {
-            props.chassisApi.velocity.set(5, 0, 0);
-        } else if (controls.d) {
-            props.chassisApi.velocity.set(-5, 0, 0);
-        } else {
-            props.chassisApi.velocity.set(0, 0, 0);
+        if (props.chassisApi) {
+            if (controls.w) {
+                props.chassisApi.velocity.set(0, 0, 5);
+            } else if (controls.s) {
+                props.chassisApi.velocity.set(0, 0, -5);
+            }  else if (controls.a) {
+                props.chassisApi.velocity.set(5, 0, 0);
+            } else if (controls.d) {
+                props.chassisApi.velocity.set(-5, 0, 0);
+            } else {
+                props.chassisApi.velocity.set(0, 0, 0);
+            }
         }
     });
 

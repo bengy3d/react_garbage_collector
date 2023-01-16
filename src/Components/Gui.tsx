@@ -1,9 +1,16 @@
-import { Box, Card, CardContent, CardMedia, styled, Typography } from '@mui/material';
-import React from 'react';
-import { GarbageInterface } from '../Interfaces/GarbageInterace';
+import {
+    Card,
+    CardContent,
+    CardMedia,
+    styled,
+    Typography,
+} from "@mui/material";
+import React from "react";
+import { GarbageInterface } from "../Interfaces/GarbageInterace";
 
 interface PropsInterface {
     garbage: GarbageInterface;
+    correctAnswer: string;
     score: number;
 }
 
@@ -16,13 +23,17 @@ const StyledCard = styled(Card)({
 });
 
 const StyledCardContent = styled(CardContent)({
-    textAlign: 'center',
-})
+    textAlign: "center",
+});
 
 export const Gui = (props: PropsInterface) => (
     <>
         <StyledCard>
-            <Typography variant="h5" color="text.secondary" sx={{textAlign: 'center'}}>
+            <Typography
+                variant="h5"
+                color="text.secondary"
+                sx={{ textAlign: "center" }}
+            >
                 {`Wynik: ${props.score}`}
             </Typography>
             <CardMedia
@@ -31,10 +42,18 @@ export const Gui = (props: PropsInterface) => (
                 image={`${process.env.PUBLIC_URL}/images/${props.garbage.imageName}.svg`}
             />
             <StyledCardContent>
-                <Typography variant="subtitle1" color="text.secondary">
-                    {props.garbage.description ? props.garbage.description : "Podnieś odpad"}
-                </Typography>
+                {props.correctAnswer ? (
+                    <Typography variant="subtitle1" color="text.secondary" sx={{backgroundColor: 'red'}}>
+                        {`Zła odpowiedź, poprawna: ${props.correctAnswer}`}
+                    </Typography>
+                ) : (
+                    <Typography variant="subtitle1" color="text.secondary">
+                        {props.garbage.description
+                            ? props.garbage.description
+                            : "Podnieś odpad"}
+                    </Typography>
+                )}
             </StyledCardContent>
         </StyledCard>
     </>
-)
+);

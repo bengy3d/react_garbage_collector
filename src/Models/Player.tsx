@@ -32,7 +32,7 @@ export const Player = (props: PropsInterface) => {
 
     return (
         <mesh ref={chassisBody as React.RefObject<Mesh<BufferGeometry>>}>
-            <meshBasicMaterial color="green" opacity={0.3} />
+            <meshBasicMaterial color="grey" opacity={0.3} />
             <sphereGeometry args={chassisBodyArgs} />
         </mesh>
     );

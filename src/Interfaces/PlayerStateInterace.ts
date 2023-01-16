@@ -3,4 +3,5 @@ export interface PlayerStateInterface {
     playerId?: number | null;
     score: number;
     garbage: GarbageInterface;
+    correctAnswer: string;
 }

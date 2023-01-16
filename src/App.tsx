@@ -12,7 +12,6 @@ import { Cubicle } from "./Models/Cubicle";
 import { TrashCan } from "./Models/TrashCan";
 import { deskMap, garbageTypes } from "./constants";
 
-
 const App = () => {
     const { playerState, playerStateRef, stateFunctions } = useGameState();
 
@@ -23,7 +22,7 @@ const App = () => {
                     <Scene />
                     <Floor />
                     {deskMap.map((position, index) => (
-                        <Cubicle key={index} position={position as Triplet}/>
+                        <Cubicle key={index} position={position as Triplet} />
                     ))}
                     <Plane />
                     <Player setPlayerId={stateFunctions.setPlayerId} />
@@ -38,11 +37,16 @@ const App = () => {
                             position={t.pos as Triplet}
                             type={t.type}
                             increaseScore={stateFunctions.increaseScore}
+                            resetGarbageState={stateFunctions.resetGarbageState}
                         />
                     ))}
                 </Physics>
             </Canvas>
-            <Gui score={playerState.score} garbage={playerState.garbage}/>
+            <Gui
+                correctAnswer={playerState.correctAnswer}
+                score={playerState.score}
+                garbage={playerState.garbage}
+            />
         </>
     );
 };
