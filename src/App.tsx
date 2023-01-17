@@ -10,10 +10,10 @@ import { Garbage } from "./Models/Garbage";
 import { Floor } from "./Models/Floor";
 import { Cubicle } from "./Models/Cubicle";
 import { TrashCan } from "./Models/TrashCan";
-import { deskMap, garbageTypes } from "./constants";
+import { DESK_MAP, GARBAGE_TYPES } from "./constants";
 
 const App = () => {
-    const { playerState, playerStateRef, stateFunctions } = useGameState();
+    const { playerState, playerStateRef, gameState, stateFunctions } = useGameState();
 
     return (
         <>
@@ -21,17 +21,19 @@ const App = () => {
                 <Physics>
                     <Scene />
                     <Floor />
-                    {deskMap.map((position, index) => (
+                    {DESK_MAP.map((position, index) => (
                         <Cubicle key={index} position={position as Triplet} />
                     ))}
                     <Plane />
-                    <Player setPlayerId={stateFunctions.setPlayerId} />
+                    <Player gameStatus={gameState.status} setPlayerId={stateFunctions.setPlayerId} />
                     <Garbage
+                        gameStatus={gameState.status}
                         playerState={playerStateRef}
                         setPlayerGarbage={stateFunctions.setPlayerGarbage}
                     />
-                    {garbageTypes.map((t) => (
+                    {GARBAGE_TYPES.map((t) => (
                         <TrashCan
+                            gameStatus={gameState.status}
                             key={t.type}
                             playerState={playerStateRef}
                             position={t.pos as Triplet}
@@ -43,6 +45,9 @@ const App = () => {
                 </Physics>
             </Canvas>
             <Gui
+                gameState={gameState}
+                startGame={stateFunctions.startGame}
+                endGame={stateFunctions.endGame}
                 correctAnswer={playerState.correctAnswer}
                 score={playerState.score}
                 garbage={playerState.garbage}

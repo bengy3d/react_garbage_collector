@@ -4,16 +4,17 @@ import React, { Suspense, useEffect, useMemo, useState } from "react";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { BoxCollider } from "../Colliders/BoxCollider";
 import { PlayerStateInterface } from "../Interfaces/PlayerStateInterace";
-import { deskMap } from "../constants";
+import { DESK_MAP } from "../constants";
 import { useControls } from "../Hooks/useControls";
 
 interface PropsInterface {
     playerState: React.MutableRefObject<PlayerStateInterface>;
     setPlayerGarbage: () => void;
+    gameStatus: string
 }
 
 const getRandomLocation = (): Triplet => {
-    const randomDesk = deskMap[Math.floor(Math.random() * deskMap.length)];
+    const randomDesk = DESK_MAP[Math.floor(Math.random() * DESK_MAP.length)];
     const next: Triplet = [
         randomDesk[0] + 1.1,
         randomDesk[1] + 0.01,
@@ -23,7 +24,7 @@ const getRandomLocation = (): Triplet => {
 };
 
 export const Garbage = (props: PropsInterface) => {
-    const controls = useControls({});
+    const controls = useControls({gameStatus: props.gameStatus});
     const [collisionActive, setCollisionActive] = useState<Boolean>(false);
     const [nextLocation, setNextLocation] = useState<Triplet>(
         getRandomLocation()

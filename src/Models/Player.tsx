@@ -5,6 +5,7 @@ import { useControls } from "../Hooks/useControls";
 
 interface PropsInterface {
     setPlayerId: (id?: number) => void;
+    gameStatus: string;
 }
 
 export const Player = (props: PropsInterface) => {
@@ -26,9 +27,10 @@ export const Player = (props: PropsInterface) => {
 
     useEffect(() => {
         props.setPlayerId(chassisBody.current?.id);
-    }, []);
+        chassisApi.position.set(position[0],position[1],position[2]);
+    }, [props.gameStatus]);
 
-    useControls({ chassisBody, chassisApi });
+    useControls({ gameStatus: props.gameStatus, chassisBody, chassisApi });
 
     return (
         <mesh ref={chassisBody as React.RefObject<Mesh<BufferGeometry>>}>

@@ -12,6 +12,7 @@ interface PropsInterface {
     type: string;
     increaseScore: () => void;
     resetGarbageState: () => void;
+    gameStatus: string;
 }
 
 const getModelName = (type: string) => {
@@ -31,7 +32,7 @@ const getModelName = (type: string) => {
 
 export const TrashCan = (props: PropsInterface) => {
     const [collisionActive, setCollisionActive] = useState<Boolean>(false);
-    const controls = useControls({});
+    const controls = useControls({gameStatus: props.gameStatus});
     const object = useLoader(
         GLTFLoader,
         `${process.env.PUBLIC_URL}/models/${getModelName(props.type)}.glb`

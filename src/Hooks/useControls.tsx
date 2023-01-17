@@ -9,6 +9,7 @@ interface StateInterface {
 interface PropsInterface {
     chassisBody?: React.RefObject<THREE.Object3D<THREE.Event>>;
     chassisApi?: PublicApi;
+    gameStatus: string;
 }
 
 export const useControls = (props: PropsInterface) => {
@@ -39,7 +40,7 @@ export const useControls = (props: PropsInterface) => {
     }, []);
 
     useFrame(() => {
-        if (props.chassisApi) {
+        if (props.chassisApi && props.gameStatus === "active") {
             let x = 0;
             let z = 0;
             if (controls.w) {
@@ -55,6 +56,8 @@ export const useControls = (props: PropsInterface) => {
                 x -= 5;
             }
             props.chassisApi.velocity.set(x, 0, z);
+        } else if (props.chassisApi && props.gameStatus !== "active") {
+            props.chassisApi.velocity.set(0, 0, 0);
         }
     });
 

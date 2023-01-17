@@ -1,4 +1,4 @@
-export const deskMap = [
+export const DESK_MAP = [
     [6, 0, 3],
     [6, 0, -2],
     [6, 0, -7],
@@ -16,10 +16,13 @@ export const deskMap = [
     [-6, 0, -7],
 ]
 
-export const garbageTypes = [
+export const GARBAGE_TYPES = [
     { type: "bioodpady", pos: [-4, 0, 8] },
     { type: "szkło", pos: [-2, 0, 8] },
     { type: "metale i tworzywa sztuczne", pos: [0, 0, 8] },
     { type: "papier", pos: [2, 0, 8] },
     { type: "odpady zmieszane", pos: [4, 0, 8] },
 ];
+
+// Seconds
+export const GAME_TIME = 120;

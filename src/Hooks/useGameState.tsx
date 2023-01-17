@@ -1,6 +1,8 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { PlayerStateInterface } from "../Interfaces/PlayerStateInterace";
+import { GameStateInterface } from "../Interfaces/GameStateInterface";
 import garbageData from "../Resources/garbageData.json";
+import { GAME_TIME } from "../constants";
 
 const initialGarbage = {
     type: "",
@@ -15,11 +17,20 @@ const initialPlayerState: PlayerStateInterface = {
     score: 0,
 };
 
+const initialGameState: GameStateInterface = {
+    status: "notStarted",
+    timeLeft: GAME_TIME,
+};
+
 export const useGameState = () => {
     const [playerState, setPlayerState] =
         useState<PlayerStateInterface>(initialPlayerState);
-
+    const [gameState, setGameState] =
+        useState<GameStateInterface>(initialGameState);
+    const [timer, setTimer] = useState<NodeJS.Timer>();
     const playerStateRef = useRef(playerState);
+    const gameStateRef = useRef(gameState);
+    const timerRef = useRef(timer);
 
     const setPlayerId = (playerId?: number) => {
         setPlayerState((prev) => ({ ...prev, playerId }));
@@ -58,11 +69,47 @@ export const useGameState = () => {
         setPlayerState((prev) => ({
             ...prev,
             garbage: initialGarbage,
-            correctAnswer: prev.garbage.type
+            correctAnswer: prev.garbage.type,
         }));
         playerStateRef.current.garbage.type = "";
         playerStateRef.current.garbage.description = "";
         playerStateRef.current.garbage.imageName = "DEFAULT";
+    };
+
+    useEffect(() => {
+        if (gameState.status === "active") {
+            timerRef.current = setInterval(() => {
+                if (gameStateRef.current.timeLeft === 0) {
+                    setGameState(prev => ({...prev, status: "inactive"}))
+                    clearInterval(timerRef.current);
+                    setTimer(undefined);
+                    gameStateRef.current.status = "inactive";
+                }
+                setGameState(prev => ({...prev, timeLeft: prev.timeLeft - 1}));
+                gameStateRef.current.timeLeft -= 1;
+            }, 1000);
+            setTimer(timerRef.current);
+        }
+    },[gameState.status])
+
+    const resetPlayerState = () => {
+        playerStateRef.current.score = 0;
+        playerStateRef.current.playerId = null;
+        playerStateRef.current.correctAnswer = "";
+        resetGarbageState();
+        setPlayerState(initialPlayerState);
+    }
+
+    const startGame = () => {
+        resetPlayerState();
+        gameStateRef.current.status = "active"
+        gameStateRef.current.timeLeft = GAME_TIME;
+        setGameState(prev => ({...prev, status: "active", timeLeft: GAME_TIME}));
+    }
+
+    const endGame = () => {
+        setGameState(prev => ({...prev, status: "inactive"}));
+        gameStateRef.current.status = "inactive"
     }
 
     return {
@@ -72,7 +119,10 @@ export const useGameState = () => {
             setPlayerId,
             setPlayerGarbage,
             increaseScore,
-            resetGarbageState
+            resetGarbageState,
+            startGame,
+            endGame,
         },
+        gameState
     };
 };
