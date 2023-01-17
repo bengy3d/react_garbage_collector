@@ -40,17 +40,21 @@ export const useControls = (props: PropsInterface) => {
 
     useFrame(() => {
         if (props.chassisApi) {
+            let x = 0;
+            let z = 0;
             if (controls.w) {
-                props.chassisApi.velocity.set(0, 0, 5);
-            } else if (controls.s) {
-                props.chassisApi.velocity.set(0, 0, -5);
-            }  else if (controls.a) {
-                props.chassisApi.velocity.set(5, 0, 0);
-            } else if (controls.d) {
-                props.chassisApi.velocity.set(-5, 0, 0);
-            } else {
-                props.chassisApi.velocity.set(0, 0, 0);
+                z += 5;
             }
+            if (controls.s) {
+                z -= 5;
+            }
+            if (controls.a) {
+                x += 5;
+            }
+            if (controls.d) {
+                x -= 5;
+            }
+            props.chassisApi.velocity.set(x, 0, z);
         }
     });
 

@@ -1,4 +1,3 @@
-import { Triplet } from "@react-three/cannon";
 import React, { Suspense } from "react";
 import { BoxCollider } from "../Colliders/BoxCollider";
 
