@@ -1,6 +1,5 @@
 import { Physics, Triplet } from "@react-three/cannon";
 import { Canvas } from "@react-three/fiber";
-import React from "react";
 import { Scene } from "./Scene";
 import { Gui } from "./Components/Gui";
 import { useGameState } from "./Hooks/useGameState";
@@ -11,9 +10,13 @@ import { Floor } from "./Models/Floor";
 import { Cubicle } from "./Models/Cubicle";
 import { TrashCan } from "./Models/TrashCan";
 import { DESK_MAP, GARBAGE_TYPES } from "./constants";
+import { useSocketConnection } from "./Hooks/useSocketConnection";
 
 const App = () => {
-    const { playerState, playerStateRef, gameState, stateFunctions } = useGameState();
+    const { playerState, playerStateRef, gameState, stateFunctions } =
+        useGameState();
+
+    const socket = useSocketConnection();
 
     return (
         <>
@@ -25,7 +28,10 @@ const App = () => {
                         <Cubicle key={index} position={position as Triplet} />
                     ))}
                     <Plane />
-                    <Player gameStatus={gameState.status} setPlayerId={stateFunctions.setPlayerId} />
+                    <Player
+                        gameStatus={gameState.status}
+                        setPlayerId={stateFunctions.setPlayerId}
+                    />
                     <Garbage
                         gameStatus={gameState.status}
                         playerState={playerStateRef}

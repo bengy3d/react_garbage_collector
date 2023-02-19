@@ -10,7 +10,11 @@ export default class GameServer {
     constructor() {
         this.app = express();
         this.server = createServer(this.app);
-        this.io = new SocketIOServer(this.server);
+        this.io = new SocketIOServer(this.server, {
+            cors: {
+                origin: '*',
+            }
+        });
         this.listen();
     }
 
