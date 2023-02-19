@@ -15,12 +15,12 @@ export default class GameServer {
     }
 
     private listen(): void {
-        this.server.listen(3001, () => {
-            console.log('Running server on port %s', 3001);
+        this.server.listen(process.env.PORT, () => {
+            console.log('Running server on port %s', process.env.PORT);
         });
 
         this.io.on('connect', (socket: Socket) => {
-            console.log('Connected client on port %s.', 3001);
+            console.log('Connected client on port %s.', process.env.PORT);
 
             socket.on('message', (m: string) => {
                 console.log('[server](message): %s', m);
