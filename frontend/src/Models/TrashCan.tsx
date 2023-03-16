@@ -5,6 +5,7 @@ import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { BoxCollider } from "../Colliders/BoxCollider";
 import { useControls } from "../Hooks/useControls";
 import { PlayerStateInterface } from "../Interfaces/PlayerStateInterace";
+import { SocketClient } from "../SocketClient";
 
 interface PropsInterface {
     playerState: React.MutableRefObject<PlayerStateInterface>;
@@ -32,7 +33,7 @@ const getModelName = (type: string) => {
 
 export const TrashCan = (props: PropsInterface) => {
     const [collisionActive, setCollisionActive] = useState<Boolean>(false);
-    const controls = useControls({gameStatus: props.gameStatus});
+    const controls = useControls({socket: SocketClient, gameStatus: props.gameStatus});
     const object = useLoader(
         GLTFLoader,
         `${process.env.PUBLIC_URL}/models/${getModelName(props.type)}.glb`

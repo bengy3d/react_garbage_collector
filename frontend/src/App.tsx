@@ -11,12 +11,14 @@ import { Cubicle } from "./Models/Cubicle";
 import { TrashCan } from "./Models/TrashCan";
 import { DESK_MAP, GARBAGE_TYPES } from "./constants";
 import { useSocketConnection } from "./Hooks/useSocketConnection";
+import { OtherPlayer } from "./Models/OtherPlayer";
+import { SocketClient } from "./SocketClient";
 
 const App = () => {
     const { playerState, playerStateRef, gameState, stateFunctions } =
         useGameState();
 
-    const socket = useSocketConnection();
+    const { clients } = useSocketConnection();
 
     return (
         <>
@@ -29,9 +31,18 @@ const App = () => {
                     ))}
                     <Plane />
                     <Player
-                        gameStatus={gameState.status}
                         setPlayerId={stateFunctions.setPlayerId}
+                        gameStatus={gameState.status}
                     />
+                    {Object.keys(clients)
+                        .filter((clientKey) => clientKey !== SocketClient.id)
+                        .map((client) => (
+                            <OtherPlayer
+                                key={client}
+                                clientId={client}
+                                position={clients[client].position}
+                            />
+                        ))}
                     <Garbage
                         gameStatus={gameState.status}
                         playerState={playerStateRef}

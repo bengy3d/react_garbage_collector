@@ -6,11 +6,12 @@ import { BoxCollider } from "../Colliders/BoxCollider";
 import { PlayerStateInterface } from "../Interfaces/PlayerStateInterace";
 import { DESK_MAP } from "../constants";
 import { useControls } from "../Hooks/useControls";
+import { SocketClient } from "../SocketClient";
 
 interface PropsInterface {
     playerState: React.MutableRefObject<PlayerStateInterface>;
     setPlayerGarbage: () => void;
-    gameStatus: string
+    gameStatus: string;
 }
 
 const getRandomLocation = (): Triplet => {
@@ -24,7 +25,7 @@ const getRandomLocation = (): Triplet => {
 };
 
 export const Garbage = (props: PropsInterface) => {
-    const controls = useControls({gameStatus: props.gameStatus});
+    const controls = useControls({socket: SocketClient, gameStatus: props.gameStatus});
     const [collisionActive, setCollisionActive] = useState<Boolean>(false);
     const [nextLocation, setNextLocation] = useState<Triplet>(
         getRandomLocation()
