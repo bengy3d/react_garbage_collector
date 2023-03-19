@@ -20,6 +20,7 @@ const App = () => {
 
     const { clients, numOfReadyClients } = useSocketConnection({
         startGame: stateFunctions.startGame,
+        endGame: stateFunctions.endGame,
     });
 
     return (

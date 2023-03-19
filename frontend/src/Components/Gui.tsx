@@ -1,6 +1,6 @@
-import { ClientArrayInterface } from "../Hooks/useSocketConnection";
 import { GameStateInterface } from "../Interfaces/GameStateInterface";
 import { GarbageInterface } from "../Interfaces/GarbageInterace";
+import { ClientsObjectInterface } from "../Interfaces/Sockets/ClientInterface";
 import { Hud } from "./Hud";
 import { Lobby } from "./Lobby";
 import { Timer } from "./Timer";
@@ -12,7 +12,7 @@ interface PropsInterface {
     gameState: GameStateInterface;
     startGame: () => void;
     endGame: () => void;
-    clients: ClientArrayInterface;
+    clients: ClientsObjectInterface;
     numOfReadyClients: number;
 }
 

@@ -3,7 +3,6 @@ import { PlayerStateInterface } from "../Interfaces/PlayerStateInterace";
 import { GameStateInterface } from "../Interfaces/GameStateInterface";
 import garbageData from "../Resources/garbageData.json";
 import { GAME_TIME } from "../constants";
-import { SocketClient } from '../SocketClient'
 
 const initialGarbage = {
     type: "",
@@ -81,10 +80,7 @@ export const useGameState = () => {
         if (gameState.status === "active") {
             timerRef.current = setInterval(() => {
                 if (gameStateRef.current.timeLeft === 0) {
-                    setGameState(prev => ({...prev, status: "inactive"}))
-                    clearInterval(timerRef.current);
-                    setTimer(undefined);
-                    gameStateRef.current.status = "inactive";
+                    return;
                 }
                 setGameState(prev => ({...prev, timeLeft: prev.timeLeft - 1}));
                 gameStateRef.current.timeLeft -= 1;
@@ -111,6 +107,8 @@ export const useGameState = () => {
     const endGame = () => {
         setGameState(prev => ({...prev, status: "inactive"}));
         gameStateRef.current.status = "inactive"
+        clearInterval(timerRef.current);
+        setTimer(undefined);
     }
 
     return {

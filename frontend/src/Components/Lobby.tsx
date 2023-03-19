@@ -1,6 +1,6 @@
 import { Button, Card, CardContent, styled, Typography } from "@mui/material";
+import { ClientsObjectInterface } from "../Interfaces/Sockets/ClientInterface";
 import { SocketClient } from "../SocketClient";
-import { ClientArrayInterface } from "../Hooks/useSocketConnection";
 
 const StyledStartCard = styled(Card)({
     position: "absolute",
@@ -20,7 +20,7 @@ interface PropsInterface {
     gameStatus: string;
     numOfReadyClients: number;
     score: number;
-    clients: ClientArrayInterface;
+    clients: ClientsObjectInterface;
 }
 
 export const Lobby = (props: PropsInterface) => {
@@ -31,7 +31,6 @@ export const Lobby = (props: PropsInterface) => {
     const getConnectedClientsNumber = () => {
         return Object.keys(props.clients).length;
     };
-
 
     return (
         <StyledStartCard>

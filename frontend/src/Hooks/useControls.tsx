@@ -1,7 +1,7 @@
 import { PublicApi } from "@react-three/cannon";
 import React, { useEffect, useState, useRef } from "react";
 import { useFrame } from "@react-three/fiber";
-import { MySocket } from "./useSocketConnection";
+import { MySocket } from "../Interfaces/Sockets/SocketIOInterface";
 
 interface StateInterface {
     [value: string]: boolean;
@@ -43,29 +43,6 @@ export const useControls = (props: PropsInterface) => {
 
     const { id } = props.socket;
     const idRef = useRef(id);
-
-//    useFrame(() => {
-//        if (props.socket) {
-//            if (props.chassisApi && props.gameStatus === "active") {
-//                let x = 0;
-//                let z = 0;
-//                if (controls.w) {
-//                    z += 5;
-//                }
-//                if (controls.s) {
-//                    z -= 5;
-//                }
-//                if (controls.a) {
-//                    x += 5;
-//                }
-//                if (controls.d) {
-//                    x -= 5;
-//                }
-//            } else if (props.chassisApi && props.gameStatus !== "active") {
-//                props.chassisApi.velocity.set(0, 0, 0);
-//            }
-//        }
-//    });
 
     useFrame(() => {
         if (props.socket) {
