@@ -18,7 +18,9 @@ const App = () => {
     const { playerState, playerStateRef, gameState, stateFunctions } =
         useGameState();
 
-    const { clients } = useSocketConnection();
+    const { clients, numOfReadyClients } = useSocketConnection({
+        startGame: stateFunctions.startGame,
+    });
 
     return (
         <>
@@ -68,6 +70,8 @@ const App = () => {
                 correctAnswer={playerState.correctAnswer}
                 score={playerState.score}
                 garbage={playerState.garbage}
+                clients={clients}
+                numOfReadyClients={numOfReadyClients}
             />
         </>
     );

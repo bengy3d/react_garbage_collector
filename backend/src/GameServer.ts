@@ -9,6 +9,7 @@ interface MySocket extends Socket {
 interface ClientInterface {
     id: string;
     position: [number, number, number];
+    ready: boolean;
 }
 
 interface ClientArrayInterface {
@@ -44,6 +45,7 @@ export default class GameServer {
             this.clients[socket.id] = {
                 id: socket.id,
                 position: [0, 0, 0],
+                ready: false,
             };
 
             console.log('emitting');
@@ -55,8 +57,20 @@ export default class GameServer {
                 this.io.sockets.emit('move', this.clients);
             })
 
+            socket.on('ready', () => {
+                this.clients[socket.id].ready = true;
+                this.io.sockets.emit('ready', this.clients);
+                if (Object.values(this.clients).every((client) => client.ready === true)) {
+                    this.io.sockets.emit('startGame');
+                }
+            });
+
+            socket.on('pause', () => {
+                this.clients[socket.id].ready = false;
+            });
+
             socket.on('disconnect', () => {
-                console.log('Client disconnected');
+                delete this.clients[socket.id];
             });
         });
     }

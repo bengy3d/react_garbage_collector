@@ -1,7 +1,6 @@
 import { Triplet, useSphere } from "@react-three/cannon";
 import React, { useEffect, useRef } from "react";
 import { BufferGeometry, Mesh } from "three";
-import { ChassisInterface } from "../Hooks/usePlayerControls";
 import { useControls } from "../Hooks/useControls";
 import { SocketClient } from "../SocketClient";
 

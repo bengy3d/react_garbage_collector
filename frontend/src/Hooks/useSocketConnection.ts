@@ -1,6 +1,5 @@
-import { Triplet } from "@react-three/cannon";
-import React, { useEffect, useState } from "react";
-import { io, Socket } from "socket.io-client";
+import { useEffect, useState } from "react";
+import { Socket } from "socket.io-client";
 import { SocketClient } from "../SocketClient";
 
 interface MoveInterface {
@@ -8,14 +7,15 @@ interface MoveInterface {
     position?: number[];
 }
 
-interface ClientInterface {
+export interface ClientInterface {
     id: string;
     position: [number, number, number];
+    ready: boolean;
 }
 
-interface ClientArrayInterface {
+export interface ClientArrayInterface {
     [value: string]: ClientInterface;
-};
+}
 
 interface ServerToClientEvents {
     move: (clients: ClientArrayInterface) => void;
@@ -36,21 +36,41 @@ export interface SocketIO
 
 export type MySocket = SocketIO;
 
-export const useSocketConnection = () => {
+interface PropsInterface {
+    startGame: () => void;
+}
+
+export const useSocketConnection = (props: PropsInterface) => {
     const [clients, setClients] = useState<ClientArrayInterface>({});
+    const [numOfReadyClients, setNumOfReadyClients] = useState<number>(0);
 
     useEffect(() => {
         SocketClient.connect();
-        SocketClient.on("move", (clients: ClientArrayInterface) => {
-            setClients(clients);
+
+        SocketClient.on("move", (response: ClientArrayInterface) => {
+            setClients(response);
         });
-        // Dispose gracefuly
+
+        SocketClient.on("startGame", () => {
+            props.startGame();
+            setNumOfReadyClients(0);
+        });
+
+        SocketClient.on("ready", (response: ClientArrayInterface) => {
+            setClients(response);
+            setNumOfReadyClients(Object.values(response).reduce(
+                (acc, cur) => acc + (cur.ready ? 1 : 0),
+                0
+            ));
+        });
+
         return () => {
             SocketClient.disconnect();
         };
     }, []);
 
     return {
-        clients: clients,
+        clients,
+        numOfReadyClients,
     };
 };

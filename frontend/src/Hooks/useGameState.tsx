@@ -1,8 +1,9 @@
-import React, { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect } from "react";
 import { PlayerStateInterface } from "../Interfaces/PlayerStateInterace";
 import { GameStateInterface } from "../Interfaces/GameStateInterface";
 import garbageData from "../Resources/garbageData.json";
 import { GAME_TIME } from "../constants";
+import { SocketClient } from '../SocketClient'
 
 const initialGarbage = {
     type: "",
