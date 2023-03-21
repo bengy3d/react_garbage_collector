@@ -1,35 +1,28 @@
-import { CollideBeginEvent, CollideEndEvent, Triplet } from "@react-three/cannon";
+import {
+    CollideBeginEvent,
+    CollideEndEvent,
+    Triplet,
+} from "@react-three/cannon";
 import { useLoader } from "@react-three/fiber";
 import React, { Suspense, useEffect, useMemo, useState } from "react";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { BoxCollider } from "../Colliders/BoxCollider";
-import { PlayerStateInterface } from "../Interfaces/PlayerStateInterace";
-import { DESK_MAP } from "../constants";
 import { useControls } from "../Hooks/useControls";
 import { SocketClient } from "../SocketClient";
+import { ClientInterface } from "../Interfaces/Sockets/ClientInterface";
 
 interface PropsInterface {
-    playerState: React.MutableRefObject<PlayerStateInterface>;
-    setPlayerGarbage: () => void;
+    playerState: React.MutableRefObject<ClientInterface>;
     gameStatus: string;
+    location: Triplet;
 }
 
-const getRandomLocation = (): Triplet => {
-    const randomDesk = DESK_MAP[Math.floor(Math.random() * DESK_MAP.length)];
-    const next: Triplet = [
-        randomDesk[0] + 1.1,
-        randomDesk[1] + 0.01,
-        randomDesk[2] - 1,
-    ];
-    return next;
-};
-
 export const Garbage = (props: PropsInterface) => {
-    const controls = useControls({socket: SocketClient, gameStatus: props.gameStatus});
+    const controls = useControls({
+        socket: SocketClient,
+        gameStatus: props.gameStatus,
+    });
     const [collisionActive, setCollisionActive] = useState<Boolean>(false);
-    const [nextLocation, setNextLocation] = useState<Triplet>(
-        getRandomLocation()
-    );
 
     const { scene } = useLoader(
         GLTFLoader,
@@ -42,18 +35,18 @@ export const Garbage = (props: PropsInterface) => {
         copiedScene.rotation.set(0, Math.PI, 0);
         copiedScene.scale.set(1.4, 1.4, 1.4);
         copiedScene.position.set(
-            nextLocation[0],
-            nextLocation[1],
-            nextLocation[2]
+            props.location[0],
+            props.location[1],
+            props.location[2]
         );
     }, [copiedScene]);
 
     const onCollisionBegin = (e?: CollideBeginEvent) => {
+        console.log('collision');
         if (
             props.playerState.current?.playerId === e?.body.id &&
-            !props.playerState.current.garbage.type
+            !props.playerState.current?.garbage?.type
         ) {
-            console.log('collision is active :)')
             setCollisionActive(true);
         }
     };
@@ -61,9 +54,8 @@ export const Garbage = (props: PropsInterface) => {
     const onCollisionEnd = (e?: CollideEndEvent) => {
         if (
             props.playerState.current?.playerId === e?.body.id &&
-            !props.playerState.current.garbage.type
+            !props.playerState.current?.garbage?.type
         ) {
-            console.log('collision is over :(')
             setCollisionActive(false);
         }
     };
@@ -71,18 +63,23 @@ export const Garbage = (props: PropsInterface) => {
     useEffect(() => {
         if (controls.e && collisionActive) {
             setCollisionActive(false);
-            props.setPlayerGarbage();
-            const next = getRandomLocation();
-            setNextLocation(next);
-            copiedScene.position.set(next[0], next[1], next[2]);
+            SocketClient.emit("garbagePickedUp");
         }
-    }, [controls.e, collisionActive])
+    }, [controls.e, collisionActive]);
+
+    useEffect(() => {
+        copiedScene.position.set(
+            props.location[0],
+            props.location[1],
+            props.location[2]
+        );
+    }, [props.location]);
 
     return (
         <Suspense>
             <primitive object={copiedScene} />
             <BoxCollider
-                position={nextLocation}
+                position={props.location}
                 scale={[0.5, 1, 0.5]}
                 onCollideBegin={onCollisionBegin}
                 onCollideEnd={onCollisionEnd}

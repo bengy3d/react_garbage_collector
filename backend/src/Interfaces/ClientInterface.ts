@@ -1,4 +1,4 @@
-import { GarbageInterface } from "../GarbageInterace";
+import { GarbageInterface } from "./GarbageInterface";
 
 export interface ClientInterface {
     id?: string;
@@ -6,7 +6,7 @@ export interface ClientInterface {
     ready: boolean;
     score: number;
     correctAnswer: string;
-    garbage: GarbageInterface;
+    garbage?: GarbageInterface;
     playerId?: string;
 }
 

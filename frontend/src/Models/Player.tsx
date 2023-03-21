@@ -6,7 +6,7 @@ import { SocketClient } from "../SocketClient";
 
 interface PropsInterface {
     setPlayerId: (id?: number) => void;
-    gameStatus: "active" | "inactive" | "notStarted";
+    gameStatus: "active" | "inactive" | "notStarted" | "paused";
 }
 
 export const Player = (props: PropsInterface) => {

@@ -15,13 +15,8 @@ import { OtherPlayer } from "./Models/OtherPlayer";
 import { SocketClient } from "./SocketClient";
 
 const App = () => {
-    const { playerState, playerStateRef, gameState, stateFunctions } =
-        useGameState();
 
-    const { clients, numOfReadyClients } = useSocketConnection({
-        startGame: stateFunctions.startGame,
-        endGame: stateFunctions.endGame,
-    });
+    const { clients, numOfReadyClients, gameState, playerState, playerStateRef, setPlayerId} = useSocketConnection();
 
     return (
         <>
@@ -34,7 +29,7 @@ const App = () => {
                     ))}
                     <Plane />
                     <Player
-                        setPlayerId={stateFunctions.setPlayerId}
+                        setPlayerId={setPlayerId}
                         gameStatus={gameState.status}
                     />
                     {Object.keys(clients)
@@ -46,11 +41,13 @@ const App = () => {
                                 position={clients[client].position}
                             />
                         ))}
-                    <Garbage
-                        gameStatus={gameState.status}
-                        playerState={playerStateRef}
-                        setPlayerGarbage={stateFunctions.setPlayerGarbage}
-                    />
+                    {gameState.garbage?.location &&
+                        <Garbage
+                            location={gameState.garbage.location}
+                            gameStatus={gameState.status}
+                            playerState={playerStateRef}
+                        />
+                    }
                     {GARBAGE_TYPES.map((t) => (
                         <TrashCan
                             gameStatus={gameState.status}
@@ -58,16 +55,12 @@ const App = () => {
                             playerState={playerStateRef}
                             position={t.pos as Triplet}
                             type={t.type}
-                            increaseScore={stateFunctions.increaseScore}
-                            resetGarbageState={stateFunctions.resetGarbageState}
                         />
                     ))}
                 </Physics>
             </Canvas>
             <Gui
                 gameState={gameState}
-                startGame={stateFunctions.startGame}
-                endGame={stateFunctions.endGame}
                 correctAnswer={playerState.correctAnswer}
                 score={playerState.score}
                 garbage={playerState.garbage}
