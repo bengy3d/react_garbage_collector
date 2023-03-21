@@ -2,7 +2,6 @@ import { Physics, Triplet } from "@react-three/cannon";
 import { Canvas } from "@react-three/fiber";
 import { Scene } from "./Scene";
 import { Gui } from "./Components/Gui";
-import { useGameState } from "./Hooks/useGameState";
 import { Plane } from "./Models/Plane";
 import { Player } from "./Models/Player";
 import { Garbage } from "./Models/Garbage";

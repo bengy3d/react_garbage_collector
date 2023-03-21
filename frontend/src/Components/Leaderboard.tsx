@@ -15,7 +15,9 @@ interface PropsInterface {
 export const Leaderboard = (props: PropsInterface) => (
     <StyledDiv>
         <ol>
-        {Object.keys(props.clients).map((clientId) => (
+        {Object.keys(props.clients)
+        .sort((a, b) => props.clients[b].score - props.clients[a].score) 
+        .map((clientId) => (
             <li key={clientId}>
                 {`${clientId}: ${props.clients[clientId].score}`}
             </li>
