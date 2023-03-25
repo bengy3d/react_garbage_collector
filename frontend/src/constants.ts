@@ -26,3 +26,5 @@ export const GARBAGE_TYPES = [
 
 // Seconds
 export const GAME_TIME = 120;
+
+export const TICK_RATE = 1000 / 20;

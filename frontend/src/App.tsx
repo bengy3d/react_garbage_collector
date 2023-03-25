@@ -14,8 +14,14 @@ import { OtherPlayer } from "./Models/OtherPlayer";
 import { SocketClient } from "./SocketClient";
 
 const App = () => {
-
-    const { clients, numOfReadyClients, gameState, playerState, playerStateRef, setPlayerId} = useSocketConnection();
+    const {
+        clients,
+        numOfReadyClients,
+        gameState,
+        playerState,
+        playerStateRef,
+        setPlayerId,
+    } = useSocketConnection();
 
     return (
         <>
@@ -40,13 +46,13 @@ const App = () => {
                                 position={clients[client].position}
                             />
                         ))}
-                    {gameState.garbage?.location &&
+                    {gameState.garbage?.location && (
                         <Garbage
                             location={gameState.garbage.location}
                             gameStatus={gameState.status}
                             playerState={playerStateRef}
                         />
-                    }
+                    )}
                     {GARBAGE_TYPES.map((t) => (
                         <TrashCan
                             gameStatus={gameState.status}

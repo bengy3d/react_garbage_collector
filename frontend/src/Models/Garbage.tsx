@@ -81,8 +81,13 @@ export const Garbage = (props: PropsInterface) => {
             <BoxCollider
                 position={props.location}
                 scale={[0.5, 1, 0.5]}
+            />
+            <BoxCollider
+                position={props.location}
+                scale={[0.75, 1, 0.75]}
                 onCollideBegin={onCollisionBegin}
                 onCollideEnd={onCollisionEnd}
+                noCollision={true}
             />
         </Suspense>
     );

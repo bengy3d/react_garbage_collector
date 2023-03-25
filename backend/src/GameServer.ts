@@ -8,7 +8,7 @@ import {
 import { GarbageThrownOutInterface } from "./Interfaces/GarbageThrownOutInterface";
 import { MySocket } from "./Interfaces/MySocketInterface";
 import garbageData from "./Resources/garbageData.json";
-import { DESK_MAP, INIT_TIME_LEFT, SECOND_IN_MILI } from "./constants";
+import { DESK_MAP, INIT_TIME_LEFT, SECOND_IN_MILI, TICK_RATE_MS } from "./constants";
 import { GarbageInterface } from "./Interfaces/GarbageInterface";
 
 const initialGarbage = {
@@ -30,6 +30,7 @@ export default class GameServer {
     private clients: ClientsObjectInterface;
     private gameState: GameStateInterface;
     private intervalId?: NodeJS.Timer;
+    private tickInterval?: NodeJS.Timer;
 
     constructor() {
         this.app = express();
@@ -45,6 +46,7 @@ export default class GameServer {
             garbage: this.getRandomGarbageAndLocation(),
             timeLeft: INIT_TIME_LEFT,
         };
+        this.startTickRateTimer();
         this.listen();
     }
 
@@ -70,14 +72,10 @@ export default class GameServer {
 
             socket.on("move", (response: ClientInterface) => {
                 this.clients[socket.id].position = response.position;
-
-                this.io.sockets.emit("updateClients", this.clients);
             });
 
             socket.on("setPlayerId", (response: string) => {
                 this.clients[socket.id].playerId = response;
-
-                this.io.sockets.emit("updateClients", this.clients);
             })
 
             socket.on("garbagePickedUp", () =>
@@ -130,12 +128,10 @@ export default class GameServer {
         if (response.trashCanType === this.clients[socket.id]?.garbage?.type) {
             ++this.clients[socket.id].score;
             this.clients[socket.id].garbage = initialGarbage;
-            this.io.sockets.emit("updateClients", this.clients);
         } else {
             const type = this.clients[socket.id]?.garbage?.type;
             this.clients[socket.id].correctAnswer = type ?? "";
             this.clients[socket.id].garbage = initialGarbage;
-            this.io.sockets.emit("updateClients", this.clients);
         }
     }
 
@@ -144,6 +140,7 @@ export default class GameServer {
         Object.entries(this.clients).forEach(([key, client]) => {
             client.ready = false;
             client.position = [0, 0, 0];
+            client.garbage = initialGarbage;
         });
         this.io.sockets.emit("updateGameState", this.gameState);
         this.io.sockets.emit("updateClients", this.clients);
@@ -174,13 +171,24 @@ export default class GameServer {
         }, SECOND_IN_MILI);
     }
 
+    public startTickRateTimer(): void {
+        this.tickInterval = setInterval(() => {
+            this.tick();
+        }, TICK_RATE_MS);
+    }
+
     private updateTimer(): void {
         this.gameState.timeLeft--;
-        if (this.gameState.timeLeft === 0) {
+        if (this.gameState.timeLeft < 0) {
             this.gameState.timeLeft = INIT_TIME_LEFT;
             clearInterval(this.intervalId);
             this.setInitialGameState();
-        } else {
+        }
+    }
+
+    private tick(): void {
+        if (Object.keys(this.clients).length) {
+            this.io.sockets.emit("updateClients", this.clients);
             this.io.sockets.emit("updateGameState", this.gameState);
         }
     }

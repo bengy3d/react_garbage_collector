@@ -4,7 +4,6 @@ import React, { Suspense, useEffect, useState } from "react";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { BoxCollider } from "../Colliders/BoxCollider";
 import { useControls } from "../Hooks/useControls";
-import { PlayerStateInterface } from "../Interfaces/PlayerStateInterace";
 import { ClientInterface } from "../Interfaces/Sockets/ClientInterface";
 import { SocketClient } from "../SocketClient";
 
@@ -75,8 +74,13 @@ export const TrashCan = (props: PropsInterface) => {
             <BoxCollider
                 position={props.position}
                 scale={[1, 2, 1]}
+            />
+            <BoxCollider
+                position={props.position}
+                scale={[1.25, 2, 1.25]}
                 onCollideBegin={onCollideBegin}
                 onCollideEnd={onCollideEnd}
+                noCollision={true}
             />
         </Suspense>
     );
