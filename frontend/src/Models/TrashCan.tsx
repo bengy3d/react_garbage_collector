@@ -4,14 +4,13 @@ import React, { Suspense, useEffect, useState } from "react";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { BoxCollider } from "../Colliders/BoxCollider";
 import { useControls } from "../Hooks/useControls";
-import { PlayerStateInterface } from "../Interfaces/PlayerStateInterace";
+import { ClientInterface } from "../Interfaces/Sockets/ClientInterface";
+import { SocketClient } from "../SocketClient";
 
 interface PropsInterface {
-    playerState: React.MutableRefObject<PlayerStateInterface>;
+    playerState: React.MutableRefObject<ClientInterface>;
     position: Triplet;
     type: string;
-    increaseScore: () => void;
-    resetGarbageState: () => void;
     gameStatus: string;
 }
 
@@ -32,34 +31,30 @@ const getModelName = (type: string) => {
 
 export const TrashCan = (props: PropsInterface) => {
     const [collisionActive, setCollisionActive] = useState<Boolean>(false);
-    const controls = useControls({gameStatus: props.gameStatus});
+    const controls = useControls({socket: SocketClient, gameStatus: props.gameStatus});
     const object = useLoader(
         GLTFLoader,
         `${process.env.PUBLIC_URL}/models/${getModelName(props.type)}.glb`
     ).scene;
 
     const onCollideBegin = () => {
-        if (props.playerState.current.garbage.type) {
+        if (props.playerState.current?.garbage?.type) {
             setCollisionActive(true);
         }
     };
 
     const onCollideEnd = () => {
-        if (props.playerState.current.garbage.type) {
+        if (props.playerState.current?.garbage?.type) {
             setCollisionActive(false);
         }
     };
 
     useEffect(() => {
-        if (props.playerState.current.garbage.type === props.type && controls.e && collisionActive) {
+        if (controls.e && collisionActive) {
             setCollisionActive(false);
-            props.increaseScore();
-            console.log(`garbage dropped`);
-            console.log(props.playerState);
-        } else if (controls.e && collisionActive) {
-            setCollisionActive(false);
-            props.resetGarbageState();
-            console.log(`WRONG trash can`);
+            SocketClient.emit("garbageThrownOut", {
+                trashCanType: props.type
+            });
         }
     }, [controls.e, collisionActive]);
 
@@ -71,7 +66,7 @@ export const TrashCan = (props: PropsInterface) => {
             props.position[1],
             props.position[2]
         );
-    }, [object]);
+    }, [object, props.position]);
 
     return (
         <Suspense>
@@ -79,8 +74,13 @@ export const TrashCan = (props: PropsInterface) => {
             <BoxCollider
                 position={props.position}
                 scale={[1, 2, 1]}
+            />
+            <BoxCollider
+                position={props.position}
+                scale={[1.25, 2, 1.25]}
                 onCollideBegin={onCollideBegin}
                 onCollideEnd={onCollideEnd}
+                noCollision={true}
             />
         </Suspense>
     );
