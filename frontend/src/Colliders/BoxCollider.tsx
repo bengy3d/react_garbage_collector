@@ -4,7 +4,7 @@ import {
     Triplet,
     useBox,
 } from "@react-three/cannon";
-import React from "react";
+import React, { useEffect } from "react";
 import { GameConfig } from "../GameConfig";
 
 interface PropsInterface {
@@ -16,25 +16,24 @@ interface PropsInterface {
 }
 
 export const BoxCollider = (props: PropsInterface) => {
-    useBox(
-        () => ({
-            args: props.scale,
-            position: props.position,
-            type: "Static",
-            onCollideBegin: props.onCollideBegin
-                ? props.onCollideBegin
-                : () => {},
-            onCollideEnd: props.onCollideEnd ? props.onCollideEnd : () => {},
-            collisionResponse: props.noCollision ? false : true,
-        }),
-        undefined,
-        [
-            props.position,
-            props.onCollideBegin,
-            props.onCollideEnd,
-            props.noCollision,
-        ]
-    );
+    const [boxRef, api] = useBox(() => ({
+        args: props.scale,
+        position: props.position,
+        type: "Static",
+        onCollideBegin: props.onCollideBegin ? props.onCollideBegin : () => {},
+        onCollideEnd: props.onCollideEnd ? props.onCollideEnd : () => {},
+        collisionResponse: props.noCollision ? false : true,
+    }));
+
+    useEffect(() => {
+        if (props.position) {
+            api.position.set(
+                props.position[0],
+                props.position[1],
+                props.position[2]
+            );
+        }
+    }, [props.position]);
 
     return (
         <>
