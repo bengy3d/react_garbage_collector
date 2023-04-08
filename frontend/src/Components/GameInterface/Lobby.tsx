@@ -1,6 +1,6 @@
 import { Button, Card, CardContent, styled, Typography } from "@mui/material";
-import { ClientsObjectInterface } from "../Interfaces/Sockets/ClientInterface";
-import { SocketClient } from "../SocketClient";
+import { ClientsObjectInterface } from "../../Interfaces/Sockets/ClientInterface";
+import { SocketClient } from "../../SocketClient";
 
 const StyledStartCard = styled(Card)({
     position: "absolute",
