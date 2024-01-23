@@ -6,8 +6,7 @@ export interface SocketIOInterface
     extends Socket<
         ServerToClientEventsInterface,
         ClientToServerEventsInterface
-    > {
-    id: string;
-}
+    >{}
+
 
 export type MySocket = SocketIOInterface;

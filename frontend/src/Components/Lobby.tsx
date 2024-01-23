@@ -62,7 +62,7 @@ export const Lobby = (props: PropsInterface) => {
                         props.numOfReadyClients
                     }/${getConnectedClientsNumber()}`}
                 </Typography>
-                {!props.clients[SocketClient.id]?.ready && (
+                {!props.clients[SocketClient.id ?? 0]?.ready && (
                     <Button onClick={onClickReady}>
                         {props.gameStatus === "notStarted"
                             ? "Rozpocznij"

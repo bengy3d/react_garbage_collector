@@ -36,8 +36,8 @@ export const useSocketConnection = () => {
 
         SocketClient.on("updateClients", (response: ClientsObjectInterface) => {
             setClients(response);
-            setPlayerState(response[SocketClient.id]);
-            playerStateRef.current = response[SocketClient.id];
+            setPlayerState(response[SocketClient.id ?? 0]);
+            playerStateRef.current = response[SocketClient.id ?? 0];
         });
 
         SocketClient.on("updateGameState", (response: GameStateInterface) => {

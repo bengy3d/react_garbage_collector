@@ -84,8 +84,9 @@ export const useControls = (props: PropsInterface) => {
         let interval: NodeJS.Timer;
         if (props.chassisApi) {
             interval = setInterval(() => {
+                const strId = id as string;
                 props?.socket.emit("move", {
-                    id,
+                    id: strId,
                     position: positionRef.current,
                 });
             }, MINUTE_MS);
