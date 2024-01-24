@@ -29,8 +29,8 @@ export default class GameServer {
     private io: SocketIOServer;
     private clients: ClientsObjectInterface;
     private gameState: GameStateInterface;
-    private intervalId?: NodeJS.Timer;
-    private tickInterval?: NodeJS.Timer;
+    private intervalId?: NodeJS.Timeout;
+    private tickInterval?: NodeJS.Timeout;
 
     constructor() {
         this.app = express();
