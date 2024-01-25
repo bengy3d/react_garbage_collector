@@ -21,17 +21,17 @@ export const OtherPlayer = (props: PropsInterface) => {
     useEffect(() => {
         updateState({position: new Vector3(props.position[0], props.position[1], props.position[2])});
         if (lastState && currentState && meshRef.current) {
-          const now = Date.now();
-          const timeSinceLastUpdate = now - lastUpdateTime;
-          const t = timeSinceLastUpdate / (TICK_RATE);
-    
-          const interpolatedPosition = new Vector3().lerpVectors(
-            lastState.position,
-            currentState.position,
-            t
-          );
-    
-          meshRef.current.position.copy(interpolatedPosition);
+            const now = Date.now();
+            const timeSinceLastUpdate = now - lastUpdateTime;
+            const t = timeSinceLastUpdate / (TICK_RATE);
+
+            const interpolatedPosition = new Vector3().lerpVectors(
+                lastState.position,
+                currentState.position,
+                t
+            );
+
+            meshRef.current.position.copy(interpolatedPosition);
         }
     }, [props.position]);
 

@@ -28,23 +28,32 @@ export const useSocketConnection = () => {
     const [numOfReadyClients, setNumOfReadyClients] = useState<number>(0);
     const [playerState, setPlayerState] = useState<ClientInterface>(initialPlayerState);
     const playerStateRef = useRef(playerState);
+    const playerPositionRef = useRef<[number, number, number]>([0,0,0]);
     const [gameState, setGameState] =
         useState<GameStateInterface>(initalGameState);
 
     useEffect(() => {
         SocketClient.connect();
 
-        SocketClient.on("updateClients", (response: ClientsObjectInterface) => {
-            setClients(response);
-            setPlayerState(response[SocketClient.id ?? 0]);
-            playerStateRef.current = response[SocketClient.id ?? 0];
+        SocketClient.on("updateClients", (
+            data: ClientsObjectInterface,
+            callbackFn: (position: [number, number, number]) => void
+        ) => {
+            setClients(data);
+            setPlayerState(data[SocketClient.id ?? 0]);
+            playerStateRef.current = data[SocketClient.id ?? 0];
+            playerStateRef.current.position = playerPositionRef.current;
+            if (callbackFn) {
+                callbackFn(playerPositionRef.current);
+            }
         });
 
-        SocketClient.on("updateGameState", (response: GameStateInterface) => {
-            setGameState(response);
+        SocketClient.on("updateGameState", (data: GameStateInterface) => {
+            setGameState(data);
         });
 
         SocketClient.on("ready", (response: ClientsObjectInterface) => {
+            console.log(SocketClient.id)
             setClients(response);
             setNumOfReadyClients(
                 Object.values(response).reduce(
@@ -69,6 +78,7 @@ export const useSocketConnection = () => {
         clients,
         numOfReadyClients,
         gameState,
-        setPlayerId
+        setPlayerId,
+        playerPositionRef
     };
 };

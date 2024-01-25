@@ -2,11 +2,13 @@ import { Triplet, useSphere } from "@react-three/cannon";
 import React, { useEffect, useRef } from "react";
 import { BufferGeometry, Mesh } from "three";
 import { useControls } from "../Hooks/useControls";
+import { ClientInterface } from "../Interfaces/Sockets/ClientInterface";
 import { SocketClient } from "../SocketClient";
 
 interface PropsInterface {
     setPlayerId: (id?: number) => void;
     gameStatus: "active" | "inactive" | "notStarted" | "paused";
+    playerPositionRef: React.MutableRefObject<Triplet>;
 }
 
 export const Player = (props: PropsInterface) => {
@@ -16,7 +18,6 @@ export const Player = (props: PropsInterface) => {
     const chassisBodyArgs: Triplet = [width, height, front];
 
     const position: Triplet = [-1.5, 0.4, 3];
-    const positionRef = useRef<[number, number, number]>(position);
 
     const [chassisBody, chassisApi] = useSphere(
         () => ({
@@ -33,10 +34,17 @@ export const Player = (props: PropsInterface) => {
     }, [props.gameStatus]);
 
     useEffect(() => {
-        chassisApi.position.subscribe(v => positionRef.current = v)
+        chassisApi.position.subscribe(v => {
+            props.playerPositionRef.current = v;
+        })
     }, []);
 
-    useControls({ socket: SocketClient, gameStatus: props.gameStatus, position: positionRef.current, chassisApi });
+    useControls({ 
+        socket: SocketClient, 
+        gameStatus: props.gameStatus, 
+        position: props.playerPositionRef.current, 
+        chassisApi 
+    });
 
     return (
         <mesh

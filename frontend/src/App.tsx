@@ -21,6 +21,7 @@ const App = () => {
         playerState,
         playerStateRef,
         setPlayerId,
+        playerPositionRef
     } = useSocketConnection();
 
     return (
@@ -36,6 +37,7 @@ const App = () => {
                     <Player
                         setPlayerId={setPlayerId}
                         gameStatus={gameState.status}
+                        playerPositionRef={playerPositionRef}
                     />
                     {Object.keys(clients)
                         .filter((clientKey) => clientKey !== SocketClient.id)

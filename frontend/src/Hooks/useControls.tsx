@@ -68,8 +68,6 @@ export const useControls = (props: PropsInterface) => {
         }
     });
 
-    const MINUTE_MS = 1000 / 32;
-
     const positionRef = useRef(props.position);
 
     useEffect(() => {
@@ -79,21 +77,6 @@ export const useControls = (props: PropsInterface) => {
     useEffect(() => {
         idRef.current = id;
     }, [id])
-
-    useEffect(() => {
-        let interval: NodeJS.Timer;
-        if (props.chassisApi) {
-            interval = setInterval(() => {
-                const strId = id as string;
-                props?.socket.emit("move", {
-                    id: strId,
-                    position: positionRef.current,
-                });
-            }, MINUTE_MS);
-        }
-            
-        return () => clearInterval(interval); // This represents the unmount function, in which you need to clear your interval to prevent memory leaks.
-    }, [])
 
     return controls;
 };

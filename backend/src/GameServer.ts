@@ -30,7 +30,6 @@ export default class GameServer {
     private clients: ClientsObjectInterface;
     private gameState: GameStateInterface;
     private intervalId?: NodeJS.Timeout;
-    private tickInterval?: NodeJS.Timeout;
 
     constructor() {
         this.app = express();
@@ -46,7 +45,6 @@ export default class GameServer {
             garbage: this.getRandomGarbageAndLocation(),
             timeLeft: INIT_TIME_LEFT,
         };
-        this.startTickRateTimer();
         this.listen();
     }
 
@@ -66,13 +64,10 @@ export default class GameServer {
                 garbage: initialGarbage,
                 correctAnswer: "",
             };
+            const tick = this.startTickRateTimer(socket);
 
             this.io.sockets.emit("updateGameState", this.gameState);
             this.io.sockets.emit("updateClients", this.clients);
-
-            socket.on("move", (response: ClientInterface) => {
-                this.clients[socket.id].position = response.position;
-            });
 
             socket.on("setPlayerId", (response: string) => {
                 this.clients[socket.id].playerId = response;
@@ -108,6 +103,7 @@ export default class GameServer {
             });
 
             socket.on("disconnect", () => {
+                clearInterval(tick);
                 delete this.clients[socket.id];
             });
         });
@@ -171,9 +167,9 @@ export default class GameServer {
         }, SECOND_IN_MILI);
     }
 
-    public startTickRateTimer(): void {
-        this.tickInterval = setInterval(() => {
-            this.tick();
+    public startTickRateTimer(socket: MySocket): NodeJS.Timeout {
+        return setInterval(() => {
+            this.tick(socket);
         }, TICK_RATE_MS);
     }
 
@@ -186,9 +182,11 @@ export default class GameServer {
         }
     }
 
-    private tick(): void {
+    private async tick(socket: MySocket) {
         if (Object.keys(this.clients).length) {
-            this.io.sockets.emit("updateClients", this.clients);
+            socket.emit("updateClients", this.clients, (position: [number,number,number]) => {
+                this.clients[socket.id].position = position;
+            });
             this.io.sockets.emit("updateGameState", this.gameState);
         }
     }
