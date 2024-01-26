@@ -1,6 +1,6 @@
-import { Typography, styled } from "@mui/material";
+import { styled } from "@mui/material";
 import { useMemo } from "react";
-import { ClientsObjectInterface } from "../Interfaces/Sockets/ClientInterface";
+import { ClientsObjectInterface } from "../../Interfaces/Sockets/ClientInterface";
 
 const StyledDiv = styled("div")({
     position: "absolute",

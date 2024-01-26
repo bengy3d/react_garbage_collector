@@ -5,7 +5,7 @@ import {
     styled,
     Typography,
 } from "@mui/material";
-import { GarbageInterface } from "../Interfaces/GarbageInterace";
+import { GarbageInterface } from "../../Interfaces/GarbageInterace";
 
 const StyledCard = styled(Card)({
     width: 250,

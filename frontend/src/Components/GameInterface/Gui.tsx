@@ -1,6 +1,6 @@
-import { GameStateInterface } from "../Interfaces/GameStateInterface";
-import { GarbageInterface } from "../Interfaces/GarbageInterace";
-import { ClientsObjectInterface } from "../Interfaces/Sockets/ClientInterface";
+import { GameStateInterface } from "../../Interfaces/GameStateInterface";
+import { GarbageInterface } from "../../Interfaces/GarbageInterace";
+import { ClientsObjectInterface } from "../../Interfaces/Sockets/ClientInterface";
 import { Hud } from "./Hud";
 import { Leaderboard } from "./Leaderboard";
 import { Lobby } from "./Lobby";
