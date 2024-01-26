@@ -35,6 +35,8 @@ export const useSocketConnection = () => {
     useEffect(() => {
         SocketClient.connect();
 
+        SocketClient.emit("joinRoom", "roomName");
+
         SocketClient.on("updateClients", (
             data: ClientsObjectInterface,
             callbackFn: (position: [number, number, number]) => void
@@ -53,7 +55,6 @@ export const useSocketConnection = () => {
         });
 
         SocketClient.on("ready", (response: ClientsObjectInterface) => {
-            console.log(SocketClient.id)
             setClients(response);
             setNumOfReadyClients(
                 Object.values(response).reduce(
