@@ -48,6 +48,9 @@ export default class GameServer {
             console.log("Connected client on port %s.", process.env.PORT);
 
             socket.on("joinRoom", (roomName: string) => {
+                if (!roomName) {
+                    socket.disconnect();
+                }
                 socket.join(roomName);
 
                 let room: RoomInterface;

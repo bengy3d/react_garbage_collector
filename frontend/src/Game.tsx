@@ -13,6 +13,7 @@ import { useSocketConnection } from "./Hooks/useSocketConnection";
 import { OtherPlayer } from "./Models/OtherPlayer";
 import { SocketClient } from "./SocketClient";
 import { styled } from "@mui/material";
+import { useLocation, useNavigate } from "react-router-dom";
 
 const Root = styled('div')({
     width: '100%',
@@ -20,6 +21,13 @@ const Root = styled('div')({
 })
 
 export const Game = () => {
+    const navigate = useNavigate();
+    const location = useLocation();
+
+    if (!location?.state?.roomName) {
+        navigate("/");
+    }
+
     const {
         clients,
         numOfReadyClients,
@@ -28,7 +36,7 @@ export const Game = () => {
         playerStateRef,
         setPlayerId,
         playerPositionRef
-    } = useSocketConnection();
+    } = useSocketConnection({roomName: location?.state?.roomName});
 
     return (
         <Root>

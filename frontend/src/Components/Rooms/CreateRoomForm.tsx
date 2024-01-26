@@ -1,6 +1,7 @@
 import { Button, styled, TextField, Typography } from '@mui/material';
 import * as yup from 'yup';
 import { useFormik } from 'formik';
+import { useNavigate } from 'react-router-dom';
 
 interface CreateRoomFormInterface {
     roomName: String;
@@ -24,6 +25,7 @@ const StyledForm = styled('form')({
 })
 
 export const CreateRoomForm = () => {
+    const navigate = useNavigate();
 
     const {values, handleChange, handleSubmit, touched, errors} = 
         useFormik<CreateRoomFormInterface>({
@@ -34,6 +36,7 @@ export const CreateRoomForm = () => {
             validationSchema: createRoomFormValidationSchema,
             onSubmit: () => {
                 console.log('form sumbitted');
+                navigate('/play', {state: {roomName: values.roomName}});
             }
         })
 

@@ -23,7 +23,11 @@ const initialPlayerState: ClientInterface = {
     ready: false
 };
 
-export const useSocketConnection = () => {
+interface PropsInterface {
+    roomName: string;
+}
+
+export const useSocketConnection = (props: PropsInterface) => {
     const [clients, setClients] = useState<ClientsObjectInterface>({});
     const [numOfReadyClients, setNumOfReadyClients] = useState<number>(0);
     const [playerState, setPlayerState] = useState<ClientInterface>(initialPlayerState);
@@ -35,7 +39,7 @@ export const useSocketConnection = () => {
     useEffect(() => {
         SocketClient.connect();
 
-        SocketClient.emit("joinRoom", "roomName");
+        SocketClient.emit("joinRoom", props.roomName);
 
         SocketClient.on("updateClients", (
             data: ClientsObjectInterface,
@@ -55,6 +59,7 @@ export const useSocketConnection = () => {
         });
 
         SocketClient.on("ready", (response: ClientsObjectInterface) => {
+            console.log("hello");
             setClients(response);
             setNumOfReadyClients(
                 Object.values(response).reduce(
