@@ -1,4 +1,3 @@
-import { Triplet } from "@react-three/cannon";
 import { useEffect, useRef, useState } from "react";
 import { GameStateInterface } from "../Interfaces/GameStateInterface";
 import { ClientInterface, ClientsObjectInterface } from "../Interfaces/Sockets/ClientInterface";
@@ -59,7 +58,6 @@ export const useSocketConnection = (props: PropsInterface) => {
         });
 
         SocketClient.on("ready", (response: ClientsObjectInterface) => {
-            console.log("hello");
             setClients(response);
             setNumOfReadyClients(
                 Object.values(response).reduce(

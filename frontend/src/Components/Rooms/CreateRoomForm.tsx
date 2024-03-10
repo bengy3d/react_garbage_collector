@@ -35,8 +35,12 @@ export const CreateRoomForm = () => {
             },
             validationSchema: createRoomFormValidationSchema,
             onSubmit: () => {
-                console.log('form sumbitted');
-                navigate('/play', {state: {roomName: values.roomName}});
+                navigate('/play', {
+                    state: {
+                        roomName: values.roomName, 
+                        password: values.password
+                    }
+                });
             }
         })
 
@@ -45,7 +49,7 @@ export const CreateRoomForm = () => {
             onSubmit={handleSubmit} 
             autoComplete="off"
         >
-            <Typography>
+            <Typography variant="h4">
                 Create a room
             </Typography>
             <TextField 

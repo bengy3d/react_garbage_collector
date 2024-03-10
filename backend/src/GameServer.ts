@@ -1,4 +1,4 @@
-import express from "express";
+import { Application } from "express";
 import { createServer, Server } from "http";
 import { Server as SocketIOServer, Socket } from "socket.io";
 import { GarbageThrownOutInterface } from "./Interfaces/GarbageThrownOutInterface";
@@ -7,7 +7,7 @@ import { INIT_TIME_LEFT, SECOND_IN_MILI, TICK_RATE_MS } from "./constants";
 import { RoomInterface, RoomObjectInterface } from "./Interfaces/RoomInterface";
 import { getRandomGarbageAndLocation } from "./Helpers/gameStateHelpers";
 import { GameStateInterface } from "./Interfaces/GameStateInterface";
-import { ClientsObjectInterface } from "./Interfaces/ClientInterface";
+import { ApiServer } from "./ApiServer";
 
 const initialGarbage = {
     type: "",
@@ -22,13 +22,15 @@ const initialGameState: GameStateInterface = {
 }
 
 export default class GameServer {
-    private app: express.Application;
+    private app: Application;
     private server: Server;
     private io: SocketIOServer;
+    private api: ApiServer;
     private rooms: RoomObjectInterface; 
 
-    constructor() {
-        this.app = express();
+    constructor(app: Application, api: ApiServer) {
+        this.app = app;
+        this.api = api;
         this.server = createServer(this.app);
         this.io = new SocketIOServer(this.server, {
             cors: {
@@ -47,23 +49,31 @@ export default class GameServer {
         this.io.on("connect", (socket: MySocket) => {
             console.log("Connected client on port %s.", process.env.PORT);
 
-            socket.on("joinRoom", (roomName: string) => {
+            socket.on("joinRoom", (roomName: string, password: string) => {
                 if (!roomName) {
                     socket.disconnect();
+                    return;
                 }
                 socket.join(roomName);
 
                 let room: RoomInterface;
+
                 if (!this.rooms[roomName]) {
                     room = (this.rooms[roomName] = {
-                        roomName,
+                        name: roomName,
+                        password,
                         clients: {},
                         gameState: initialGameState,
                         timer: undefined
                     });
-                } else {
+
+                } else if (this.rooms[roomName].password === password) {
                     room = this.rooms[roomName];
+                } else {
+                    socket.disconnect();
+                    return;
                 }
+
 
                 const clients = room.clients;
 
@@ -75,6 +85,11 @@ export default class GameServer {
                     garbage: initialGarbage,
                     correctAnswer: "",
                 };
+
+                this.api.setRoomMetadata(
+                    roomName, 
+                    Object.keys(clients).length
+                );
 
 
                 const tick = this.startTickRateTimer(socket, room);
@@ -118,6 +133,15 @@ export default class GameServer {
                 socket.on("disconnect", () => {
                     clearInterval(tick);
                     delete clients[socket.id];
+                    if (!Object.keys(clients).length) {
+                        delete this.rooms[roomName]; 
+                        this.api.removeRoomMetadata(roomName);
+                    } else {
+                        this.api.setRoomMetadata(
+                            roomName, 
+                            Object.keys(clients).length
+                        );
+                    }
                 });
 
             })
@@ -131,7 +155,7 @@ export default class GameServer {
         room.clients[socket.id].correctAnswer = "";
         room.gameState.garbage = getRandomGarbageAndLocation();
         socket.emit("updateGameState", room.gameState);
-        this.io.to(room.roomName).emit("updateClients", room.clients);
+        this.io.to(room.name).emit("updateClients", room.clients);
     }
 
     private handleGarbageThrownOut(
@@ -156,8 +180,8 @@ export default class GameServer {
             client.position = [0, 0, 0];
             client.garbage = initialGarbage;
         });
-        this.io.to(room.roomName).emit("updateGameState", room.gameState);
-        this.io.to(room.roomName).emit("updateClients", room.clients);
+        this.io.to(room.name).emit("updateGameState", room.gameState);
+        this.io.to(room.name).emit("updateClients", room.clients);
     }
 
     public startTimer(room: RoomInterface): void {
@@ -193,7 +217,7 @@ export default class GameServer {
                     room.clients[socket.id].position = position;
                 }
             );
-            this.io.to(room.roomName).emit("updateGameState", room.gameState);
+            this.io.to(room.name).emit("updateGameState", room.gameState);
         }
     }
 }
