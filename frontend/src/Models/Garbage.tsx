@@ -26,7 +26,7 @@ export const Garbage = (props: PropsInterface) => {
 
     const { scene } = useLoader(
         GLTFLoader,
-        process.env.PUBLIC_URL + "/models/BasicTrash.glb"
+        "/models/BasicTrash.glb"
     );
 
     const copiedScene = useMemo(() => scene.clone(), [scene]);

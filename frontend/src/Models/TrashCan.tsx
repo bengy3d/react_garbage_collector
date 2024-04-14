@@ -34,7 +34,7 @@ export const TrashCan = (props: PropsInterface) => {
     const controls = useControls({socket: SocketClient, gameStatus: props.gameStatus});
     const object = useLoader(
         GLTFLoader,
-        `${process.env.PUBLIC_URL}/models/${getModelName(props.type)}.glb`
+        `/models/${getModelName(props.type)}.glb`
     ).scene;
 
     const onCollideBegin = () => {

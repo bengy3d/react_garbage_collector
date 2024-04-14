@@ -40,7 +40,7 @@ export const Hud = (props: PropsInterface) => (
         <CardMedia
             component="img"
             height="200"
-            image={`${process.env.PUBLIC_URL}/images/${props.garbage.imageName}.svg`}
+            image={`/images/${props.garbage.imageName}.svg`}
         />
         <StyledCardContent>
             {props.correctAnswer ? (

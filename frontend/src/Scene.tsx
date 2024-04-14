@@ -2,8 +2,7 @@ import React from "react";
 import {
   Environment,
   OrbitControls,
-  PerspectiveCamera,
-  Plane,
+  PerspectiveCamera
 } from "@react-three/drei";
 import { Suspense } from "react";
 
@@ -11,7 +10,7 @@ export const Scene = () => {
   return (
     <Suspense fallback={null}>
       <Environment
-        files={`${process.env.PUBLIC_URL}/textures/envmap.hdr`}
+        files={`/textures/envmap.hdr`}
         background={true}
       />
       <PerspectiveCamera

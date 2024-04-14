@@ -59,6 +59,7 @@ export const useControls = (props: PropsInterface) => {
                     x += 5;
                 }
                 if (controls.d) {
+                    console.log("hello");
                     x -= 5;
                 }
                 props.chassisApi.velocity.set(x, 0, z);

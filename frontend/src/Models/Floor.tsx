@@ -8,7 +8,7 @@ export const Floor = () => {
 
     const object = useLoader(
         GLTFLoader,
-        process.env.PUBLIC_URL + '/models/Floor.glb'
+        '/models/Floor.glb'
     )
 
     return (

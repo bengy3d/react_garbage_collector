@@ -11,7 +11,7 @@ interface PropsInterface {
 export const Cubicle = (props: PropsInterface) => {
     const { scene } = useLoader(
         GLTFLoader,
-        process.env.PUBLIC_URL + "/models/Cubicle.glb"
+        "/models/Cubicle.glb"
     );
 
     const copiedScene = useMemo(() => scene.clone(), [scene]);
