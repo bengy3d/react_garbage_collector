@@ -13,7 +13,7 @@ export class ApiServer {
     }
     
     private setUpEndpoints() {
-        this.app.get("/rooms", (req, res) => {
+        this.app.get("/rooms", (_, res) => {
             res.header("Access-Control-Allow-Origin", "*");
             res.json(this.roomsMetadata);
         });

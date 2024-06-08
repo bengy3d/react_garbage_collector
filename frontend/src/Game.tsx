@@ -38,6 +38,10 @@ export const Game = () => {
         playerPositionRef
     } = useSocketConnection({roomName: location?.state?.roomName});
 
+    if (playerState?.correctAnswer) {
+        console.log("Answer is correct");
+    }
+
     return (
         <Root>
             <Canvas>

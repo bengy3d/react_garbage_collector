@@ -56,7 +56,7 @@ export const TrashCan = (props: PropsInterface) => {
                 trashCanType: props.type
             });
         }
-    }, [controls.e, collisionActive]);
+    }, [controls.e]);
 
     useEffect(() => {
         object.scale.set(2, 2, 2);

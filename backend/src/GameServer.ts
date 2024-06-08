@@ -27,6 +27,7 @@ export default class GameServer {
     private io: SocketIOServer;
     private api: ApiServer;
     private rooms: RoomObjectInterface; 
+    private count : number;
 
     constructor(app: Application, api: ApiServer) {
         this.app = app;
@@ -37,6 +38,7 @@ export default class GameServer {
                 origin: "*",
             },
         });
+        this.count = 0;
         this.rooms = {};
         this.listen();
     }
@@ -54,7 +56,6 @@ export default class GameServer {
                     socket.disconnect();
                     return;
                 }
-                socket.join(roomName);
 
                 let room: RoomInterface;
 
@@ -66,7 +67,6 @@ export default class GameServer {
                         gameState: initialGameState,
                         timer: undefined
                     });
-
                 } else if (this.rooms[roomName].password === password) {
                     room = this.rooms[roomName];
                 } else {
@@ -74,11 +74,13 @@ export default class GameServer {
                     return;
                 }
 
+                socket.join(roomName);
 
                 const clients = room.clients;
+                const playerId = socket.id;
 
-                clients[socket.id] = {
-                    id: socket.id,
+                clients[playerId] = {
+                    id: playerId,
                     position: [0, 0, 0],
                     ready: false,
                     score: 0,
@@ -94,45 +96,43 @@ export default class GameServer {
 
                 const tick = this.startTickRateTimer(socket, room);
 
-                this.io.to(roomName).emit("updateGameState", room.gameState);
-                this.io.to(roomName).emit("updateClients", clients);
 
                 socket.on("setPlayerId", (response: string) => {
-                    this.rooms[roomName].clients[socket.id].playerId = response;
+                    clients[playerId].playerId = response;
                 })
 
                 socket.on("garbagePickedUp", () =>
-                    this.handleGarbagePickedUp(socket, room)
+                    this.handleGarbagePickedUp(playerId, room)
                 );
 
                 socket.on(
                     "garbageThrownOut",
                     (response: GarbageThrownOutInterface) =>
-                        this.handleGarbageThrownOut(socket, response, room)
+                        this.handleGarbageThrownOut(playerId, response, room)
                 );
 
                 socket.on("ready", () => {
-                    clients[socket.id].ready = true;
+                    clients[playerId].ready = true;
                     this.io.to(roomName).emit("ready", clients);
                     if (
                         Object.values(clients).every(
                             (client) => client.ready === true
-                        )
+                        ) 
+                        && !room.timer
                     ) {
                         this.startTimer(room);
                         room.gameState.status = "active";
-                        this.io.to(roomName).emit("updateGameState", room.gameState);
                     }
                 });
 
                 socket.on("pause", () => {
-                    clients[socket.id].ready = false;
+                    clients[playerId].ready = false;
                     room.gameState.status = "paused";
                 });
 
                 socket.on("disconnect", () => {
                     clearInterval(tick);
-                    delete clients[socket.id];
+                    delete clients[playerId];
                     if (!Object.keys(clients).length) {
                         delete this.rooms[roomName]; 
                         this.api.removeRoomMetadata(roomName);
@@ -149,45 +149,43 @@ export default class GameServer {
     }
 
     private handleGarbagePickedUp(
-        socket: MySocket, room: RoomInterface 
+        playerId: string, room: RoomInterface 
     ): void {
-        room.clients[socket.id].garbage = room.gameState.garbage;
-        room.clients[socket.id].correctAnswer = "";
+        room.clients[playerId].garbage = room.gameState.garbage;
+        room.clients[playerId].correctAnswer = "";
         room.gameState.garbage = getRandomGarbageAndLocation();
-        socket.emit("updateGameState", room.gameState);
-        this.io.to(room.name).emit("updateClients", room.clients);
     }
 
     private handleGarbageThrownOut(
-        socket: MySocket,
+        playerId: string,
         response: GarbageThrownOutInterface,
         room: RoomInterface
     ): void {
-        if (response.trashCanType === room.clients[socket.id]?.garbage?.type) {
-            ++room.clients[socket.id].score;
-            room.clients[socket.id].garbage = initialGarbage;
+        if (response.trashCanType === room.clients[playerId]?.garbage?.type) {
+            ++room.clients[playerId].score;
+            room.clients[playerId].garbage = initialGarbage;
         } else {
-            const type = room.clients[socket.id]?.garbage?.type;
-            room.clients[socket.id].correctAnswer = type ?? "";
-            room.clients[socket.id].garbage = initialGarbage;
+            const type = room.clients[playerId]?.garbage?.type;
+            room.clients[playerId].correctAnswer = type ?? "";
+            room.clients[playerId].garbage = initialGarbage;
         }
     }
 
     private setInitialGameState(room: RoomInterface): void {
         room.gameState.status = "inactive";
-        Object.entries(room.clients).forEach(([key, client]) => {
+        Object.entries(room.clients).forEach(([_, client]) => {
             client.ready = false;
             client.position = [0, 0, 0];
             client.garbage = initialGarbage;
         });
-        this.io.to(room.name).emit("updateGameState", room.gameState);
-        this.io.to(room.name).emit("updateClients", room.clients);
     }
 
     public startTimer(room: RoomInterface): void {
-        room.timer = setInterval(() => {
-            this.updateTimer(room);
-        }, SECOND_IN_MILI);
+        if (!room.timer) {
+            room.timer = setInterval(() => {
+                this.updateTimer(room);
+            }, SECOND_IN_MILI);
+        }
     }
 
     public startTickRateTimer(
@@ -204,6 +202,7 @@ export default class GameServer {
         if (room.gameState.timeLeft < 0) {
             room.gameState.timeLeft = INIT_TIME_LEFT;
             clearInterval(room.timer);
+            room.timer = undefined;
             this.setInitialGameState(room);
         }
     }
@@ -214,7 +213,9 @@ export default class GameServer {
                 "updateClients", 
                 room.clients, 
                 (position: [number,number,number]) => {
-                    room.clients[socket.id].position = position;
+                    if (position instanceof Array) {
+                        room.clients[socket.id].position = position;
+                    }
                 }
             );
             this.io.to(room.name).emit("updateGameState", room.gameState);

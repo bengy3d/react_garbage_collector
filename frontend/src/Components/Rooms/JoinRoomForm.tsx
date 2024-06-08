@@ -1,4 +1,4 @@
-import { Button, Modal, styled, TextField, Typography } from '@mui/material';
+import { Button, Card, Modal, styled, TextField, Typography } from '@mui/material';
 import * as yup from 'yup';
 import { useFormik } from 'formik';
 import { useNavigate } from 'react-router-dom';
@@ -14,12 +14,19 @@ const joinRoomFormValidationSchema = yup.object({
 })
 
 const StyledForm = styled('form')({
+    position: 'absolute',
+    top: '50%',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
+    width: 400,
+    height: '50%',
     display: 'flex',
     flexDirection: 'column',
     gap: 16,
 })
 
 interface PropsInterface {
+    roomName: string,
     open: boolean,
     handleClose: () => void
 }
@@ -36,6 +43,7 @@ export const JoinRoomForm = (props: PropsInterface) => {
             onSubmit: () => {
                 navigate('/play', {
                     state: {
+                        roomName: props.roomName,
                         password: values.password
                     }
                 });
@@ -47,27 +55,28 @@ export const JoinRoomForm = (props: PropsInterface) => {
             open={props.open}
             onClose={props.handleClose}
         >
-            <StyledForm
-                onSubmit={handleSubmit} 
-                autoComplete="off"
-            >
-                <Typography variant="h4">
-                    Join room
-                </Typography>
-                <TextField 
-                    fullWidth
-                    type="password"
-                    name="password"
-                    label="password"
-                    value={values.password}
-                    onChange={handleChange}
-                    error={touched.password && Boolean(errors.password)}
-                    helperText={touched.password && Boolean(errors.password)}
-                />
-                <Button type="submit">
-                    Join
-                </Button>
-            </StyledForm>
+            <Card>
+                <StyledForm
+                    onSubmit={handleSubmit} 
+                    autoComplete="off"
+                >
+                    <Typography variant="h4" textAlign="center">
+                        Join room
+                    </Typography>
+                    <TextField 
+                        fullWidth
+                        type="text"
+                        name="password"
+                        value={values.password}
+                        onChange={handleChange}
+                        error={touched.password && Boolean(errors.password)}
+                        helperText={touched.password && Boolean(errors.password)}
+                    />
+                    <Button type="submit">
+                        Join
+                    </Button>
+                </StyledForm>
+            </Card>
         </Modal>
     )
 }

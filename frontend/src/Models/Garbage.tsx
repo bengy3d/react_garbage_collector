@@ -62,10 +62,11 @@ export const Garbage = (props: PropsInterface) => {
 
     useEffect(() => {
         if (controls.e && collisionActive) {
+            console.log("hello world");
             setCollisionActive(false);
             SocketClient.emit("garbagePickedUp");
         }
-    }, [controls.e, collisionActive]);
+    }, [controls.e]);
 
     useEffect(() => {
         copiedScene.position.set(
