@@ -1,4 +1,4 @@
-import { Button, Card, Modal, styled, TextField, Typography } from '@mui/material';
+import { Button, Card, Modal, Paper, styled, TextField, Typography } from '@mui/material';
 import * as yup from 'yup';
 import { useFormik } from 'formik';
 import { useNavigate } from 'react-router-dom';
@@ -13,13 +13,19 @@ const joinRoomFormValidationSchema = yup.object({
         .required('Password is required')
 })
 
-const StyledForm = styled('form')({
+const StyledCard = styled(Card)({
     position: 'absolute',
     top: '50%',
     left: '50%',
     transform: 'translate(-50%, -50%)',
-    width: 400,
-    height: '50%',
+    width: 500,
+    display: 'flex',
+    flexDirection: 'column',
+    gap: 16,
+})
+
+const StyledForm = styled('form')({
+    padding: 16,
     display: 'flex',
     flexDirection: 'column',
     gap: 16,
@@ -55,15 +61,16 @@ export const JoinRoomForm = (props: PropsInterface) => {
             open={props.open}
             onClose={props.handleClose}
         >
-            <Card>
+            <StyledCard>
                 <StyledForm
                     onSubmit={handleSubmit} 
                     autoComplete="off"
                 >
                     <Typography variant="h4" textAlign="center">
-                        Join room
+                        Join room - {props.roomName}
                     </Typography>
                     <TextField 
+                        label="Room password"
                         fullWidth
                         type="text"
                         name="password"
@@ -76,7 +83,7 @@ export const JoinRoomForm = (props: PropsInterface) => {
                         Join
                     </Button>
                 </StyledForm>
-            </Card>
+            </StyledCard>
         </Modal>
     )
 }
