@@ -55,7 +55,8 @@ export const Hud = (props: PropsInterface) => (
                 <Typography variant="subtitle1" color="text.secondary">
                     {props.garbage.description
                         ? props.garbage.description
-                        : "Podnieś odpad"}
+                        : "Podnieś odpad"
+                    }
                 </Typography>
             )}
         </StyledCardContent>

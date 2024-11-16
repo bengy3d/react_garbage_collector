@@ -38,10 +38,6 @@ export const Game = () => {
         playerPositionRef
     } = useSocketConnection({roomName: location?.state?.roomName});
 
-    if (playerState?.correctAnswer) {
-        console.log("Answer is correct");
-    }
-
     return (
         <Root>
             <Canvas>
@@ -56,6 +52,7 @@ export const Game = () => {
                         setPlayerId={setPlayerId}
                         gameStatus={gameState.status}
                         playerPositionRef={playerPositionRef}
+                        color={playerStateRef.current.color}
                     />
                     {Object.keys(clients)
                         .filter((clientKey) => clientKey !== SocketClient.id)
@@ -64,6 +61,7 @@ export const Game = () => {
                                 key={client}
                                 clientId={client}
                                 position={clients[client].position}
+                                color={clients[client].color}
                             />
                         ))}
                     {gameState.garbage?.location && (

@@ -2,6 +2,7 @@ import { PublicApi } from "@react-three/cannon";
 import React, { useEffect, useState, useRef } from "react";
 import { useFrame } from "@react-three/fiber";
 import { MySocket } from "../Interfaces/Sockets/SocketIOInterface";
+import { MOVEMENT_SPEED } from "../constants";
 
 interface StateInterface {
     [value: string]: boolean;
@@ -49,19 +50,24 @@ export const useControls = (props: PropsInterface) => {
             if (props.chassisApi && props.gameStatus === "active") {
                 let x = 0;
                 let z = 0;
+                let count = 1;
                 if (controls.w) {
-                    z += 5;
+                    ++count;
+                    z += MOVEMENT_SPEED;
                 }
                 if (controls.s) {
-                    z -= 5;
+                    ++count;
+                    z -= MOVEMENT_SPEED;
                 }
                 if (controls.a) {
-                    x += 5;
+                    ++count;
+                    x += MOVEMENT_SPEED;
                 }
                 if (controls.d) {
-                    x -= 5;
+                    ++count;
+                    x -= MOVEMENT_SPEED;
                 }
-                props.chassisApi.velocity.set(x, 0, z);
+                props.chassisApi.velocity.set(x / count, 0, z / count);
             } else if (props.chassisApi && props.gameStatus !== "active") {
                 props.chassisApi.velocity.set(0, 0, 0);
             }

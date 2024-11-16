@@ -5,6 +5,7 @@ export interface ClientInterface {
     position: [number, number, number];
     ready: boolean;
     score: number;
+    color: string;
     correctAnswer: string;
     garbage: GarbageInterface;
     playerId?: string;

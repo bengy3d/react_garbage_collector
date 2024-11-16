@@ -17,9 +17,9 @@ export const Leaderboard = (props: PropsInterface) => {
     const sortedClients = useMemo(() => {
         return Object.keys(props.clients)
             .sort((a, b) => props.clients[b].score - props.clients[a].score)
-            .map((clientId) => (
-                <li key={clientId}>
-                    {`${clientId}: ${props.clients[clientId].score}`}
+            .map((id) => (
+                <li key={id}>
+                    {`Player - ${props.clients[id].color}: ${props.clients[id].score}`}
                 </li>
             ));
     }, [props.clients]);

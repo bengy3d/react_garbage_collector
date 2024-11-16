@@ -45,8 +45,9 @@ export const Garbage = (props: PropsInterface) => {
         console.log('collision');
         if (
             props.playerState.current?.playerId === e?.body.id &&
-            !props.playerState.current?.garbage?.type
+            props.playerState.current?.garbage?.thrownOut
         ) {
+            console.log('collision active');
             setCollisionActive(true);
         }
     };
@@ -54,7 +55,7 @@ export const Garbage = (props: PropsInterface) => {
     const onCollisionEnd = (e?: CollideEndEvent) => {
         if (
             props.playerState.current?.playerId === e?.body.id &&
-            !props.playerState.current?.garbage?.type
+            props.playerState.current?.garbage?.thrownOut
         ) {
             setCollisionActive(false);
         }

@@ -7,6 +7,7 @@ import { TICK_RATE } from "../constants";
 interface PropsInterface {
     clientId: string;
     position: [number, number, number];
+    color: string;
 }
 
 export const OtherPlayer = (props: PropsInterface) => {
@@ -37,7 +38,7 @@ export const OtherPlayer = (props: PropsInterface) => {
 
     return (
         <mesh ref={meshRef}>
-            <meshBasicMaterial color="red" opacity={0.3} />
+            <meshBasicMaterial color={props.color} opacity={0.3} />
             <sphereGeometry args={chassisBodyArgs} />
         </mesh>
     );

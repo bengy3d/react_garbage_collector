@@ -1,5 +1,5 @@
 import express from "express";
-import { RoomMetadataObjectInterface } from "./Interfaces/RoomMetadataInterface";
+import { RoomMetadataObjectInterface } from "../Interfaces/RoomMetadataInterface";
 
 export class ApiServer {
     private app: express.Application;
@@ -19,14 +19,14 @@ export class ApiServer {
         });
     }
 
-    public setRoomMetadata(roomName: string, clientCount: number) {
-        if (!this.roomsMetadata[roomName]) {
-            this.roomsMetadata[roomName] = {
-                name: roomName,
-                numOfClients: clientCount
+    public setRoomMetadata(name: string, numOfClients: number) {
+        if (!this.roomsMetadata[name]) {
+            this.roomsMetadata[name] = {
+                name,
+                numOfClients
             }
         } else {
-            this.roomsMetadata[roomName].numOfClients = clientCount;
+            this.roomsMetadata[name].numOfClients = numOfClients;
         }
     }
 

@@ -1,6 +1,7 @@
-export const INIT_TIME_LEFT = 120;
+export const GAME_DURATION = 60;
 export const SECOND_IN_MILI = 1000;
 export const TICK_RATE_MS = 1000 / 64;
+export const PLAYER_COLORS: string[] = ["green", "blue", "yellow", "black"];
 
 export const DESK_MAP = [
     [6, 0, 3],

@@ -3,4 +3,10 @@ export interface GarbageInterface {
     type: string;
     imageName: string;
     location?: number[];
+    thrownOut: boolean;
+
+
+    initializeGarbage(): void;
+    setCorrectAnswer(): void;
+    setIncorrectAnswer(): void;
 }

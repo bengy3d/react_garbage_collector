@@ -18,6 +18,7 @@ const initialPlayerState: ClientInterface = {
     garbage: initialGarbage,
     correctAnswer: "",
     score: 0,
+    color: "gray",
     position: [0, 0, 0],
     ready: false
 };

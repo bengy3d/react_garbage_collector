@@ -1,22 +1,25 @@
-import { DESK_MAP } from "../constants";
-import { GarbageInterface } from "../Interfaces/GarbageInterface";
-import garbageData from "../Resources/garbageData.json";
+export function hasCircularReference(obj: any) {
+    const seenObjects = new Set(); // Initialize the Set to keep track of seen objects
 
-export const getRandomGarbageAndLocation = (): GarbageInterface => {
-    const garbageLength = garbageData.garbages.length;
-    const randIndex = Math.floor(Math.random() * garbageLength);
-    const garbage = garbageData.garbages[randIndex];
-    const randomDesk =
-        DESK_MAP[Math.floor(Math.random() * DESK_MAP.length)];
-    const next = [
-        randomDesk[0] + 1.1,
-        randomDesk[1] + 0.01,
-        randomDesk[2] - 1,
-    ];
-    return {
-        type: garbage.type,
-        imageName: garbage.imgName,
-        description: garbage.name,
-        location: next,
-    };
+    try {
+        // Attempt to stringify with a replacer function that detects cycles
+        JSON.stringify(obj, (key, value) => {
+            // If the value is an object, check if we've seen it before
+            if (typeof value === 'object' && value !== null) {
+                if (seenObjects.has(value)) {
+                    console.log('Circular reference detected');
+                    console.log(key);
+                    console.log(value);
+                    throw new Error('Circular reference detected');
+                }
+                seenObjects.add(value);
+            }
+            return value;
+        });
+        // No circular reference if we reach here
+        return false;
+    } catch (error) {
+        // Circular reference detected if an error was thrown
+        return true;
+    }
 }

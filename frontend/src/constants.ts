@@ -30,3 +30,5 @@ export const GAME_TIME = 120;
 export const TICK_RATE = 1000 / 64;
 
 export const MAX_PLAYER_COUNT = 4;
+
+export const MOVEMENT_SPEED = 10;

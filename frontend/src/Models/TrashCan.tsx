@@ -38,13 +38,13 @@ export const TrashCan = (props: PropsInterface) => {
     ).scene;
 
     const onCollideBegin = () => {
-        if (props.playerState.current?.garbage?.type) {
+        if (!props.playerState.current?.garbage?.thrownOut) {
             setCollisionActive(true);
         }
     };
 
     const onCollideEnd = () => {
-        if (props.playerState.current?.garbage?.type) {
+        if (!props.playerState.current?.garbage?.thrownOut) {
             setCollisionActive(false);
         }
     };

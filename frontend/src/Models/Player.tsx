@@ -9,6 +9,7 @@ interface PropsInterface {
     setPlayerId: (id?: number) => void;
     gameStatus: "active" | "inactive" | "notStarted" | "paused";
     playerPositionRef: React.MutableRefObject<Triplet>;
+    color: string;
 }
 
 export const Player = (props: PropsInterface) => {
@@ -39,6 +40,10 @@ export const Player = (props: PropsInterface) => {
         })
     }, []);
 
+    useEffect(() => {
+        console.log(props.color);
+    }, [props.color]);
+
     useControls({ 
         socket: SocketClient, 
         gameStatus: props.gameStatus, 
@@ -50,7 +55,7 @@ export const Player = (props: PropsInterface) => {
         <mesh
             ref={chassisBody as React.RefObject<Mesh<BufferGeometry>>}
         >
-            <meshBasicMaterial color="grey" opacity={0.3} />
+            <meshBasicMaterial color={props.color} opacity={0.3} />
             <sphereGeometry args={chassisBodyArgs} />
         </mesh>
     ) 
